@@ -34,6 +34,7 @@ const playbooks = await loadJson('playbooks.json');
 const background = await loadJson('background.json');
 const scholarship = await loadJson('scholarship.json');
 const practice = await loadJson('practice.json');
+const authorities = await loadJson('authorities.json');
 
 const ids = new Set();
 for (const item of cases) {
@@ -141,10 +142,26 @@ for (const item of practice) {
   if (!Array.isArray(item.tags) || item.tags.length === 0) errors.push(`${label}: practice tags must not be empty`);
 }
 
+const authorityIds = new Set();
+for (const item of authorities) {
+  const label = item.id || '(missing id)';
+  if (!requiredText(item.id)) errors.push(`authority missing id`);
+  if (authorityIds.has(item.id)) errors.push(`duplicate authority id: ${item.id}`);
+  authorityIds.add(item.id);
+  for (const field of ['jurisdiction', 'region', 'organization', 'sourceType']) {
+    if (!requiredText(item[field])) errors.push(`${label}: authority missing ${field}`);
+  }
+  if (!hasBilingualText(item.title) || !hasBilingualText(item.summary)) errors.push(`${label}: authority title and summary require zh/en`);
+  if (!isValidUrl(item.url)) errors.push(`${label}: authority url is invalid`);
+  if (!isIsoDate(item.sourceLastChecked)) errors.push(`${label}: authority sourceLastChecked must be YYYY-MM-DD`);
+  if (!Array.isArray(item.riskTypes) || item.riskTypes.length === 0) errors.push(`${label}: authority riskTypes must not be empty`);
+}
+
 if (cases.length < 30) errors.push(`expected at least 30 cases; found ${cases.length}`);
 if (updates.length < 12) errors.push(`expected at least 12 legal updates; found ${updates.length}`);
 if (scholarship.length < 10) errors.push(`expected at least 10 scholarship resources; found ${scholarship.length}`);
 if (practice.length < 10) errors.push(`expected at least 10 practice resources; found ${practice.length}`);
+if (authorities.length < 50) errors.push(`expected at least 50 authority materials; found ${authorities.length}`);
 
 fail(errors);
-console.log(`Validated ${cases.length} cases, ${updates.length} updates, ${risks.length} risk areas, ${playbooks.length} playbooks, ${scholarship.length} scholarship resources, and ${practice.length} practice resources.`);
+console.log(`Validated ${cases.length} cases, ${updates.length} updates, ${risks.length} risk areas, ${playbooks.length} playbooks, ${scholarship.length} scholarship resources, ${practice.length} practice resources, and ${authorities.length} authority materials.`);

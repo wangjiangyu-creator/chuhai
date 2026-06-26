@@ -1,6 +1,8 @@
 ---
 import Layout from '../components/Layout.astro';
+import AuthorityExplorer from '../components/AuthorityExplorer.astro';
 import SourceBadge from '../components/SourceBadge.astro';
+import authorities from '../data/authorities.json';
 import background from '../data/background.json';
 import cases from '../data/cases.json';
 import practice from '../data/practice.json';
@@ -26,6 +28,9 @@ for (const item of scholarship) {
 for (const item of practice) {
   sources.set(item.url, { label: item.title.zh, url: item.url, type: item.type, usedIn: '企业实务' });
 }
+for (const item of authorities) {
+  sources.set(item.url, { label: item.title.zh, url: item.url, type: item.sourceType, usedIn: '权威资料库' });
+}
 const sourceList = [...sources.values()].sort((a, b) => a.label.localeCompare(b.label));
 ---
 
@@ -35,7 +40,12 @@ const sourceList = [...sources.values()].sort((a, b) => a.label.localeCompare(b.
     <h1>资料来源</h1>
     <p>首版尽量使用官方、监管、法院和国际组织来源；媒体来源只用于官方事实页不足以覆盖的劳工、诉讼或商业发展。</p>
   </section>
+  <AuthorityExplorer lang={lang} />
   <section class="section">
+    <div class="section-header">
+      <h2>完整来源索引</h2>
+      <p>下表汇总案例、动态、背景、学术、实务和权威资料库中出现的全部外部来源。</p>
+    </div>
     <table class="source-table">
       <thead>
         <tr>

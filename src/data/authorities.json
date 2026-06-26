@@ -1,0 +1,1172 @@
+[
+  {
+    "id": "china-outbound-investment-regulation-2026",
+    "jurisdiction": "China",
+    "region": "Asia",
+    "organization": "State Council",
+    "sourceType": "official law",
+    "riskTypes": ["investment-screening", "disputes-crisis"],
+    "title": {
+      "zh": "《国务院关于对外投资的规定》",
+      "en": "State Council Regulation on Outbound Investment"
+    },
+    "summary": {
+      "zh": "中国对外投资领域的高位阶行政法规，涉及对外投资服务、管理、保护、安全审查和违法责任。",
+      "en": "A State Council regulation governing outbound investment services, administration, protection, security review, and liabilities."
+    },
+    "url": "https://www.mee.gov.cn/zcwj/gwywj/202606/t20260602_1157822.shtml",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "china-ndrc-enterprise-overseas-investment-measures",
+    "jurisdiction": "China",
+    "region": "Asia",
+    "organization": "National Development and Reform Commission",
+    "sourceType": "official rule",
+    "riskTypes": ["investment-screening"],
+    "title": {
+      "zh": "《企业境外投资管理办法》",
+      "en": "Measures for the Administration of Overseas Investment by Enterprises"
+    },
+    "summary": {
+      "zh": "发改委项目端境外投资核准、备案、报告和事中事后监管框架。",
+      "en": "NDRC framework for project-side approval, filing, reporting, and ongoing supervision of overseas investment."
+    },
+    "url": "https://www.ndrc.gov.cn/xxgk/zcfb/fzggwl/201712/t20171226_960849.html",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "china-mofcom-overseas-investment-measures",
+    "jurisdiction": "China",
+    "region": "Asia",
+    "organization": "Ministry of Commerce",
+    "sourceType": "official rule",
+    "riskTypes": ["investment-screening"],
+    "title": {
+      "zh": "《境外投资管理办法》",
+      "en": "Measures for the Administration of Overseas Investment"
+    },
+    "summary": {
+      "zh": "商务部关于境外投资备案、核准和企业报告义务的基础部门规章。",
+      "en": "MOFCOM departmental rule on filing, approval, and reporting duties for outbound investment."
+    },
+    "url": "https://tfs.mofcom.gov.cn/swfg/gjjjhz/art/2016/art_38c7eb781b25413f8aad43e55c0640ed.html",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "china-cac-cross-border-data-2024",
+    "jurisdiction": "China",
+    "region": "Asia",
+    "organization": "Cyberspace Administration of China",
+    "sourceType": "regulator rule",
+    "riskTypes": ["data-cybersecurity"],
+    "title": {
+      "zh": "《促进和规范数据跨境流动规定》",
+      "en": "Provisions on Facilitating and Regulating Cross-Border Data Flow"
+    },
+    "summary": {
+      "zh": "中国数据出境安全评估、标准合同、认证和豁免场景的重要便利化规则。",
+      "en": "Important facilitation rules for data export security assessments, standard contracts, certification, and exemption scenarios."
+    },
+    "url": "https://www.cac.gov.cn/2024-03/22/c_1712776611775634.htm",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "china-cac-data-export-security-assessment",
+    "jurisdiction": "China",
+    "region": "Asia",
+    "organization": "Cyberspace Administration of China",
+    "sourceType": "regulator rule",
+    "riskTypes": ["data-cybersecurity"],
+    "title": {
+      "zh": "《数据出境安全评估办法》",
+      "en": "Measures for Security Assessment of Data Exports"
+    },
+    "summary": {
+      "zh": "规定重要数据和一定规模个人信息出境的安全评估触发条件、申报材料和评估重点。",
+      "en": "Sets triggers, filing materials, and review focus for security assessment of important data and certain personal data exports."
+    },
+    "url": "https://www.cac.gov.cn/2022-07/07/c_1658811536396503.htm",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "china-cac-standard-contract-measures",
+    "jurisdiction": "China",
+    "region": "Asia",
+    "organization": "Cyberspace Administration of China",
+    "sourceType": "regulator rule",
+    "riskTypes": ["data-cybersecurity"],
+    "title": {
+      "zh": "《个人信息出境标准合同办法》",
+      "en": "Measures on the Standard Contract for Personal Information Export"
+    },
+    "summary": {
+      "zh": "个人信息出境标准合同机制的适用条件、合同备案和个人信息保护影响评估要求。",
+      "en": "Rules on applicability, filing, and personal information protection impact assessments for standard contracts."
+    },
+    "url": "https://www.cac.gov.cn/2023-02/24/c_1678884830036813.htm",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "china-network-data-security-regulation",
+    "jurisdiction": "China",
+    "region": "Asia",
+    "organization": "State Council",
+    "sourceType": "official regulation",
+    "riskTypes": ["data-cybersecurity"],
+    "title": {
+      "zh": "《网络数据安全管理条例》",
+      "en": "Network Data Security Management Regulation"
+    },
+    "summary": {
+      "zh": "细化网络数据处理者在个人信息、重要数据、平台和数据安全管理方面的义务。",
+      "en": "Details duties of network data processors on personal information, important data, platforms, and data security governance."
+    },
+    "url": "https://www.gov.cn/zhengce/content/202409/content_6977766.htm",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "china-personal-information-protection-law",
+    "jurisdiction": "China",
+    "region": "Asia",
+    "organization": "National People's Congress",
+    "sourceType": "official law",
+    "riskTypes": ["data-cybersecurity"],
+    "title": {
+      "zh": "《个人信息保护法》",
+      "en": "Personal Information Protection Law"
+    },
+    "summary": {
+      "zh": "中国个人信息处理、跨境提供、敏感个人信息、自动化决策和个人权利的基础法律。",
+      "en": "Core Chinese law for personal information processing, cross-border transfer, sensitive data, automated decision-making, and individual rights."
+    },
+    "url": "https://www.npc.gov.cn/npc/c30834/202108/a8c4e3672c74491a80b53a172bb753fe.shtml",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "china-data-security-law",
+    "jurisdiction": "China",
+    "region": "Asia",
+    "organization": "National People's Congress",
+    "sourceType": "official law",
+    "riskTypes": ["data-cybersecurity"],
+    "title": {
+      "zh": "《数据安全法》",
+      "en": "Data Security Law"
+    },
+    "summary": {
+      "zh": "规定数据分类分级、重要数据保护、数据安全审查和数据出口管制等基础制度。",
+      "en": "Provides baseline rules for data classification, important data protection, data security review, and data export controls."
+    },
+    "url": "https://www.npc.gov.cn/npc/c30834/202106/7c9af12f51334a73b56d7938f99a788a.shtml",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "china-dual-use-export-control-regulation",
+    "jurisdiction": "China",
+    "region": "Asia",
+    "organization": "State Council",
+    "sourceType": "official regulation",
+    "riskTypes": ["sanctions-export-controls", "ip-technology"],
+    "title": {
+      "zh": "《两用物项出口管制条例》",
+      "en": "Regulation on Export Control of Dual-Use Items"
+    },
+    "summary": {
+      "zh": "中国两用物项出口许可、最终用户和最终用途管理、管制清单和违法责任的核心规则。",
+      "en": "Core Chinese rules for dual-use export licensing, end users, end uses, control lists, and liabilities."
+    },
+    "url": "https://www.mee.gov.cn/zcwj/gwywj/202410/t20241021_1089760.shtml",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "us-cfius-home",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "organization": "U.S. Department of the Treasury",
+    "sourceType": "regulator portal",
+    "riskTypes": ["investment-screening"],
+    "title": {
+      "zh": "CFIUS 外资安全审查入口",
+      "en": "CFIUS foreign investment security review portal"
+    },
+    "summary": {
+      "zh": "美国外资并购、少数股权、房地产和敏感技术交易国家安全审查的核心入口。",
+      "en": "Core portal for U.S. national security review of foreign acquisitions, minority investments, real estate, and sensitive technology transactions."
+    },
+    "url": "https://home.treasury.gov/policy-issues/international/the-committee-on-foreign-investment-in-the-united-states-cfius",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "us-outbound-investment-security-program",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "organization": "U.S. Department of the Treasury",
+    "sourceType": "regulator portal",
+    "riskTypes": ["investment-screening", "sanctions-export-controls", "ip-technology"],
+    "title": {
+      "zh": "美国对外投资安全项目",
+      "en": "U.S. Outbound Investment Security Program"
+    },
+    "summary": {
+      "zh": "美国对特定涉华先进技术投资设置禁止或申报要求的监管入口。",
+      "en": "Regulatory portal for U.S. prohibitions and notification requirements for certain investments involving covered advanced technologies."
+    },
+    "url": "https://home.treasury.gov/policy-issues/international/outbound-investment-program",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "us-bis-ear-ecfr",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "organization": "Bureau of Industry and Security",
+    "sourceType": "official regulation",
+    "riskTypes": ["sanctions-export-controls", "ip-technology"],
+    "title": {
+      "zh": "美国《出口管理条例》",
+      "en": "U.S. Export Administration Regulations"
+    },
+    "summary": {
+      "zh": "美国两用物项、软件、技术、再出口和域外管辖出口管制的基础法规。",
+      "en": "Baseline U.S. export control regulations for dual-use items, software, technology, reexports, and extraterritorial controls."
+    },
+    "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-VII/subchapter-C",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "us-bis-entity-list",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "organization": "Bureau of Industry and Security",
+    "sourceType": "regulator list",
+    "riskTypes": ["sanctions-export-controls", "ip-technology"],
+    "title": {
+      "zh": "BIS Entity List",
+      "en": "BIS Entity List"
+    },
+    "summary": {
+      "zh": "美国出口管制实体清单，是技术、供应链、客户筛查和再出口合规的关键名单。",
+      "en": "Key U.S. export control list for technology, supply-chain, customer-screening, and reexport compliance."
+    },
+    "url": "https://www.bis.gov/entity-list",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "us-bis-export-compliance-program",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "organization": "Bureau of Industry and Security",
+    "sourceType": "regulator guidance",
+    "riskTypes": ["sanctions-export-controls", "ip-technology"],
+    "title": {
+      "zh": "BIS 出口合规项目指南",
+      "en": "BIS guidance on developing an export compliance program"
+    },
+    "summary": {
+      "zh": "出口合规制度建设、筛查、分类、培训、审计和整改的官方实务指南。",
+      "en": "Official practice guidance for export compliance systems, screening, classification, training, audits, and remediation."
+    },
+    "url": "https://www.bis.gov/developing-an-export-compliance-program",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "us-ofac-sanctions-list-service",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "organization": "Office of Foreign Assets Control",
+    "sourceType": "regulator list",
+    "riskTypes": ["sanctions-export-controls"],
+    "title": {
+      "zh": "OFAC 制裁名单服务",
+      "en": "OFAC Sanctions List Service"
+    },
+    "summary": {
+      "zh": "美国金融制裁、客户筛查、受益所有人和支付路径合规的核心名单入口。",
+      "en": "Core list service for U.S. financial sanctions, customer screening, beneficial ownership, and payment-chain compliance."
+    },
+    "url": "https://ofac.treasury.gov/sanctions-list-service",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "us-ofac-compliance-framework",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "organization": "Office of Foreign Assets Control",
+    "sourceType": "regulator guidance",
+    "riskTypes": ["sanctions-export-controls", "anti-corruption-procurement"],
+    "title": {
+      "zh": "OFAC 制裁合规承诺框架",
+      "en": "A Framework for OFAC Compliance Commitments"
+    },
+    "summary": {
+      "zh": "管理层承诺、风险评估、内部控制、测试审计和培训五支柱制裁合规框架。",
+      "en": "Five-pillar sanctions compliance framework: management commitment, risk assessment, internal controls, testing/audit, and training."
+    },
+    "url": "https://ofac.treasury.gov/media/16331/download?inline",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "us-dhs-uflpa-entity-list",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "organization": "Department of Homeland Security",
+    "sourceType": "regulator list",
+    "riskTypes": ["supply-chain-labour", "trade-remedies-subsidies"],
+    "title": {
+      "zh": "UFLPA Entity List",
+      "en": "UFLPA Entity List"
+    },
+    "summary": {
+      "zh": "美国强迫劳动进口执法的高风险实体名单，影响原产地、供应链和进口证据包。",
+      "en": "High-risk entity list for U.S. forced-labour import enforcement, affecting origin, supply-chain, and import evidence packages."
+    },
+    "url": "https://www.dhs.gov/uflpa-entity-list",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "us-cbp-uflpa-importer-guidance",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "organization": "U.S. Customs and Border Protection",
+    "sourceType": "regulator guidance",
+    "riskTypes": ["supply-chain-labour", "trade-remedies-subsidies"],
+    "title": {
+      "zh": "UFLPA 进口商操作指南",
+      "en": "UFLPA Operational Guidance for Importers"
+    },
+    "summary": {
+      "zh": "进口商证明非强迫劳动来源所需交易、生产、运输和供应商证据的官方指南。",
+      "en": "Official guidance on transaction, production, shipping, and supplier evidence needed to rebut forced-labour presumptions."
+    },
+    "url": "https://www.cbp.gov/document/guidance/uflpa-operational-guidance-importers",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "us-fcc-covered-list",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "organization": "Federal Communications Commission",
+    "sourceType": "regulator list",
+    "riskTypes": ["investment-screening", "platform-product-safety", "sanctions-export-controls"],
+    "title": {
+      "zh": "FCC Covered List",
+      "en": "FCC Covered List"
+    },
+    "summary": {
+      "zh": "美国通信设备和服务国家安全风险清单，影响设备授权、采购和网络替换。",
+      "en": "U.S. national-security list for communications equipment and services, affecting authorization, procurement, and network replacement."
+    },
+    "url": "https://www.fcc.gov/supplychain/coveredlist",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "us-ustr-section-301-china",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "organization": "Office of the U.S. Trade Representative",
+    "sourceType": "regulator portal",
+    "riskTypes": ["trade-remedies-subsidies"],
+    "title": {
+      "zh": "USTR 对华301关税行动",
+      "en": "USTR China Section 301 tariff actions"
+    },
+    "summary": {
+      "zh": "美国对华301关税、排除程序和复审行动的官方入口。",
+      "en": "Official portal for U.S. Section 301 tariff actions, exclusions, and reviews concerning China."
+    },
+    "url": "https://ustr.gov/issue-areas/enforcement/section-301-investigations/tariff-actions",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "us-doj-evaluation-corporate-compliance",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "organization": "U.S. Department of Justice",
+    "sourceType": "prosecutorial guidance",
+    "riskTypes": ["anti-corruption-procurement", "disputes-crisis"],
+    "title": {
+      "zh": "公司合规项目评估",
+      "en": "Evaluation of Corporate Compliance Programs"
+    },
+    "summary": {
+      "zh": "美国检方评估企业合规项目有效性的核心标准，覆盖风险评估、第三方、并购和持续改进。",
+      "en": "Core U.S. prosecutorial criteria for assessing compliance programs, covering risk assessment, third parties, M&A, and continuous improvement."
+    },
+    "url": "https://www.justice.gov/criminal/criminal-fraud/page/file/937501/download",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "us-itc-section-337",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "organization": "U.S. International Trade Commission",
+    "sourceType": "agency portal",
+    "riskTypes": ["ip-technology", "disputes-crisis"],
+    "title": {
+      "zh": "USITC 337 调查入口",
+      "en": "USITC Section 337 investigations portal"
+    },
+    "summary": {
+      "zh": "美国知识产权进口排除调查的重要入口，影响硬件、电子、通信和消费品出口。",
+      "en": "Key portal for U.S. IP-based import exclusion investigations affecting hardware, electronics, telecoms, and consumer products."
+    },
+    "url": "https://www.usitc.gov/intellectual_property.htm",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-fdi-screening-regulation",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "organization": "European Union",
+    "sourceType": "official law",
+    "riskTypes": ["investment-screening"],
+    "title": {
+      "zh": "欧盟外资审查条例",
+      "en": "EU FDI Screening Regulation"
+    },
+    "summary": {
+      "zh": "欧盟成员国外资审查合作机制，涵盖安全和公共秩序相关信息交换。",
+      "en": "EU cooperation mechanism for Member State FDI screening on security and public order grounds."
+    },
+    "url": "https://eur-lex.europa.eu/eli/reg/2019/452/oj/eng",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-investment-screening-commission",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "organization": "European Commission",
+    "sourceType": "regulator portal",
+    "riskTypes": ["investment-screening"],
+    "title": {
+      "zh": "欧盟投资审查政策入口",
+      "en": "European Commission investment screening portal"
+    },
+    "summary": {
+      "zh": "欧盟外资审查政策、年度报告、成员国机制和改革动向的官方入口。",
+      "en": "Official portal for EU investment screening policy, annual reports, Member State mechanisms, and reform updates."
+    },
+    "url": "https://policy.trade.ec.europa.eu/enforcement-and-protection/investment-screening_en",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-foreign-subsidies-regulation",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "organization": "European Union",
+    "sourceType": "official law",
+    "riskTypes": ["trade-remedies-subsidies", "investment-screening"],
+    "title": {
+      "zh": "欧盟外国补贴条例",
+      "en": "EU Foreign Subsidies Regulation"
+    },
+    "summary": {
+      "zh": "规制外国补贴扭曲欧盟内部市场，影响并购、公共采购和主动调查。",
+      "en": "Regulates foreign subsidies distorting the EU internal market, affecting M&A, public procurement, and ex officio investigations."
+    },
+    "url": "https://eur-lex.europa.eu/eli/reg/2022/2560/oj/eng",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-fsr-commission-portal",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "organization": "European Commission",
+    "sourceType": "regulator portal",
+    "riskTypes": ["trade-remedies-subsidies", "investment-screening"],
+    "title": {
+      "zh": "欧盟外国补贴条例监管入口",
+      "en": "European Commission Foreign Subsidies Regulation portal"
+    },
+    "summary": {
+      "zh": "欧盟委员会关于FSR申报、调查、指南和案例的官方入口。",
+      "en": "European Commission portal for FSR notifications, investigations, guidance, and cases."
+    },
+    "url": "https://competition-policy.ec.europa.eu/foreign-subsidies-regulation_en",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-cbam-regulation",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "organization": "European Union",
+    "sourceType": "official law",
+    "riskTypes": ["esg-climate", "trade-remedies-subsidies"],
+    "title": {
+      "zh": "欧盟碳边境调节机制条例",
+      "en": "EU Carbon Border Adjustment Mechanism Regulation"
+    },
+    "summary": {
+      "zh": "CBAM对钢铁、铝、水泥、化肥、氢、电力等产品的碳排放申报和证书成本产生影响。",
+      "en": "CBAM affects emissions reporting and certificate costs for steel, aluminium, cement, fertilizers, hydrogen, electricity, and related goods."
+    },
+    "url": "https://eur-lex.europa.eu/eli/reg/2023/956/oj/eng",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-cbam-commission-portal",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "organization": "European Commission",
+    "sourceType": "regulator portal",
+    "riskTypes": ["esg-climate", "trade-remedies-subsidies"],
+    "title": {
+      "zh": "欧盟CBAM官方入口",
+      "en": "European Commission CBAM portal"
+    },
+    "summary": {
+      "zh": "CBAM过渡期、正式期、申报、授权申报人和方法学资料入口。",
+      "en": "Portal for CBAM transitional and definitive phases, reporting, authorised declarants, and methodologies."
+    },
+    "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-csddd-directive",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "organization": "European Union",
+    "sourceType": "official law",
+    "riskTypes": ["esg-climate", "supply-chain-labour"],
+    "title": {
+      "zh": "欧盟企业可持续尽职调查指令",
+      "en": "EU Corporate Sustainability Due Diligence Directive"
+    },
+    "summary": {
+      "zh": "大型企业人权和环境尽职调查义务，会通过客户合同和供应链问卷传导给中企供应商。",
+      "en": "Human-rights and environmental due diligence duties for large companies that may pass through customer contracts and supplier questionnaires."
+    },
+    "url": "https://eur-lex.europa.eu/eli/dir/2024/1760/oj/eng",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-forced-labour-regulation",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "organization": "European Union",
+    "sourceType": "official law",
+    "riskTypes": ["supply-chain-labour"],
+    "title": {
+      "zh": "欧盟强迫劳动产品禁令",
+      "en": "EU Forced Labour Regulation"
+    },
+    "summary": {
+      "zh": "禁止强迫劳动产品进入欧盟市场或从欧盟出口，要求企业准备供应链风险证据。",
+      "en": "Prohibits products made with forced labour from the EU market or export, requiring supply-chain risk evidence."
+    },
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/3015/oj/eng",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-deforestation-regulation",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "organization": "European Union",
+    "sourceType": "official law",
+    "riskTypes": ["esg-climate", "supply-chain-labour"],
+    "title": {
+      "zh": "欧盟零毁林产品条例",
+      "en": "EU Deforestation Regulation"
+    },
+    "summary": {
+      "zh": "要求特定农林商品和相关产品证明无毁林来源，影响原料和供应链追溯。",
+      "en": "Requires covered commodities and products to prove deforestation-free origin, affecting raw materials and supply-chain traceability."
+    },
+    "url": "https://eur-lex.europa.eu/eli/reg/2023/1115/oj/eng",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-battery-regulation",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "organization": "European Union",
+    "sourceType": "official law",
+    "riskTypes": ["esg-climate", "supply-chain-labour", "platform-product-safety"],
+    "title": {
+      "zh": "欧盟电池条例",
+      "en": "EU Batteries Regulation"
+    },
+    "summary": {
+      "zh": "覆盖电池碳足迹、尽职调查、回收、标签和产品要求，对新能源供应链影响显著。",
+      "en": "Covers battery carbon footprint, due diligence, recycling, labelling, and product requirements, with major impacts on new-energy supply chains."
+    },
+    "url": "https://eur-lex.europa.eu/eli/reg/2023/1542/oj/eng",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-ai-act",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "organization": "European Union",
+    "sourceType": "official law",
+    "riskTypes": ["data-cybersecurity", "platform-product-safety"],
+    "title": {
+      "zh": "欧盟人工智能法案",
+      "en": "EU Artificial Intelligence Act"
+    },
+    "summary": {
+      "zh": "按风险分级规制AI系统，影响AI产品、SaaS、智能硬件和通用AI模型出海。",
+      "en": "Risk-based regulation of AI systems affecting AI products, SaaS, connected devices, and general-purpose AI models."
+    },
+    "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-digital-services-act",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "organization": "European Union",
+    "sourceType": "official law",
+    "riskTypes": ["platform-product-safety", "data-cybersecurity"],
+    "title": {
+      "zh": "欧盟数字服务法",
+      "en": "EU Digital Services Act"
+    },
+    "summary": {
+      "zh": "规制平台内容、非法商品、透明度、广告和超大型平台风险评估。",
+      "en": "Regulates platform content, illegal goods, transparency, advertising, and very large platform risk assessment."
+    },
+    "url": "https://eur-lex.europa.eu/eli/reg/2022/2065/oj/eng",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-digital-markets-act",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "organization": "European Union",
+    "sourceType": "official law",
+    "riskTypes": ["platform-product-safety"],
+    "title": {
+      "zh": "欧盟数字市场法",
+      "en": "EU Digital Markets Act"
+    },
+    "summary": {
+      "zh": "规制大型平台守门人义务，影响应用商店、广告、互操作和数据使用。",
+      "en": "Regulates gatekeeper duties for large platforms, affecting app stores, advertising, interoperability, and data use."
+    },
+    "url": "https://eur-lex.europa.eu/eli/reg/2022/1925/oj/eng",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-gdpr",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "organization": "European Union",
+    "sourceType": "official law",
+    "riskTypes": ["data-cybersecurity"],
+    "title": {
+      "zh": "欧盟通用数据保护条例",
+      "en": "EU General Data Protection Regulation"
+    },
+    "summary": {
+      "zh": "欧盟个人数据处理、跨境传输、数据主体权利和高额罚款的基础规则。",
+      "en": "Foundational EU rules on personal data processing, transfers, data subject rights, and significant fines."
+    },
+    "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-general-product-safety-regulation",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "organization": "European Union",
+    "sourceType": "official law",
+    "riskTypes": ["platform-product-safety"],
+    "title": {
+      "zh": "欧盟通用产品安全条例",
+      "en": "EU General Product Safety Regulation"
+    },
+    "summary": {
+      "zh": "消费品安全、线上市场、召回、产品追溯和经济经营者义务的关键规则。",
+      "en": "Key rules on consumer product safety, online marketplaces, recalls, traceability, and economic-operator duties."
+    },
+    "url": "https://eur-lex.europa.eu/eli/reg/2023/988/oj/eng",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "uk-nsi-act-guidance",
+    "jurisdiction": "United Kingdom",
+    "region": "Europe",
+    "organization": "UK Government",
+    "sourceType": "official guidance",
+    "riskTypes": ["investment-screening"],
+    "title": {
+      "zh": "英国国家安全与投资法通知指南",
+      "en": "UK National Security and Investment Act notification guidance"
+    },
+    "summary": {
+      "zh": "英国17个敏感领域强制通知和国家安全干预制度的官方指南。",
+      "en": "Official guidance on mandatory notification and national-security intervention in 17 sensitive UK sectors."
+    },
+    "url": "https://www.gov.uk/government/collections/national-security-and-investment-act",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "uk-sanctions-list",
+    "jurisdiction": "United Kingdom",
+    "region": "Europe",
+    "organization": "UK Government",
+    "sourceType": "regulator list",
+    "riskTypes": ["sanctions-export-controls"],
+    "title": {
+      "zh": "英国制裁名单",
+      "en": "The UK Sanctions List"
+    },
+    "summary": {
+      "zh": "英国资产冻结、旅行禁令和其他制裁措施的官方名单入口。",
+      "en": "Official list for UK asset freezes, travel bans, and other sanctions measures."
+    },
+    "url": "https://www.gov.uk/government/publications/the-uk-sanctions-list",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "uk-export-controls",
+    "jurisdiction": "United Kingdom",
+    "region": "Europe",
+    "organization": "UK Government",
+    "sourceType": "official guidance",
+    "riskTypes": ["sanctions-export-controls", "ip-technology"],
+    "title": {
+      "zh": "英国出口管制指南",
+      "en": "UK export controls guidance"
+    },
+    "summary": {
+      "zh": "英国军品、两用物项、软件、技术和服务出口管制的官方指南。",
+      "en": "Official UK guidance on export controls for military goods, dual-use items, software, technology, and services."
+    },
+    "url": "https://www.gov.uk/guidance/export-controls-military-goods-software-and-technology",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "uk-ico-international-transfers",
+    "jurisdiction": "United Kingdom",
+    "region": "Europe",
+    "organization": "Information Commissioner's Office",
+    "sourceType": "regulator guidance",
+    "riskTypes": ["data-cybersecurity"],
+    "title": {
+      "zh": "英国ICO国际数据传输指南",
+      "en": "ICO guidance on international transfers"
+    },
+    "summary": {
+      "zh": "英国GDPR下个人数据向境外传输的转移机制、风险评估和合同要求。",
+      "en": "Guidance on transfer mechanisms, risk assessments, and contract requirements for personal data transfers under UK GDPR."
+    },
+    "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "canada-national-security-review-guidelines",
+    "jurisdiction": "Canada",
+    "region": "North America",
+    "organization": "Government of Canada",
+    "sourceType": "official guidance",
+    "riskTypes": ["investment-screening"],
+    "title": {
+      "zh": "加拿大投资国家安全审查指南",
+      "en": "Guidelines on the National Security Review of Investments"
+    },
+    "summary": {
+      "zh": "加拿大投资法下国家安全审查因素，涵盖经济安全、关键供应链和敏感技术。",
+      "en": "Investment Canada Act national-security factors covering economic security, critical supply chains, and sensitive technology."
+    },
+    "url": "https://ised-isde.canada.ca/site/investment-canada-act/en/updated-guidelines-national-security-review-investments",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "canada-forced-labour-supply-chains",
+    "jurisdiction": "Canada",
+    "region": "North America",
+    "organization": "Public Safety Canada",
+    "sourceType": "official portal",
+    "riskTypes": ["supply-chain-labour", "esg-climate"],
+    "title": {
+      "zh": "加拿大强迫劳动和供应链报告入口",
+      "en": "Canada forced labour and supply chains reporting portal"
+    },
+    "summary": {
+      "zh": "加拿大供应链强迫劳动和童工风险报告义务的官方入口。",
+      "en": "Official portal for Canadian reporting duties on forced labour and child labour risks in supply chains."
+    },
+    "url": "https://www.publicsafety.gc.ca/cnt/cntrng-crm/frcd-lbr-cndn-spply-chns/index-en.aspx",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "australia-firb-national-security",
+    "jurisdiction": "Australia",
+    "region": "Asia-Pacific",
+    "organization": "Australian Treasury",
+    "sourceType": "official guidance",
+    "riskTypes": ["investment-screening"],
+    "title": {
+      "zh": "澳大利亚外国投资国家安全指南",
+      "en": "Australia foreign investment national security guidance"
+    },
+    "summary": {
+      "zh": "澳大利亚国家安全业务、国家安全土地和强制申报外国投资的官方指南。",
+      "en": "Official guidance on national security businesses, national security land, and mandatory foreign investment notifications in Australia."
+    },
+    "url": "https://foreigninvestment.gov.au/guidance/types-investments/national-security",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "australia-modern-slavery-register",
+    "jurisdiction": "Australia",
+    "region": "Asia-Pacific",
+    "organization": "Australian Government",
+    "sourceType": "official registry",
+    "riskTypes": ["supply-chain-labour", "esg-climate"],
+    "title": {
+      "zh": "澳大利亚现代奴役声明登记册",
+      "en": "Australia Modern Slavery Statements Register"
+    },
+    "summary": {
+      "zh": "企业现代奴役风险披露、供应链治理和声明对标的重要公开登记册。",
+      "en": "Public registry for benchmarking modern slavery risk disclosures, supply-chain governance, and corporate statements."
+    },
+    "url": "https://modernslaveryregister.gov.au/",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "india-press-note-3",
+    "jurisdiction": "India",
+    "region": "South Asia",
+    "organization": "DPIIT",
+    "sourceType": "official policy",
+    "riskTypes": ["investment-screening"],
+    "title": {
+      "zh": "印度 Press Note 3 外资审批政策",
+      "en": "India Press Note 3 foreign investment policy"
+    },
+    "summary": {
+      "zh": "对来自与印度接壤国家或相关受益所有人的投资设置政府审批路径，是中企赴印投资核心规则。",
+      "en": "Requires government-route approval for investments from land-border countries or related beneficial owners, central to Chinese investment in India."
+    },
+    "url": "https://www.dpiit.gov.in/static/uploads/2025/07/c7586a2dee61bf88f73512a46d8a9ab1.pdf",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "india-dpdp-rules-2025",
+    "jurisdiction": "India",
+    "region": "South Asia",
+    "organization": "Ministry of Electronics and Information Technology",
+    "sourceType": "official rule",
+    "riskTypes": ["data-cybersecurity"],
+    "title": {
+      "zh": "印度数字个人数据保护规则",
+      "en": "India Digital Personal Data Protection Rules"
+    },
+    "summary": {
+      "zh": "印度个人数据处理、数据主体权利、儿童数据和跨境数据要求的重要官方规则入口。",
+      "en": "Official rules for personal data processing, data principal rights, children's data, and transfer requirements in India."
+    },
+    "url": "https://www.meity.gov.in/documents/act-and-policies/digital-personal-data-protection-rules-2025-gDOxUjMtQWa?pageTitle=Digital-Personal-Data-Protection-Rules-2025",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "japan-meti-trade-control",
+    "jurisdiction": "Japan",
+    "region": "Asia-Pacific",
+    "organization": "Ministry of Economy, Trade and Industry",
+    "sourceType": "regulator portal",
+    "riskTypes": ["sanctions-export-controls", "ip-technology"],
+    "title": {
+      "zh": "日本贸易管制入口",
+      "en": "Japan METI trade control portal"
+    },
+    "summary": {
+      "zh": "日本外汇与外国贸易法下出口管制、技术转让和贸易控制政策入口。",
+      "en": "METI portal for export controls, technology transfers, and trade control policy under Japan's FEFTA framework."
+    },
+    "url": "https://www.meti.go.jp/english/policy/external_economy/trade_control/index.html",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "brazil-anpd",
+    "jurisdiction": "Brazil",
+    "region": "Latin America",
+    "organization": "Autoridade Nacional de Protecao de Dados",
+    "sourceType": "regulator portal",
+    "riskTypes": ["data-cybersecurity"],
+    "title": {
+      "zh": "巴西国家数据保护局",
+      "en": "Brazilian National Data Protection Authority"
+    },
+    "summary": {
+      "zh": "巴西LGPD监管机构入口，覆盖数据主体、合规、执法、国际事务和指引。",
+      "en": "Brazilian LGPD regulator portal covering data subjects, compliance, enforcement, international affairs, and guidance."
+    },
+    "url": "https://www.gov.br/anpd/pt-br",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "brazil-cade",
+    "jurisdiction": "Brazil",
+    "region": "Latin America",
+    "organization": "CADE",
+    "sourceType": "regulator portal",
+    "riskTypes": ["investment-screening", "disputes-crisis"],
+    "title": {
+      "zh": "巴西经济防卫行政委员会",
+      "en": "Brazil Administrative Council for Economic Defense"
+    },
+    "summary": {
+      "zh": "巴西竞争法、并购审查、卡特尔调查和公共采购串通执法入口。",
+      "en": "Brazilian portal for competition law, merger review, cartel investigations, and bid-rigging enforcement."
+    },
+    "url": "https://www.gov.br/cade/en",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "brazil-labour-slavery-list",
+    "jurisdiction": "Brazil",
+    "region": "Latin America",
+    "organization": "Ministry of Labour and Employment",
+    "sourceType": "official registry",
+    "riskTypes": ["supply-chain-labour", "esg-climate"],
+    "title": {
+      "zh": "巴西强迫劳动雇主名单",
+      "en": "Brazil registry of employers using slave-like labour conditions"
+    },
+    "summary": {
+      "zh": "巴西劳工部公开的强迫劳动相关雇主名单，对供应链尽调和承包商筛查具有参考价值。",
+      "en": "Brazilian labour ministry registry relevant to supply-chain due diligence and contractor screening for slave-like labour conditions."
+    },
+    "url": "https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/inspecao-do-trabalho/areas-de-atuacao/cadastro_de_empregadores.pdf",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "oecd-mne-guidelines",
+    "jurisdiction": "Global",
+    "region": "Global",
+    "organization": "OECD",
+    "sourceType": "international standard",
+    "riskTypes": ["esg-climate", "supply-chain-labour", "anti-corruption-procurement"],
+    "title": {
+      "zh": "OECD跨国企业负责任商业行为准则",
+      "en": "OECD Guidelines for Multinational Enterprises on Responsible Business Conduct"
+    },
+    "summary": {
+      "zh": "跨国企业在人权、劳工、环境、反腐败、消费者和信息披露方面的核心软法标准。",
+      "en": "Core soft-law standard for multinational enterprises on human rights, labour, environment, anti-corruption, consumers, and disclosure."
+    },
+    "url": "https://mneguidelines.oecd.org/mneguidelines/",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "oecd-due-diligence-guidance",
+    "jurisdiction": "Global",
+    "region": "Global",
+    "organization": "OECD",
+    "sourceType": "international guidance",
+    "riskTypes": ["esg-climate", "supply-chain-labour", "anti-corruption-procurement"],
+    "title": {
+      "zh": "OECD负责任商业行为尽职调查指南",
+      "en": "OECD Due Diligence Guidance for Responsible Business Conduct"
+    },
+    "summary": {
+      "zh": "企业识别、预防、减轻和说明供应链不利影响的通用尽调框架。",
+      "en": "General due-diligence framework for identifying, preventing, mitigating, and accounting for adverse supply-chain impacts."
+    },
+    "url": "https://www.oecd.org/en/publications/2018/02/oecd-due-diligence-guidance-for-responsible-business-conduct_c669bd57.html",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "un-guiding-principles-business-human-rights",
+    "jurisdiction": "Global",
+    "region": "Global",
+    "organization": "OHCHR",
+    "sourceType": "international standard",
+    "riskTypes": ["supply-chain-labour", "esg-climate"],
+    "title": {
+      "zh": "联合国工商企业与人权指导原则",
+      "en": "UN Guiding Principles on Business and Human Rights"
+    },
+    "summary": {
+      "zh": "保护、尊重和救济框架，是全球人权尽调和企业申诉机制的基础文本。",
+      "en": "Foundational protect, respect, and remedy framework for human-rights due diligence and corporate grievance mechanisms."
+    },
+    "url": "https://www.ohchr.org/sites/default/files/documents/publications/guidingprinciplesbusinesshr_en.pdf",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "ilo-forced-labour-indicators",
+    "jurisdiction": "Global",
+    "region": "Global",
+    "organization": "International Labour Organization",
+    "sourceType": "international guidance",
+    "riskTypes": ["supply-chain-labour"],
+    "title": {
+      "zh": "ILO强迫劳动指标",
+      "en": "ILO Indicators of Forced Labour"
+    },
+    "summary": {
+      "zh": "识别强迫劳动风险的基础指标，可用于供应商审计、访谈和整改计划。",
+      "en": "Baseline indicators for identifying forced-labour risks in supplier audits, interviews, and remediation plans."
+    },
+    "url": "https://www.ilo.org/publications/ilo-indicators-forced-labour",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "ilo-mne-declaration",
+    "jurisdiction": "Global",
+    "region": "Global",
+    "organization": "International Labour Organization",
+    "sourceType": "international standard",
+    "riskTypes": ["supply-chain-labour", "esg-climate"],
+    "title": {
+      "zh": "ILO跨国企业和社会政策三方原则宣言",
+      "en": "ILO Tripartite Declaration of Principles concerning Multinational Enterprises"
+    },
+    "summary": {
+      "zh": "跨国企业在就业、培训、工作条件、劳资关系和社会政策方面的重要国际标准。",
+      "en": "Important international standard for multinational enterprises on employment, training, working conditions, industrial relations, and social policy."
+    },
+    "url": "https://www.ilo.org/publications/tripartite-declaration-principles-concerning-multinational-enterprises-and",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "ifc-performance-standards",
+    "jurisdiction": "Global",
+    "region": "Global",
+    "organization": "International Finance Corporation",
+    "sourceType": "international standard",
+    "riskTypes": ["esg-climate", "supply-chain-labour"],
+    "title": {
+      "zh": "IFC环境和社会绩效标准",
+      "en": "IFC Performance Standards on Environmental and Social Sustainability"
+    },
+    "summary": {
+      "zh": "项目融资、基础设施、矿业和能源项目常用的环境社会风险管理标准。",
+      "en": "Environmental and social risk-management standards widely used in project finance, infrastructure, mining, and energy projects."
+    },
+    "url": "https://www.ifc.org/en/insights-reports/2012/ifc-performance-standards",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "world-bank-sanctions-system",
+    "jurisdiction": "Global",
+    "region": "Global",
+    "organization": "World Bank",
+    "sourceType": "multilateral enforcement",
+    "riskTypes": ["anti-corruption-procurement", "disputes-crisis"],
+    "title": {
+      "zh": "世界银行制裁体系",
+      "en": "World Bank Sanctions System"
+    },
+    "summary": {
+      "zh": "多边开发银行项目中的欺诈、腐败、串通、胁迫、妨碍调查和交叉禁入风险入口。",
+      "en": "Portal for fraud, corruption, collusion, coercion, obstruction, and cross-debarment risks in multilateral development bank projects."
+    },
+    "url": "https://www.worldbank.org/en/about/unit/sanctions-system",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "wto-antidumping",
+    "jurisdiction": "Global",
+    "region": "Global",
+    "organization": "World Trade Organization",
+    "sourceType": "international legal framework",
+    "riskTypes": ["trade-remedies-subsidies"],
+    "title": {
+      "zh": "WTO反倾销规则入口",
+      "en": "WTO anti-dumping rules portal"
+    },
+    "summary": {
+      "zh": "WTO反倾销规则、通知、委员会和成员贸易救济措施的基础入口。",
+      "en": "WTO portal for anti-dumping rules, notifications, committee work, and member trade remedy measures."
+    },
+    "url": "https://www.wto.org/english/tratop_e/adp_e/adp_e.htm",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "wto-subsidies-countervailing",
+    "jurisdiction": "Global",
+    "region": "Global",
+    "organization": "World Trade Organization",
+    "sourceType": "international legal framework",
+    "riskTypes": ["trade-remedies-subsidies"],
+    "title": {
+      "zh": "WTO补贴与反补贴规则入口",
+      "en": "WTO subsidies and countervailing measures portal"
+    },
+    "summary": {
+      "zh": "WTO补贴、反补贴、产业政策争端和成员通知义务的基础入口。",
+      "en": "WTO portal for subsidies, countervailing measures, industrial-policy disputes, and member notification duties."
+    },
+    "url": "https://www.wto.org/english/tratop_e/scm_e/scm_e.htm",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "wto-technical-barriers",
+    "jurisdiction": "Global",
+    "region": "Global",
+    "organization": "World Trade Organization",
+    "sourceType": "international legal framework",
+    "riskTypes": ["platform-product-safety", "trade-remedies-subsidies"],
+    "title": {
+      "zh": "WTO技术性贸易壁垒规则入口",
+      "en": "WTO Technical Barriers to Trade portal"
+    },
+    "summary": {
+      "zh": "产品标准、技术法规、合格评定和通报评议机制的多边贸易规则入口。",
+      "en": "Multilateral portal for product standards, technical regulations, conformity assessment, and notification/comment mechanisms."
+    },
+    "url": "https://www.wto.org/english/tratop_e/tbt_e/tbt_e.htm",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "wco-rules-of-origin",
+    "jurisdiction": "Global",
+    "region": "Global",
+    "organization": "World Customs Organization",
+    "sourceType": "international customs guidance",
+    "riskTypes": ["trade-remedies-subsidies", "tax-structure"],
+    "title": {
+      "zh": "WCO原产地规则入口",
+      "en": "WCO Rules of Origin portal"
+    },
+    "summary": {
+      "zh": "原产地、转运、优惠关税和贸易救济规避风险的海关规则入口。",
+      "en": "Customs portal for origin, transshipment, preferential tariffs, and trade-remedy circumvention risk."
+    },
+    "url": "https://www.wcoomd.org/en/topics/origin/overview.aspx",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "fatf-recommendations",
+    "jurisdiction": "Global",
+    "region": "Global",
+    "organization": "Financial Action Task Force",
+    "sourceType": "international standard",
+    "riskTypes": ["anti-corruption-procurement", "tax-structure", "sanctions-export-controls"],
+    "title": {
+      "zh": "FATF反洗钱和反恐融资建议",
+      "en": "FATF Recommendations"
+    },
+    "summary": {
+      "zh": "受益所有人、客户尽调、制裁执行、可疑交易和跨境支付合规的重要国际标准。",
+      "en": "Key international standard for beneficial ownership, customer due diligence, sanctions implementation, suspicious transactions, and cross-border payment compliance."
+    },
+    "url": "https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Fatf-recommendations.html",
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "unctad-world-investment-report-2025",
+    "jurisdiction": "Global",
+    "region": "Global",
+    "organization": "UNCTAD",
+    "sourceType": "international report",
+    "riskTypes": ["investment-screening", "trade-remedies-subsidies"],
+    "title": {
+      "zh": "2025年世界投资报告",
+      "en": "World Investment Report 2025"
+    },
+    "summary": {
+      "zh": "全球FDI趋势、产业政策、投资便利化和可持续投资数据的权威宏观背景。",
+      "en": "Authoritative macro background on global FDI trends, industrial policy, investment facilitation, and sustainable investment."
+    },
+    "url": "https://unctad.org/publication/world-investment-report-2025",
+    "sourceLastChecked": "2026-06-26"
+  }
+]
