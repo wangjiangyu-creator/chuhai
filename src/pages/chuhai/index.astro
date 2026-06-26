@@ -1,0 +1,18 @@
+---
+const target = '/';
+const script = `window.location.replace(${JSON.stringify(target)} + window.location.search + window.location.hash);`;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={target} />
+    <title>Redirecting</title>
+    <script is:inline set:html={script}></script>
+  </head>
+  <body>
+    <a href={target}>Redirecting</a>
+  </body>
+</html>

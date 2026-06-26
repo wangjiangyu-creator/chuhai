@@ -1,0 +1,47 @@
+---
+import cases from '../../data/cases.json';
+
+export function getStaticPaths() {
+  const topLevelRoutes = [
+    'background',
+    'scholarship',
+    'practice',
+    'risks',
+    'cases',
+    'updates',
+    'playbooks',
+    'sources',
+    'en',
+    'en/background',
+    'en/scholarship',
+    'en/practice',
+    'en/risks',
+    'en/cases',
+    'en/updates',
+    'en/playbooks',
+    'en/sources'
+  ];
+  const caseRoutes = cases.flatMap((item) => [`cases/${item.id}`, `en/cases/${item.id}`]);
+  return [...topLevelRoutes, ...caseRoutes].map((slug) => ({
+    params: { slug },
+    props: { target: `/${slug}/` }
+  }));
+}
+
+const { target } = Astro.props;
+const script = `window.location.replace(${JSON.stringify(target)} + window.location.search + window.location.hash);`;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content={`0; url=${target}`} />
+    <link rel="canonical" href={target} />
+    <title>Redirecting</title>
+    <script is:inline set:html={script}></script>
+  </head>
+  <body>
+    <a href={target}>Redirecting</a>
+  </body>
+</html>
