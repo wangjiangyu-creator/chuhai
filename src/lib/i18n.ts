@@ -66,10 +66,11 @@ export const labels = {
 export const text = (value: { zh: string; en: string }, lang: Lang) => value[lang];
 
 export const pathFor = (lang: Lang, route = '') => {
-  const base = import.meta.env.BASE_URL;
+  const configuredBase = import.meta.env.BASE_URL;
+  const base = configuredBase.endsWith('/') ? configuredBase : `${configuredBase}/`;
   const cleanRoute = route.replace(/^\/+/, '');
   const langPrefix = lang === 'en' ? 'en/' : '';
-  return `${base}${langPrefix}${cleanRoute}`.replace(/([^:]\/)\/+/g, '$1');
+  return `${base}${langPrefix}${cleanRoute}`;
 };
 
 export const alternatePathFor = (lang: Lang, route = '') => pathFor(lang === 'en' ? 'zh' : 'en', route);
