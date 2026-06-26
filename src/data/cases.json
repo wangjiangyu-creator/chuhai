@@ -1162,5 +1162,723 @@
       {"label": "FATF guidance and publications", "url": "https://www.fatf-gafi.org/en/publications.html", "type": "international-organization"}
     ],
     "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "huawei-bis-entity-list-supply-chain",
+    "date": "2019-05-16",
+    "updated": "2026-06-26",
+    "company": "Huawei Technologies Co., Ltd.",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Telecommunications and semiconductors",
+    "riskTypes": ["sanctions-export-controls", "ip-technology", "disputes-crisis"],
+    "status": "listed",
+    "title": {
+      "zh": "华为实体清单案：出口管制如何重塑全球供应链",
+      "en": "Huawei Entity List case: export controls reshaping global supply chains"
+    },
+    "summary": {
+      "zh": "美国BIS将华为及其多家关联公司列入实体清单后，芯片、软件、设备和云服务供应链均被许可证制度重塑，成为中企技术出海的标志性案例。",
+      "en": "BIS placement of Huawei and affiliates on the Entity List reshaped semiconductor, software, equipment, and cloud-service supply chains through license requirements."
+    },
+    "facts": {
+      "zh": "2019年5月，美国商务部工业与安全局以国家安全和外交政策利益为由，把华为及68家非美国关联公司列入实体清单；2020年又扩大对非美国关联公司和直接产品规则的适用。",
+      "en": "In May 2019 BIS added Huawei and 68 non-U.S. affiliates to the Entity List on national security and foreign-policy grounds; later actions expanded affiliate coverage and direct-product controls."
+    },
+    "legalIssues": ["实体清单 / Entity List", "许可证审查 / license review", "供应链替代 / supply-chain substitution"],
+    "complianceLessons": {
+      "zh": "高科技企业不能只做客户端制裁筛查，还要建立产品、软件、技术、云服务和第三国制造环节的出口管制地图。",
+      "en": "Technology companies need export-control mapping across products, software, technology, cloud services, and third-country manufacturing, not only customer screening."
+    },
+    "sources": [
+      {"label": "Federal Register, addition of Huawei entities to Entity List", "url": "https://www.federalregister.gov/documents/2019/05/21/2019-10616/addition-of-entities-to-the-entity-list", "type": "regulator"},
+      {"label": "Federal Register, Huawei non-U.S. affiliates and direct-product rule updates", "url": "https://www.federalregister.gov/documents/2020/08/20/2020-18213/addition-of-huawei-non-us-affiliates-to-the-entity-list-the-removal-of-temporary-general-license-and", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "huawei-meng-wanzhou-dpa",
+    "date": "2021-09-24",
+    "updated": "2026-06-26",
+    "company": "Huawei / Meng Wanzhou",
+    "jurisdiction": "United States / Canada",
+    "region": "North America",
+    "industry": "Telecommunications and finance",
+    "riskTypes": ["sanctions-export-controls", "anti-corruption-procurement", "disputes-crisis"],
+    "status": "resolved",
+    "title": {
+      "zh": "孟晚舟DPA案：制裁、银行合规与高管个人风险",
+      "en": "Meng Wanzhou DPA: sanctions, bank compliance, and executive exposure"
+    },
+    "summary": {
+      "zh": "华为高管孟晚舟在美国刑事案件中达成延期起诉协议，显示制裁相关陈述、银行关系和跨境引渡可以把公司风险转化为个人刑事风险。",
+      "en": "The deferred prosecution agreement in the Meng Wanzhou case shows how sanctions-related representations and banking relationships can create personal criminal exposure."
+    },
+    "facts": {
+      "zh": "美国司法部称孟晚舟承认在与全球金融机构沟通时作出误导性陈述；案件经加拿大引渡程序后以延期起诉协议解决。",
+      "en": "The DOJ stated that Meng admitted misleading a global financial institution; after Canadian extradition proceedings, the matter was resolved through a deferred prosecution agreement."
+    },
+    "legalIssues": ["银行欺诈 / bank fraud", "制裁合规陈述 / sanctions representations", "跨境引渡 / extradition"],
+    "complianceLessons": {
+      "zh": "涉及受制裁国家、受控技术或敏感交易时，企业对银行、审计师、交易对手和监管者的陈述必须有事实底稿和高管审阅机制。",
+      "en": "When sanctioned jurisdictions, controlled technology, or sensitive transactions are involved, statements to banks, auditors, counterparties, and regulators need factual files and executive review."
+    },
+    "sources": [
+      {"label": "U.S. DOJ, Meng Wanzhou deferred prosecution agreement announcement", "url": "https://www.justice.gov/archives/opa/pr/huawei-cfo-wanzhou-meng-admits-misleading-global-financial-institution", "type": "prosecutor"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "huawei-uk-5g-removal",
+    "date": "2020-07-14",
+    "updated": "2026-06-26",
+    "company": "Huawei",
+    "jurisdiction": "United Kingdom",
+    "region": "Europe",
+    "industry": "Telecommunications infrastructure",
+    "riskTypes": ["investment-screening", "sanctions-export-controls", "disputes-crisis"],
+    "status": "phase-out-to-2027",
+    "title": {
+      "zh": "华为英国5G移除决定：盟友制裁如何改变市场准入",
+      "en": "Huawei UK 5G removal decision: allied sanctions changing market access"
+    },
+    "summary": {
+      "zh": "英国要求运营商停止采购新华为5G设备并在2027年前移除既有设备，说明第三国制裁会通过本国网络安全评估改变企业准入。",
+      "en": "The UK required operators to stop buying new Huawei 5G equipment and remove existing gear by 2027, showing how allied sanctions can alter domestic security assessments."
+    },
+    "facts": {
+      "zh": "英国政府称该决定基于国家网络安全中心对美国制裁影响的技术审查，并设定新采购禁令和既有设备移除期限。",
+      "en": "The UK government said the decision followed National Cyber Security Centre advice on the impact of U.S. sanctions and set both purchase and removal deadlines."
+    },
+    "legalIssues": ["网络安全审查 / cybersecurity review", "政府采购限制 / procurement restriction", "既有合同调整 / legacy contract adjustment"],
+    "complianceLessons": {
+      "zh": "关键基础设施供应商要把盟友制裁、技术可替代性、售后支持和本地客户合同退出成本纳入准入风险评估。",
+      "en": "Critical-infrastructure suppliers should assess allied sanctions, technical substitutability, support obligations, and customer exit costs as market-access risks."
+    },
+    "sources": [
+      {"label": "UK government, Huawei to be removed from UK 5G networks by 2027", "url": "https://www.gov.uk/government/news/huawei-to-be-removed-from-uk-5g-networks-by-2027", "type": "government"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "huawei-zte-germany-5g-components",
+    "date": "2024-07-11",
+    "updated": "2026-06-26",
+    "company": "Huawei / ZTE",
+    "jurisdiction": "Germany",
+    "region": "Europe",
+    "industry": "Telecommunications infrastructure",
+    "riskTypes": ["investment-screening", "sanctions-export-controls", "disputes-crisis"],
+    "status": "phase-out-to-2029",
+    "title": {
+      "zh": "德国5G组件退出安排：华为、中兴面对欧洲网络主权审查",
+      "en": "Germany 5G component phase-out: Huawei and ZTE under European network-sovereignty scrutiny"
+    },
+    "summary": {
+      "zh": "德国与运营商达成安排，要求在2026年前移除5G核心网中的华为、中兴关键组件，并在2029年前处理接入和传输网关键管理系统。",
+      "en": "Germany agreed with operators to remove Huawei and ZTE critical components from 5G core networks by 2026 and critical management systems by 2029."
+    },
+    "facts": {
+      "zh": "德国联邦内政部把该安排称为提升5G安全和技术主权的措施，直接影响设备供应商、运营商和长期维护合同。",
+      "en": "Germany's Interior Ministry framed the arrangement as strengthening 5G security and technological sovereignty, affecting vendors, operators, and long-term maintenance contracts."
+    },
+    "legalIssues": ["技术主权 / technological sovereignty", "关键组件 / critical components", "运营商合规 / operator compliance"],
+    "complianceLessons": {
+      "zh": "设备企业在欧洲要准备分阶段退出、替代供应、源代码和安全保证材料，并评估服务收入和客户索赔风险。",
+      "en": "Equipment vendors in Europe need phase-out plans, replacement supply options, source-code and security assurance materials, and analysis of service-revenue and customer-claim risks."
+    },
+    "sources": [
+      {"label": "German Federal Ministry of the Interior, 5G security announcement", "url": "https://www.bmi.bund.de/SharedDocs/pressemitteilungen/EN/2024/07/5g-en.html", "type": "government"},
+      {"label": "BMI German notice on Huawei and ZTE 5G components", "url": "https://www.bmi.bund.de/SharedDocs/kurzmeldungen/DE/2024/07/5g.html", "type": "government"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "zte-us-sanctions-export-settlement",
+    "date": "2017-03-07",
+    "updated": "2026-06-26",
+    "company": "ZTE Corporation",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Telecommunications equipment",
+    "riskTypes": ["sanctions-export-controls", "anti-corruption-procurement", "disputes-crisis"],
+    "status": "resolved-with-monitoring",
+    "title": {
+      "zh": "中兴2017年美国制裁与出口管制和解：第三方通道不是避风港",
+      "en": "ZTE 2017 U.S. sanctions and export-control settlement: third-party channels are not safe harbors"
+    },
+    "summary": {
+      "zh": "中兴因向伊朗等受限目的地输送美国原产物项并使用第三方安排而与美国DOJ、BIS和OFAC达成总额巨大的和解。",
+      "en": "ZTE reached major settlements with DOJ, BIS, and OFAC over shipments of U.S.-origin items to restricted destinations using third-party arrangements."
+    },
+    "facts": {
+      "zh": "美国司法部称中兴同意认罪并支付刑事罚金和没收款；美国政府合计处罚和暂缓罚款达到约11.9亿美元。",
+      "en": "The DOJ stated that ZTE agreed to plead guilty and pay criminal fines and forfeiture; the combined U.S. government penalty and suspended amount reached about USD 1.19 billion."
+    },
+    "legalIssues": ["伊朗制裁 / Iran sanctions", "美国原产物项 / U.S.-origin items", "第三方规避 / third-party evasion"],
+    "complianceLessons": {
+      "zh": "出口管制合规必须覆盖集团销售、代理商、维修、备件、最终用户和付款路径，并保留真实、完整的内部调查记录。",
+      "en": "Export-control compliance must cover group sales, agents, repairs, spare parts, end users, and payment routes, with complete and accurate investigation records."
+    },
+    "sources": [
+      {"label": "U.S. DOJ, ZTE guilty plea and penalties", "url": "https://www.justice.gov/archives/opa/pr/zte-corporation-agrees-plead-guilty-and-pay-over-4304-million-violating-us-sanctions-sending", "type": "prosecutor"},
+      {"label": "OFAC, ZTE settlement", "url": "https://ofac.treasury.gov/recent-actions/20170307", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "zte-denial-order-2018",
+    "date": "2018-04-15",
+    "updated": "2026-06-26",
+    "company": "ZTE Corporation",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Telecommunications equipment",
+    "riskTypes": ["sanctions-export-controls", "disputes-crisis"],
+    "status": "terminated-after-settlement",
+    "title": {
+      "zh": "中兴拒绝令危机：合规承诺违约会转化为生存风险",
+      "en": "ZTE denial-order crisis: breach of compliance undertakings can become existential risk"
+    },
+    "summary": {
+      "zh": "BIS曾激活对中兴的拒绝令，禁止其获取受美国管辖的物项，随后在追加和解、罚款、托管和合规承诺后终止。",
+      "en": "BIS activated a denial order against ZTE, cutting access to U.S.-jurisdiction items, then terminated it after additional settlement terms, penalties, escrow, and compliance undertakings."
+    },
+    "facts": {
+      "zh": "2018年拒绝令暴露了中兴对美国芯片、软件和零部件的依赖；终止令要求额外付款、合规监督和其他条件。",
+      "en": "The 2018 denial order exposed ZTE's dependence on U.S. chips, software, and components; termination required additional payment, compliance oversight, and other conditions."
+    },
+    "legalIssues": ["拒绝令 / denial order", "暂缓处罚条件 / suspended penalty conditions", "供应链中断 / supply-chain disruption"],
+    "complianceLessons": {
+      "zh": "和解后的合规义务不是形式文件，纪律处分、董事会监督、审计和监管报告一旦失真，可能触发更严厉的工具。",
+      "en": "Post-settlement undertakings are not paperwork: inaccurate discipline, board oversight, audits, or regulator reporting can trigger harsher tools."
+    },
+    "sources": [
+      {"label": "Federal Register, ZTE denial order termination", "url": "https://www.federalregister.gov/documents/2018/07/23/2018-15633/order-terminating-denial-order-issued-on-april-15-2018-against-zhongxing-telecommunications", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "tiktok-canada-investment-review",
+    "date": "2024-11-06",
+    "updated": "2026-06-26",
+    "company": "TikTok Technology Canada / ByteDance",
+    "jurisdiction": "Canada",
+    "region": "North America",
+    "industry": "Digital platform",
+    "riskTypes": ["investment-screening", "data-cybersecurity", "disputes-crisis"],
+    "status": "undertakings-after-review",
+    "title": {
+      "zh": "TikTok加拿大国家安全审查：从清盘命令到具有约束力承诺",
+      "en": "TikTok Canada national security review: from wind-up order to binding undertakings"
+    },
+    "summary": {
+      "zh": "加拿大曾命令TikTok加拿大业务清盘，后续进一步国家安全审查允许投资在新的具有法律约束力承诺下继续推进。",
+      "en": "Canada first ordered TikTok's Canadian business wound up, then after further national security review permitted the investment to proceed subject to new legally binding undertakings."
+    },
+    "facts": {
+      "zh": "加拿大政府依据《加拿大投资法》进行国家安全审查，关注ByteDance在加拿大设立和运营TikTok Technology Canada带来的特定风险。",
+      "en": "Canada reviewed TikTok Technology Canada under the Investment Canada Act, focusing on specific national security risks related to ByteDance operations in Canada."
+    },
+    "legalIssues": ["投资国家安全审查 / investment national security review", "约束性承诺 / binding undertakings", "平台本地实体 / local platform entity"],
+    "complianceLessons": {
+      "zh": "平台企业设立海外子公司时，应把治理隔离、数据访问、政府沟通和承诺履行机制作为交易文件的一部分。",
+      "en": "When platforms establish foreign subsidiaries, governance separation, data access, government engagement, and undertaking compliance should be built into transaction documents."
+    },
+    "sources": [
+      {"label": "Canada, wind-up order for TikTok Technology Canada", "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2024/11/government-of-canada-orders-the-wind-up-of-tiktok-technology-canada-inc-following-a-national-security-review-under-the-investment-canada-act.html", "type": "government"},
+      {"label": "Canada, further national security review of TikTok Canada", "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/03/minister-jolys-statement-on-the-outcome-of-the-further-national-security-review-of-tiktok-technology-canada-inc-under-the-investment-canada-act.html", "type": "government"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "tiktok-ftc-doj-coppa",
+    "date": "2024-08-02",
+    "updated": "2026-06-26",
+    "company": "TikTok / ByteDance",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Digital platform",
+    "riskTypes": ["data-cybersecurity", "platform-product-safety", "disputes-crisis"],
+    "status": "litigation",
+    "title": {
+      "zh": "TikTok儿童隐私诉讼：COPPA合规成为平台产品治理问题",
+      "en": "TikTok children's privacy lawsuit: COPPA compliance as platform product governance"
+    },
+    "summary": {
+      "zh": "美国FTC调查后由司法部起诉TikTok和ByteDance，指控其违反儿童在线隐私保护规则和既有命令。",
+      "en": "After an FTC investigation, the DOJ sued TikTok and ByteDance alleging violations of COPPA and an existing order."
+    },
+    "facts": {
+      "zh": "监管机关称TikTok明知有大量13岁以下儿童使用常规应用，仍存在数据收集、账号处理和家长删除请求方面的问题。",
+      "en": "Regulators alleged TikTok knew many children under 13 used the regular app and still had problems with data collection, account handling, and parental deletion requests."
+    },
+    "legalIssues": ["COPPA / children's privacy", "既有命令执行 / order compliance", "年龄识别 / age assurance"],
+    "complianceLessons": {
+      "zh": "儿童隐私不是隐私政策问题，而是年龄识别、默认设置、内容推荐、广告、删除请求和工程日志共同构成的产品合规问题。",
+      "en": "Children's privacy is product compliance: age assurance, defaults, recommendations, advertising, deletion requests, and engineering logs must work together."
+    },
+    "sources": [
+      {"label": "FTC, lawsuit against TikTok and ByteDance", "url": "https://www.ftc.gov/news-events/news/press-releases/2024/08/ftc-investigation-leads-lawsuit-against-tiktok-bytedance-flagrantly-violating-childrens-privacy-law", "type": "regulator"},
+      {"label": "U.S. DOJ, TikTok COPPA lawsuit", "url": "https://www.justice.gov/archives/opa/pr/justice-department-sues-tiktok-and-parent-company-bytedance-widespread-violations-childrens", "type": "prosecutor"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "tiktok-lite-eu-dsa-rewards",
+    "date": "2024-08-05",
+    "updated": "2026-06-26",
+    "company": "TikTok",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "industry": "Digital platform",
+    "riskTypes": ["platform-product-safety", "data-cybersecurity"],
+    "status": "binding-commitments",
+    "title": {
+      "zh": "TikTok Lite奖励计划案：产品增长机制也要做系统性风险评估",
+      "en": "TikTok Lite rewards case: growth mechanics require systemic-risk assessment"
+    },
+    "summary": {
+      "zh": "欧盟委员会将TikTok永久撤回TikTok Lite奖励计划的承诺作成具有约束力的决定，凸显DSA对新功能和成瘾性设计的约束。",
+      "en": "The Commission made TikTok's commitment to permanently withdraw the TikTok Lite Rewards programme from the EU binding, highlighting DSA scrutiny of new features and addictive design."
+    },
+    "facts": {
+      "zh": "该程序在法国和西班牙推出后受到审查，欧盟关注TikTok是否在上线前完成了风险评估和缓解措施。",
+      "en": "After launch in France and Spain, the programme drew scrutiny over whether TikTok completed risk assessment and mitigation before rollout."
+    },
+    "legalIssues": ["DSA系统性风险 / DSA systemic risk", "成瘾性设计 / addictive design", "新功能上线 / feature launch"],
+    "complianceLessons": {
+      "zh": "平台的增长机制、积分、游戏化和推荐功能应在上线前形成风险评估、未成年人影响分析和替代设计记录。",
+      "en": "Growth mechanics, rewards, gamification, and recommendation features should have pre-launch risk assessments, minor-impact analysis, and alternative-design records."
+    },
+    "sources": [
+      {"label": "European Commission, TikTok Lite rewards commitments", "url": "https://digital-strategy.ec.europa.eu/en/news/tiktok-commits-permanently-withdraw-tiktok-lite-rewards-programme-eu-comply-digital-services-act", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "temu-eu-dsa-fine-2026",
+    "date": "2026-05-28",
+    "updated": "2026-06-26",
+    "company": "Temu / PDD Holdings",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "industry": "Cross-border e-commerce",
+    "riskTypes": ["platform-product-safety", "supply-chain-labour", "disputes-crisis"],
+    "status": "enforced",
+    "title": {
+      "zh": "Temu欧盟2亿欧元DSA罚款：风险评估不能是通用模板",
+      "en": "Temu EUR 200 million DSA fine: risk assessments cannot be generic templates"
+    },
+    "summary": {
+      "zh": "欧盟委员会因Temu未充分识别、分析和评估平台非法产品系统性风险而处以2亿欧元罚款。",
+      "en": "The European Commission fined Temu EUR 200 million for failing to properly identify, analyse, and assess systemic risks of illegal products on its platform."
+    },
+    "facts": {
+      "zh": "委员会称Temu 2024年风险评估过于泛化，未基于自身服务证据；神秘购物显示充电器、婴儿玩具等产品存在安全问题。",
+      "en": "The Commission said Temu's 2024 risk assessment relied on generic sectoral information rather than service-specific evidence; mystery shopping found safety issues in chargers and baby toys."
+    },
+    "legalIssues": ["DSA风险评估 / DSA risk assessment", "非法产品 / illegal products", "纠正行动计划 / remedial action plan"],
+    "complianceLessons": {
+      "zh": "平台必须用自身抽检、投诉、召回、商家处罚和推荐系统数据证明风险识别和缓解，不应只引用行业共性风险。",
+      "en": "Platforms must use their own testing, complaints, recalls, trader sanctions, and recommender-system data to prove risk identification and mitigation, not only sector-level risks."
+    },
+    "sources": [
+      {"label": "European Commission, Temu DSA fine", "url": "https://digital-strategy.ec.europa.eu/en/news/commission-fines-temu-eu200-million-breaching-digital-services-act", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "temu-arkansas-data-lawsuit",
+    "date": "2024-06-25",
+    "updated": "2026-06-26",
+    "company": "Temu / PDD Holdings / WhaleCo",
+    "jurisdiction": "United States / Arkansas",
+    "region": "North America",
+    "industry": "Cross-border e-commerce",
+    "riskTypes": ["data-cybersecurity", "platform-product-safety", "disputes-crisis"],
+    "status": "litigation",
+    "title": {
+      "zh": "Temu阿肯色州数据诉讼：消费者保护与移动端权限风险",
+      "en": "Temu Arkansas data lawsuit: consumer protection and mobile-permission risk"
+    },
+    "summary": {
+      "zh": "阿肯色州总检察长起诉Temu，主张其违反州消费者保护和个人信息保护法律，显示州级执法可成为平台合规压力源。",
+      "en": "The Arkansas Attorney General sued Temu under state consumer and personal-information protection laws, showing how state enforcement can pressure platform compliance."
+    },
+    "facts": {
+      "zh": "诉讼把Temu及其关联主体纳入被告，重点指向数据访问、披露、消费者误导和应用权限。",
+      "en": "The lawsuit names Temu and related entities and focuses on data access, disclosures, alleged consumer deception, and app permissions."
+    },
+    "legalIssues": ["州消费者保护法 / state consumer protection", "个人信息保护 / personal information protection", "应用权限 / app permissions"],
+    "complianceLessons": {
+      "zh": "跨境电商App需要把权限调用、SDK、数据共享、暗黑模式和隐私披露纳入美国州法审查，而非只关注联邦法律。",
+      "en": "Cross-border e-commerce apps need U.S. state-law review of permissions, SDKs, data sharing, dark patterns, and privacy disclosures, not only federal-law analysis."
+    },
+    "sources": [
+      {"label": "Arkansas Attorney General, Temu lawsuit announcement", "url": "https://arkansasag.gov/news-release/attorney-general-griffin-sues-chinese-e-commerce-company-temu-for-deceiving-arkansans-illegally-accessing-their-personal-information/", "type": "state-attorney-general"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "shein-temu-cpsc-product-safety-review",
+    "date": "2024-09-03",
+    "updated": "2026-06-26",
+    "company": "Temu / Shein and other foreign e-commerce platforms",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Cross-border e-commerce",
+    "riskTypes": ["platform-product-safety", "supply-chain-labour", "trade-remedies-subsidies"],
+    "status": "regulator-review",
+    "title": {
+      "zh": "CPSC关注Temu、Shein：低价跨境电商的产品安全责任",
+      "en": "CPSC scrutiny of Temu and Shein: product-safety duties for low-cost cross-border e-commerce"
+    },
+    "summary": {
+      "zh": "美国消费品安全委员会委员要求评估Shein、Temu等外国电商平台如何履行消费品安全法义务。",
+      "en": "CPSC commissioners called for staff evaluation of how Shein, Temu, and similar foreign-owned platforms meet Consumer Product Safety Act obligations."
+    },
+    "facts": {
+      "zh": "监管关注平台上可购买的婴幼儿、儿童和其他高风险产品，以及平台、进口商、分销商和制造商之间责任如何分配。",
+      "en": "Regulatory concern includes baby, toddler, child, and other high-risk products available on platforms, and how responsibility is allocated among platforms, importers, distributors, and manufacturers."
+    },
+    "legalIssues": ["消费品安全 / consumer product safety", "进口商责任 / importer responsibility", "平台治理 / platform governance"],
+    "complianceLessons": {
+      "zh": "平台要建立高风险品类禁限售、测试报告、召回、美国进口主体和售后事故报告机制。",
+      "en": "Platforms need restricted-category controls, testing reports, recall procedures, U.S. importer mapping, and incident-reporting mechanisms."
+    },
+    "sources": [
+      {"label": "CPSC Commissioners' statement on foreign e-commerce sites", "url": "https://www.cpsc.gov/About-CPSC/Commissioner/Douglas-Dziak-Peter-A-Feldman/Statement/Joint-Statement-of-Commissioners-Peter-A-Feldman-and-Douglas-Dziak-Examining-the-Operations-of-Foreign-E-Commerce-Sites", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "pinduoduo-google-play-malware",
+    "date": "2023-03-21",
+    "updated": "2026-06-26",
+    "company": "Pinduoduo / PDD Holdings",
+    "jurisdiction": "Global app stores / United States",
+    "region": "Global",
+    "industry": "E-commerce and mobile applications",
+    "riskTypes": ["data-cybersecurity", "platform-product-safety", "disputes-crisis"],
+    "status": "platform-suspension",
+    "title": {
+      "zh": "拼多多App安全事件：应用商店治理与移动端信任风险",
+      "en": "Pinduoduo app security incident: app-store governance and mobile trust risk"
+    },
+    "summary": {
+      "zh": "Google因安全担忧暂停拼多多App在Google Play的版本，并通过Play Protect处理被识别的恶意版本，显示海外平台规则可直接影响用户触达。",
+      "en": "Google suspended the Google Play version of Pinduoduo over security concerns and used Play Protect against identified malicious versions, showing app-store rules can directly affect market access."
+    },
+    "facts": {
+      "zh": "公开报道援引Google称，部分非Play版本被发现含有恶意软件；PDD Holdings年度报告和披露也显示其面临数据、隐私和平台政策风险。",
+      "en": "Public reports quoted Google as saying off-Play versions were found to contain malware; PDD Holdings filings also disclose data, privacy, and platform-policy risks."
+    },
+    "legalIssues": ["恶意软件识别 / malware identification", "应用商店政策 / app-store policy", "移动端权限 / mobile permissions"],
+    "complianceLessons": {
+      "zh": "移动应用出海要把权限最小化、第三方SDK、漏洞利用、应用商店政策和危机沟通作为工程合规的一部分。",
+      "en": "Mobile apps going abroad should treat permission minimization, third-party SDKs, exploit prevention, app-store policy, and crisis communications as engineering compliance."
+    },
+    "sources": [
+      {"label": "KrebsOnSecurity, Google suspends Pinduoduo over malware", "url": "https://krebsonsecurity.com/2023/03/google-suspends-chinese-e-commerce-app-pinduoduo-over-malware/", "type": "security-reporting"},
+      {"label": "SEC, PDD Holdings 2023 Form 20-F", "url": "https://www.sec.gov/Archives/edgar/data/1737806/000110465924051610/pdd-20231231x20f.htm", "type": "company-filing"},
+      {"label": "Google Play Protect overview", "url": "https://developers.google.com/android/play-protect", "type": "platform-guidance"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "luckin-sec-accounting-fraud",
+    "date": "2020-12-16",
+    "updated": "2026-06-26",
+    "company": "Luckin Coffee Inc.",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Consumer retail and securities",
+    "riskTypes": ["anti-corruption-procurement", "disputes-crisis", "tax-structure"],
+    "status": "settled",
+    "title": {
+      "zh": "瑞幸SEC会计欺诈案：海外上市公司的财务内控风险",
+      "en": "Luckin SEC accounting-fraud case: financial-control risk for overseas-listed companies"
+    },
+    "summary": {
+      "zh": "美国SEC指控瑞幸通过虚增收入、费用和经营亏损误导投资者，并以1.8亿美元罚款达成和解。",
+      "en": "The SEC charged Luckin with misleading investors by materially misstating revenue, expenses, and operating loss, resolving the case with a USD 180 million penalty."
+    },
+    "facts": {
+      "zh": "瑞幸曾在纳斯达克交易，事件导致退市、投资者诉讼和跨境审计信任危机，是中概股财务合规的关键案例。",
+      "en": "Luckin had traded on Nasdaq; the matter led to delisting, investor litigation, and a cross-border audit-trust crisis for China-based issuers."
+    },
+    "legalIssues": ["证券欺诈 / securities fraud", "收入确认 / revenue recognition", "内控缺陷 / internal controls"],
+    "complianceLessons": {
+      "zh": "海外上市企业需要可审计的销售流水、费用凭证、关联方交易、内部举报和董事会审计委员会监督机制。",
+      "en": "Overseas-listed firms need auditable sales records, expense evidence, related-party controls, whistleblowing, and audit committee oversight."
+    },
+    "sources": [
+      {"label": "SEC, Luckin Coffee accounting fraud settlement", "url": "https://www.sec.gov/newsroom/press-releases/2020-319", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "didi-cac-cybersecurity-penalty-delisting",
+    "date": "2022-07-21",
+    "updated": "2026-06-26",
+    "company": "DiDi Global Inc.",
+    "jurisdiction": "China / United States",
+    "region": "Asia / North America",
+    "industry": "Mobility platform and securities",
+    "riskTypes": ["data-cybersecurity", "disputes-crisis", "investment-screening"],
+    "status": "penalty-and-delisting",
+    "title": {
+      "zh": "滴滴网络安全审查与退市：数据安全如何影响海外资本市场路径",
+      "en": "DiDi cybersecurity review and delisting: data security affecting overseas capital-market paths"
+    },
+    "summary": {
+      "zh": "滴滴在美国上市后遭遇中国网络安全审查和80.26亿元行政处罚，随后推进从纽交所退市，显示数据监管与海外融资高度联动。",
+      "en": "After its U.S. listing, DiDi faced China's cybersecurity review and an RMB 8.026 billion penalty, then pursued NYSE delisting, showing the link between data regulation and overseas financing."
+    },
+    "facts": {
+      "zh": "国家网信办称滴滴违反网络安全、数据安全和个人信息保护相关法律；公司SEC文件说明退市及未来境外上市可能需要监管备案和网络安全审查。",
+      "en": "CAC said DiDi violated cybersecurity, data security, and personal-information laws; company SEC filings described delisting and potential cybersecurity review for future overseas listings."
+    },
+    "legalIssues": ["网络安全审查 / cybersecurity review", "海外上市 / overseas listing", "个人信息保护 / personal information protection"],
+    "complianceLessons": {
+      "zh": "数据密集型平台筹划境外上市时，需要在申报前完成数据资产盘点、监管沟通、出境评估和重大风险披露。",
+      "en": "Data-intensive platforms planning overseas listings need data inventories, regulator engagement, export assessments, and material-risk disclosure before filing."
+    },
+    "sources": [
+      {"label": "CAC, DiDi cybersecurity review penalty decision", "url": "https://www.cac.gov.cn/2022-07/21/c_1660021534306352.htm", "type": "regulator"},
+      {"label": "SEC, DiDi Form 6-K on delisting", "url": "https://www.sec.gov/Archives/edgar/data/1764757/000110465922058767/tm2215189d1_6k.htm", "type": "company-filing"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "alibaba-samr-antitrust-fine",
+    "date": "2021-04-10",
+    "updated": "2026-06-26",
+    "company": "Alibaba Group",
+    "jurisdiction": "China / Global investors",
+    "region": "Asia / Global",
+    "industry": "E-commerce platform",
+    "riskTypes": ["platform-product-safety", "disputes-crisis", "tax-structure"],
+    "status": "enforced",
+    "title": {
+      "zh": "阿里巴巴反垄断处罚：平台生态治理影响全球投资者披露",
+      "en": "Alibaba antitrust penalty: platform ecosystem governance affecting global investor disclosure"
+    },
+    "summary": {
+      "zh": "国家市场监管总局对阿里巴巴平台“二选一”行为作出处罚，阿里通过SEC文件披露英文处罚决定，体现本土执法与海外资本市场披露相互连接。",
+      "en": "SAMR penalized Alibaba's platform exclusivity conduct, and Alibaba furnished the decision through SEC filings, linking domestic enforcement and global capital-market disclosure."
+    },
+    "facts": {
+      "zh": "处罚决定要求停止违法行为并处以182.28亿元罚款，相当于阿里2019年中国境内销售额的4%。",
+      "en": "The decision ordered Alibaba to cease the conduct and imposed an RMB 18.228 billion fine, equal to 4% of Alibaba's 2019 China revenue."
+    },
+    "legalIssues": ["滥用市场支配地位 / abuse of dominance", "平台排他安排 / platform exclusivity", "上市公司披露 / issuer disclosure"],
+    "complianceLessons": {
+      "zh": "平台企业的商家规则、流量分配、促销排他和惩罚机制需要接受竞争法、合同法和证券披露三重审查。",
+      "en": "Platform merchant rules, traffic allocation, promotion exclusivity, and penalties need competition-law, contract-law, and securities-disclosure review."
+    },
+    "sources": [
+      {"label": "SEC exhibit, SAMR administrative penalty decision for Alibaba", "url": "https://www.sec.gov/Archives/edgar/data/1577552/000110465921049093/a21-12710_1ex99d1.htm", "type": "company-filing"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "wechat-executive-order-litigation",
+    "date": "2020-08-06",
+    "updated": "2026-06-26",
+    "company": "Tencent / WeChat",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Social platform and payments",
+    "riskTypes": ["data-cybersecurity", "sanctions-export-controls", "disputes-crisis"],
+    "status": "rescinded-after-litigation",
+    "title": {
+      "zh": "WeChat美国禁令诉讼：国家安全、言论和平台依赖",
+      "en": "WeChat U.S. ban litigation: national security, speech, and platform dependence"
+    },
+    "summary": {
+      "zh": "美国行政令试图限制与WeChat相关交易，引发用户诉讼并被法院初步禁令阻却，后续相关行政令被撤销。",
+      "en": "A U.S. executive order sought to restrict WeChat-related transactions, triggered user litigation and a preliminary injunction, and was later revoked."
+    },
+    "facts": {
+      "zh": "案件显示以国家安全为依据的平台禁令会同时涉及用户言论、商业支付、跨境社群通信和行政权力边界。",
+      "en": "The case shows that national-security platform bans can implicate speech, payments, cross-border community communications, and limits on executive power."
+    },
+    "legalIssues": ["IEEPA / emergency economic powers", "第一修正案 / First Amendment", "平台禁令 / platform ban"],
+    "complianceLessons": {
+      "zh": "面向海外社群和支付场景的平台要准备禁令响应、用户迁移、司法救济、政府沟通和商业连续性方案。",
+      "en": "Platforms serving overseas communities and payments need ban-response, user-migration, litigation, government-engagement, and business-continuity plans."
+    },
+    "sources": [
+      {"label": "Federal Register, Executive Order 13943 on WeChat", "url": "https://www.federalregister.gov/documents/2020/08/11/2020-17700/addressing-the-threat-posed-by-wechat-and-taking-additional-steps-to-address-the-national-emergency", "type": "executive-order"},
+      {"label": "CourtListener docket, U.S. WeChat Users Alliance v. Trump", "url": "https://www.courtlistener.com/docket/17470217/us-wechat-users-alliance/", "type": "court"},
+      {"label": "Federal Register, revocation framework for sensitive data orders", "url": "https://www.federalregister.gov/documents/2021/06/11/2021-12506/protecting-americans-sensitive-data-from-foreign-adversaries", "type": "executive-order"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "alipay-wechat-pay-connected-software-eo",
+    "date": "2021-01-05",
+    "updated": "2026-06-26",
+    "company": "Alipay / Tencent QQ / WeChat Pay / WPS and other apps",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Connected software and payments",
+    "riskTypes": ["data-cybersecurity", "sanctions-export-controls", "platform-product-safety"],
+    "status": "revoked-but-precedential",
+    "title": {
+      "zh": "支付宝、微信支付等连接软件行政令：支付和应用生态的国家安全化",
+      "en": "Alipay, WeChat Pay, and connected-software order: national securitization of payments and app ecosystems"
+    },
+    "summary": {
+      "zh": "美国行政令曾拟禁止与支付宝、QQ Wallet、WeChat Pay、WPS等中国连接软件有关的特定交易，虽后被撤销，但留下了数据安全审查模板。",
+      "en": "A U.S. executive order sought to prohibit certain transactions involving Alipay, QQ Wallet, WeChat Pay, WPS, and other Chinese connected apps; it was revoked but left a data-security template."
+    },
+    "facts": {
+      "zh": "该命令以敏感个人信息、商业信息和外国对手应用为核心叙事，后被拜登政府以更一般的数据安全框架取代。",
+      "en": "The order focused on sensitive personal data, commercial information, and foreign-adversary apps, and was later replaced by a broader sensitive-data review framework."
+    },
+    "legalIssues": ["连接软件 / connected software", "支付数据 / payment data", "行政令撤销 / revoked executive order"],
+    "complianceLessons": {
+      "zh": "支付和超级App出海要证明数据本地化、最小化、第三方共享、政府访问和美国用户数据保护安排。",
+      "en": "Payment and super-app businesses need proof of data localization or controls, minimization, third-party sharing limits, government-access controls, and U.S.-user data safeguards."
+    },
+    "sources": [
+      {"label": "Federal Register, Executive Order 13971 on Chinese connected software", "url": "https://www.federalregister.gov/documents/2021/01/08/2021-00305/addressing-the-threat-posed-by-applications-and-other-software-developed-or-controlled-by-chinese", "type": "executive-order"},
+      {"label": "Federal Register, Executive Order 14034 revoking prior app orders", "url": "https://www.federalregister.gov/documents/2021/06/11/2021-12506/protecting-americans-sensitive-data-from-foreign-adversaries", "type": "executive-order"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "tencent-dod-1260h-list",
+    "date": "2025-01-07",
+    "updated": "2026-06-26",
+    "company": "Tencent Holdings",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Digital platforms, games, and cloud",
+    "riskTypes": ["investment-screening", "sanctions-export-controls", "disputes-crisis"],
+    "status": "listed-disputed",
+    "title": {
+      "zh": "腾讯1260H名单案：非制裁清单也会影响资本市场和客户采购",
+      "en": "Tencent 1260H listing: non-sanctions lists still affect capital markets and procurement"
+    },
+    "summary": {
+      "zh": "美国国防部将腾讯列入1260H“中国军事公司”名单，虽不等同于制裁，但会引发投资者、客户和合作伙伴的风险重评。",
+      "en": "The U.S. Department of Defense included Tencent on the Section 1260H Chinese military companies list; although not a sanctions list, it can trigger investor, customer, and partner reassessment."
+    },
+    "facts": {
+      "zh": "1260H名单公开识别被美国国防部认定在美国直接或间接运营的中国军事公司；市场通常把其视为未来限制的风险信号。",
+      "en": "The 1260H list publicly identifies Chinese military companies operating directly or indirectly in the United States; markets often treat it as a signal for possible future restrictions."
+    },
+    "legalIssues": ["1260H名单 / Section 1260H list", "客户尽调 / customer diligence", "资本市场风险 / capital-market risk"],
+    "complianceLessons": {
+      "zh": "被列名企业要快速准备事实反驳材料、业务边界说明、政府沟通、投资者问答和供应合同通知方案。",
+      "en": "Listed companies should rapidly prepare factual rebuttal materials, business-separation explanations, government engagement, investor Q&A, and customer-contract notification plans."
+    },
+    "sources": [
+      {"label": "U.S. Department of Defense, Section 1260H list release", "url": "https://www.war.gov/News/Releases/Release/Article/4023145/dod-releases-list-of-chinese-military-companies-in-accordance-with-section-1260/", "type": "government"},
+      {"label": "DoD PDF, entities identified as Chinese military companies", "url": "https://media.defense.gov/2025/Jan/07/2003625471/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES.PDF", "type": "government-list"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "sensetime-ofac-cmic-list",
+    "date": "2021-12-10",
+    "updated": "2026-06-26",
+    "company": "SenseTime Group Limited",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Artificial intelligence and surveillance technology",
+    "riskTypes": ["sanctions-export-controls", "data-cybersecurity", "esg-climate"],
+    "status": "listed",
+    "title": {
+      "zh": "商汤OFAC CMIC名单案：AI、人权和资本市场限制的交叉",
+      "en": "SenseTime OFAC CMIC listing: AI, human rights, and capital-market restrictions intersect"
+    },
+    "summary": {
+      "zh": "美国财政部将商汤识别为非SDN中国军工复合体公司，理由涉及监控技术和人权风险，影响美国投资者交易。",
+      "en": "The U.S. Treasury identified SenseTime as a Non-SDN Chinese Military-Industrial Complex company, citing surveillance technology and human-rights concerns that affect U.S. investor dealings."
+    },
+    "facts": {
+      "zh": "OFAC称商汤控制从事中国监控技术行业的主体；相关清单虽非SDN冻结制裁，但限制美国人买卖相关公开证券。",
+      "en": "OFAC stated SenseTime owns or controls an entity operating in China's surveillance technology sector; the list is not SDN blocking sanctions but restricts U.S. persons' securities transactions."
+    },
+    "legalIssues": ["CMIC证券限制 / CMIC securities restrictions", "AI监控 / AI surveillance", "人权尽调 / human-rights due diligence"],
+    "complianceLessons": {
+      "zh": "AI企业出海要准备用途管制、客户筛查、人权影响评估、数据集来源说明和投资者限制沟通。",
+      "en": "AI firms going global need use-case controls, customer screening, human-rights impact assessment, dataset provenance, and investor-restriction communications."
+    },
+    "sources": [
+      {"label": "U.S. Treasury, serious human rights abuse sanctions release", "url": "https://home.treasury.gov/news/press-releases/jy0526", "type": "regulator"},
+      {"label": "OFAC, Chinese Military Companies sanctions program", "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information/chinese-military-companies-sanctions", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "hikvision-canada-national-security-wind-up",
+    "date": "2025-06-27",
+    "updated": "2026-06-26",
+    "company": "Hikvision Canada Inc.",
+    "jurisdiction": "Canada",
+    "region": "North America",
+    "industry": "Video surveillance and security technology",
+    "riskTypes": ["investment-screening", "data-cybersecurity", "disputes-crisis"],
+    "status": "wind-up-ordered",
+    "title": {
+      "zh": "海康威视加拿大清盘命令：安防设备与投资国家安全审查",
+      "en": "Hikvision Canada wind-up order: security equipment and investment national-security review"
+    },
+    "summary": {
+      "zh": "加拿大在《加拿大投资法》国家安全审查框架下要求海康威视加拿大业务停止运营并清盘，凸显安防设备企业的本地运营风险。",
+      "en": "Canada ordered Hikvision's Canadian business to cease operations and wind up under the Investment Canada Act national security framework, highlighting local-operation risk for security-equipment firms."
+    },
+    "facts": {
+      "zh": "加拿大国家安全决定页面列明，总督会同行政局命令Hikvision Canada Inc.清盘其加拿大业务并停止所有运营。",
+      "en": "Canada's national security decisions page states that the Governor in Council ordered Hikvision Canada Inc. to wind up its Canadian business and cease all operations in Canada."
+    },
+    "legalIssues": ["国家安全审查 / national security review", "视频监控 / video surveillance", "业务清盘 / business wind-up"],
+    "complianceLessons": {
+      "zh": "安防和物联网企业在海外要评估政府客户、云访问、固件更新、售后服务和本地雇佣安排的国家安全敏感性。",
+      "en": "Security and IoT companies abroad should assess the national-security sensitivity of government customers, cloud access, firmware updates, after-sales service, and local employment arrangements."
+    },
+    "sources": [
+      {"label": "Investment Canada Act, national security decisions", "url": "https://ised-isde.canada.ca/site/investment-canada-act/en/national-security-decisions", "type": "government"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "fcc-secure-equipment-authorizations",
+    "date": "2022-11-25",
+    "updated": "2026-06-26",
+    "company": "Huawei, ZTE, Hikvision, Dahua, Hytera",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Telecom and surveillance equipment",
+    "riskTypes": ["sanctions-export-controls", "platform-product-safety", "investment-screening"],
+    "status": "effective",
+    "title": {
+      "zh": "FCC安全设备授权禁令：从采购限制进入市场准入限制",
+      "en": "FCC secure-equipment authorization ban: from procurement restrictions to market-access restrictions"
+    },
+    "summary": {
+      "zh": "美国FCC在安全设备法框架下限制被覆盖清单企业相关设备获得新的设备授权，影响通信、安防和物联网产品销售。",
+      "en": "Under the Secure Equipment Act framework, the FCC restricted new equipment authorizations for covered-list firms, affecting telecom, surveillance, and IoT product sales."
+    },
+    "facts": {
+      "zh": "FCC覆盖清单列明被认为对美国国家安全构成不可接受风险的通信设备和服务；设备授权限制使清单风险从政府采购扩展到更广市场。",
+      "en": "The FCC Covered List identifies equipment and services deemed to pose unacceptable national-security risk; equipment-authorization restrictions extend list risk from government procurement to broader market access."
+    },
+    "legalIssues": ["设备授权 / equipment authorization", "覆盖清单 / Covered List", "进口销售限制 / import and sale restrictions"],
+    "complianceLessons": {
+      "zh": "硬件企业要在产品设计阶段确认射频、摄像、网络和云组件是否触发覆盖清单、认证、标签和进口限制。",
+      "en": "Hardware companies should check at design stage whether radio, camera, networking, and cloud components trigger covered-list, certification, labeling, or import restrictions."
+    },
+    "sources": [
+      {"label": "FCC Covered List", "url": "https://www.fcc.gov/supplychain/coveredlist", "type": "regulator"},
+      {"label": "Federal Register, FCC supply-chain national security rule", "url": "https://www.federalregister.gov/documents/2020/01/03/2019-27610/protecting-against-national-security-threats-to-the-communications-supply-chain-through-fcc-programs", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
   }
 ]
