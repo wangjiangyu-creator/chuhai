@@ -1,0 +1,132 @@
+---
+import SourceBadge from './SourceBadge.astro';
+import background from '../data/background.json';
+import { text, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const ui = {
+  zh: {
+    heading: '背景与理论',
+    intro: '本栏目提供出海研究的基础框架：先理解中国企业出海的结构变化和政策演变，再区分法律、合规与风险，最后把主要问题放入可解释的理论框架。',
+    situation: '出海情况',
+    concepts: '法律、合规与风险',
+    timeline: '国家政策演变',
+    theory: '理论框架',
+    sources: '参考来源',
+    question: '核心问题',
+    evidence: '常见证据',
+    owner: '组织责任'
+  },
+  en: {
+    heading: 'Background and Theory',
+    intro: 'This section sets the baseline for research: the structural shift in Chinese companies going global, the evolution of PRC policy, the distinction between law, compliance and risk, and the theoretical frames that explain recurring disputes.',
+    situation: 'Outbound Context',
+    concepts: 'Law, Compliance, and Risk',
+    timeline: 'Policy Evolution',
+    theory: 'Theory Frames',
+    sources: 'Reference Sources',
+    question: 'Core question',
+    evidence: 'Typical evidence',
+    owner: 'Organizational owner'
+  }
+}[lang];
+---
+
+<section class="page-head">
+  <SourceBadge lang={lang} />
+  <h1>{ui.heading}</h1>
+  <p>{ui.intro}</p>
+</section>
+
+<section class="section">
+  <div class="section-header">
+    <h2>{ui.situation}</h2>
+    <p>{text(background.sections[0].summary, lang)}</p>
+  </div>
+  <div class="two-column">
+    {background.sections.map((section) => (
+      <article class="panel rich-panel">
+        <p class="eyebrow">{section.id}</p>
+        <h3>{text(section.title, lang)}</h3>
+        <p>{text(section.summary, lang)}</p>
+        <ul class="clean-list">
+          {section.points[lang].map((point) => <li>{point}</li>)}
+        </ul>
+      </article>
+    ))}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-header">
+    <h2>{ui.concepts}</h2>
+    <p>{text(background.sections[1].summary, lang)}</p>
+  </div>
+  <table class="source-table concept-table">
+    <thead>
+      <tr>
+        <th>{ui.concepts}</th>
+        <th>{ui.question}</th>
+        <th>{ui.evidence}</th>
+        <th>{ui.owner}</th>
+      </tr>
+    </thead>
+    <tbody>
+      {background.comparison.map((item) => (
+        <tr>
+          <td><strong>{text(item.concept, lang)}</strong></td>
+          <td>{text(item.question, lang)}</td>
+          <td>{text(item.evidence, lang)}</td>
+          <td>{text(item.owner, lang)}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</section>
+
+<section class="section">
+  <div class="section-header">
+    <h2>{ui.timeline}</h2>
+    <p>{lang === 'zh' ? '时间线强调与企业出海合规直接相关的政策节点，而不是完整政策史。' : 'The timeline highlights policy nodes directly relevant to outbound compliance rather than a complete policy history.'}</p>
+  </div>
+  <div class="policy-timeline">
+    {background.timeline.map((item) => (
+      <article class="timeline-item">
+        <div class="timeline-meta"><span>{item.year}</span></div>
+        <h2>{text(item.title, lang)}</h2>
+        <p>{text(item.summary, lang)}</p>
+      </article>
+    ))}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-header">
+    <h2>{ui.theory}</h2>
+    <p>{lang === 'zh' ? '这些框架帮助把个案从新闻事件转化为可比较、可解释的研究问题。' : 'These frames help convert individual cases from news events into comparable research problems.'}</p>
+  </div>
+  <div class="risk-grid">
+    {background.theoryFrames.map((frame) => (
+      <article class="risk-card">
+        <h2>{text(frame.title, lang)}</h2>
+        <p>{text(frame.summary, lang)}</p>
+      </article>
+    ))}
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-header">
+    <h2>{ui.sources}</h2>
+    <p>{lang === 'zh' ? '背景材料优先使用官方、监管机构、国际组织和可核验统计来源。' : 'Background materials prioritize official, regulator, international organization, and verifiable statistical sources.'}</p>
+  </div>
+  <ul class="source-list">
+    {background.sources.map((source) => (
+      <li><a href={source.url} rel="noreferrer" target="_blank">{source.label}</a><span>{source.type}</span></li>
+    ))}
+  </ul>
+</section>

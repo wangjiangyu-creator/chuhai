@@ -7,6 +7,9 @@ export const labels = {
     brand: '中国企业出海风险与合规研究门户',
     shortBrand: '企业出海',
     nav: {
+      background: '背景与理论',
+      scholarship: '学术研究',
+      practice: '企业实务',
       risks: '风险地图',
       cases: '案例库',
       updates: '最新发展',
@@ -36,6 +39,9 @@ export const labels = {
     brand: 'Chinese Companies Overseas Risk and Compliance Portal',
     shortBrand: 'Chuhai Risk',
     nav: {
+      background: 'Background',
+      scholarship: 'Scholarship',
+      practice: 'Practice',
       risks: 'Risk Map',
       cases: 'Cases',
       updates: 'Developments',

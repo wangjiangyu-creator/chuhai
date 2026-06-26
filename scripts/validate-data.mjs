@@ -31,6 +31,9 @@ const cases = await loadJson('cases.json');
 const updates = await loadJson('updates.json');
 const risks = await loadJson('risks.json');
 const playbooks = await loadJson('playbooks.json');
+const background = await loadJson('background.json');
+const scholarship = await loadJson('scholarship.json');
+const practice = await loadJson('practice.json');
 
 const ids = new Set();
 for (const item of cases) {
@@ -82,8 +85,66 @@ for (const playbook of playbooks) {
   if (!Array.isArray(playbook.steps) || playbook.steps.length === 0) errors.push(`${playbook.id}: steps must not be empty`);
 }
 
+if (!isIsoDate(background.updated)) errors.push(`background: updated must be YYYY-MM-DD`);
+if (!Array.isArray(background.sections) || background.sections.length < 3) errors.push(`background: expected at least 3 sections`);
+for (const section of background.sections ?? []) {
+  const label = section.id || '(missing id)';
+  if (!requiredText(section.id) || !hasBilingualText(section.title) || !hasBilingualText(section.summary)) {
+    errors.push(`background section incomplete: ${label}`);
+  }
+  if (!section.points || !Array.isArray(section.points.zh) || section.points.zh.length === 0 || !Array.isArray(section.points.en) || section.points.en.length === 0) {
+    errors.push(`${label}: background points require zh and en arrays`);
+  }
+}
+for (const item of background.comparison ?? []) {
+  const label = item.concept?.en || '(missing concept)';
+  for (const field of ['concept', 'question', 'evidence', 'owner']) {
+    if (!hasBilingualText(item[field])) errors.push(`background comparison ${label}: ${field} requires zh/en`);
+  }
+}
+for (const item of background.timeline ?? []) {
+  const label = item.year || '(missing year)';
+  if (!requiredText(item.year) || !hasBilingualText(item.title) || !hasBilingualText(item.summary)) {
+    errors.push(`background timeline incomplete: ${label}`);
+  }
+}
+for (const frame of background.theoryFrames ?? []) {
+  const label = frame.id || '(missing id)';
+  if (!requiredText(frame.id) || !hasBilingualText(frame.title) || !hasBilingualText(frame.summary)) {
+    errors.push(`background theory frame incomplete: ${label}`);
+  }
+}
+for (const source of background.sources ?? []) {
+  if (!requiredText(source.label) || !isValidUrl(source.url) || !requiredText(source.type)) {
+    errors.push(`background: invalid source ${JSON.stringify(source)}`);
+  }
+}
+
+for (const item of scholarship) {
+  const label = item.id || '(missing id)';
+  if (!requiredText(item.id)) errors.push(`scholarship missing id`);
+  if (!Number.isInteger(item.year) || item.year < 1900) errors.push(`${label}: scholarship year is invalid`);
+  if (!requiredText(item.type) || !requiredText(item.authors) || !requiredText(item.venue)) errors.push(`${label}: scholarship metadata incomplete`);
+  if (!hasBilingualText(item.title) || !hasBilingualText(item.summary)) errors.push(`${label}: scholarship title and summary require zh/en`);
+  if (!isValidUrl(item.url)) errors.push(`${label}: scholarship url is invalid`);
+  if (!Array.isArray(item.tags) || item.tags.length === 0) errors.push(`${label}: scholarship tags must not be empty`);
+}
+
+for (const item of practice) {
+  const label = item.id || '(missing id)';
+  if (!requiredText(item.id)) errors.push(`practice missing id`);
+  if (!Number.isInteger(item.year) || item.year < 1900) errors.push(`${label}: practice year is invalid`);
+  if (!requiredText(item.type) || !requiredText(item.organization)) errors.push(`${label}: practice metadata incomplete`);
+  if (!hasBilingualText(item.title) || !hasBilingualText(item.summary) || !hasBilingualText(item.useCase)) errors.push(`${label}: practice title, summary, and useCase require zh/en`);
+  if (!isValidUrl(item.url)) errors.push(`${label}: practice url is invalid`);
+  if (!Array.isArray(item.riskTypes) || item.riskTypes.length === 0) errors.push(`${label}: practice riskTypes must not be empty`);
+  if (!Array.isArray(item.tags) || item.tags.length === 0) errors.push(`${label}: practice tags must not be empty`);
+}
+
 if (cases.length < 30) errors.push(`expected at least 30 cases; found ${cases.length}`);
 if (updates.length < 12) errors.push(`expected at least 12 legal updates; found ${updates.length}`);
+if (scholarship.length < 10) errors.push(`expected at least 10 scholarship resources; found ${scholarship.length}`);
+if (practice.length < 10) errors.push(`expected at least 10 practice resources; found ${practice.length}`);
 
 fail(errors);
-console.log(`Validated ${cases.length} cases, ${updates.length} updates, ${risks.length} risk areas, and ${playbooks.length} playbooks.`);
+console.log(`Validated ${cases.length} cases, ${updates.length} updates, ${risks.length} risk areas, ${playbooks.length} playbooks, ${scholarship.length} scholarship resources, and ${practice.length} practice resources.`);

@@ -1,7 +1,10 @@
 ---
 import Layout from '../../components/Layout.astro';
 import SourceBadge from '../../components/SourceBadge.astro';
+import background from '../../data/background.json';
 import cases from '../../data/cases.json';
+import practice from '../../data/practice.json';
+import scholarship from '../../data/scholarship.json';
 import updates from '../../data/updates.json';
 
 const lang = 'en';
@@ -13,6 +16,15 @@ for (const item of cases) {
 }
 for (const item of updates) {
   sources.set(item.source.url, { ...item.source, usedIn: item.title.en });
+}
+for (const source of background.sources) {
+  sources.set(source.url, { ...source, usedIn: 'Background' });
+}
+for (const item of scholarship) {
+  sources.set(item.url, { label: item.title.en, url: item.url, type: item.type, usedIn: 'Scholarship' });
+}
+for (const item of practice) {
+  sources.set(item.url, { label: item.title.en, url: item.url, type: item.type, usedIn: 'Practice' });
 }
 const sourceList = [...sources.values()].sort((a, b) => a.label.localeCompare(b.label));
 ---

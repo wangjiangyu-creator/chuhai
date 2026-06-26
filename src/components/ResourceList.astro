@@ -1,0 +1,83 @@
+---
+import SourceBadge from './SourceBadge.astro';
+import { text, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+  mode: 'scholarship' | 'practice';
+  entries: Array<any>;
+}
+
+const { lang, mode, entries } = Astro.props;
+const ui = {
+  scholarship: {
+    zh: {
+      heading: '学术研究',
+      intro: '本栏目整理关于中国企业出海、对外直接投资、国家资本主义、国际投资法和跨境监管政治的代表性学术文章、著作与研究报告。',
+      meta: '作者/机构',
+      venue: '出版来源',
+      link: '打开文献'
+    },
+    en: {
+      heading: 'Scholarship',
+      intro: 'A curated research bibliography on Chinese companies going global, outward FDI, state capitalism, international investment law, and the politics of cross-border regulation.',
+      meta: 'Authors / institution',
+      venue: 'Venue',
+      link: 'Open source'
+    }
+  },
+  practice: {
+    zh: {
+      heading: '企业实务',
+      intro: '本栏目汇集企业法务、外部律师和监管机构可直接使用的实务材料：合规体系、供应链证据包、出口管制、制裁、数据、ESG、争议和危机响应。',
+      meta: '机构',
+      venue: '实务用途',
+      link: '打开资料'
+    },
+    en: {
+      heading: 'Practice',
+      intro: 'A practice reading list for in-house counsel, outside counsel, and compliance teams: compliance systems, supply-chain evidence, export controls, sanctions, data, ESG, disputes, and crisis response.',
+      meta: 'Organization',
+      venue: 'Practice use',
+      link: 'Open resource'
+    }
+  }
+}[mode][lang];
+
+const sortedEntries = [...entries].sort((a, b) => Number(b.year) - Number(a.year) || String(text(a.title, lang)).localeCompare(text(b.title, lang)));
+---
+
+<section class="page-head">
+  <SourceBadge lang={lang} />
+  <h1>{ui.heading}</h1>
+  <p>{ui.intro}</p>
+</section>
+
+<section class="section">
+  <div class="resource-grid">
+    {sortedEntries.map((entry) => (
+      <article class="resource-card">
+        <div class="resource-meta">
+          <span>{entry.year}</span>
+          <span>{entry.type}</span>
+        </div>
+        <h2>{text(entry.title, lang)}</h2>
+        <dl class="resource-details">
+          <div>
+            <dt>{ui.meta}</dt>
+            <dd>{entry.authors ?? entry.organization}</dd>
+          </div>
+          <div>
+            <dt>{ui.venue}</dt>
+            <dd>{entry.venue ?? text(entry.useCase, lang)}</dd>
+          </div>
+        </dl>
+        <p>{text(entry.summary, lang)}</p>
+        <div class="tag-list">
+          {(entry.tags ?? entry.riskTypes ?? []).slice(0, 4).map((tag: string) => <span>{tag}</span>)}
+        </div>
+        <a class="text-link" href={entry.url} rel="noreferrer" target="_blank">{ui.link}</a>
+      </article>
+    ))}
+  </div>
+</section>

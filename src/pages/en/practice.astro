@@ -1,0 +1,16 @@
+---
+import Layout from '../../components/Layout.astro';
+import ResourceList from '../../components/ResourceList.astro';
+import practice from '../../data/practice.json';
+
+const lang = 'en';
+---
+
+<Layout
+  title="Practice | Chuhai Risk"
+  description="Practice materials from in-house, law firm, and regulator sources on overseas legal risk, compliance systems, and crisis response."
+  lang={lang}
+  route="practice"
+>
+  <ResourceList lang={lang} mode="practice" entries={practice} />
+</Layout>

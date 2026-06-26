@@ -1,0 +1,16 @@
+---
+import Layout from '../components/Layout.astro';
+import ResourceList from '../components/ResourceList.astro';
+import scholarship from '../data/scholarship.json';
+
+const lang = 'zh';
+---
+
+<Layout
+  title="学术研究 | 中国企业出海"
+  description="关于中国企业出海、对外直接投资、国家资本主义和国际投资法的学术文章、著作和研究报告。"
+  lang={lang}
+  route="scholarship"
+>
+  <ResourceList lang={lang} mode="scholarship" entries={scholarship} />
+</Layout>

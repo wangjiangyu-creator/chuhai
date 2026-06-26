@@ -1,0 +1,16 @@
+---
+import Layout from '../components/Layout.astro';
+import ResourceList from '../components/ResourceList.astro';
+import practice from '../data/practice.json';
+
+const lang = 'zh';
+---
+
+<Layout
+  title="企业实务 | 中国企业出海"
+  description="企业法务、律师事务所和监管机构关于中国企业出海法律风险、合规体系和危机响应的实务资料。"
+  lang={lang}
+  route="practice"
+>
+  <ResourceList lang={lang} mode="practice" entries={practice} />
+</Layout>

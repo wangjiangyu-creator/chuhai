@@ -1,0 +1,338 @@
+[
+  {
+    "id": "ofac-compliance-framework",
+    "year": 2019,
+    "type": "regulator guidance",
+    "organization": "U.S. Treasury OFAC",
+    "title": {
+      "zh": "OFAC制裁合规承诺框架",
+      "en": "A Framework for OFAC Compliance Commitments"
+    },
+    "summary": {
+      "zh": "企业建立制裁合规体系时的基础框架，强调管理层承诺、风险评估、内部控制、测试审计和培训五个支柱。适合用于海外子公司、销售渠道和第三方付款控制。",
+      "en": "A baseline sanctions compliance framework built around management commitment, risk assessment, internal controls, testing and auditing, and training. Useful for overseas subsidiaries, sales channels, and third-party payment controls."
+    },
+    "url": "https://ofac.treasury.gov/media/16331/download?inline",
+    "riskTypes": ["sanctions-export-controls", "third-party"],
+    "useCase": {
+      "zh": "制裁筛查、第三方尽调、付款审批和董事会合规报告模板。",
+      "en": "Sanctions screening, third-party diligence, payment approval, and board reporting."
+    },
+    "tags": ["sanctions", "controls", "audit"]
+  },
+  {
+    "id": "bis-export-compliance-guidelines",
+    "year": 2024,
+    "type": "regulator guidance",
+    "organization": "U.S. Commerce BIS",
+    "title": {
+      "zh": "BIS出口合规计划指南",
+      "en": "BIS export compliance program guidance"
+    },
+    "summary": {
+      "zh": "出口管制合规的实务框架，强调管理层支持、风险评估、分类、最终用途和最终用户筛查、记录保存、培训、审计和整改。",
+      "en": "A practical export-control compliance framework covering management support, risk assessment, classification, end-use and end-user screening, recordkeeping, training, auditing, and remediation."
+    },
+    "url": "https://www.bis.gov/developing-an-export-compliance-program",
+    "riskTypes": ["sanctions-export-controls", "technology"],
+    "useCase": {
+      "zh": "半导体、AI、无人机、传感器、云服务和双用途产品出口/再出口管理。",
+      "en": "Export and re-export control for semiconductors, AI, drones, sensors, cloud services, and dual-use products."
+    },
+    "tags": ["export controls", "screening", "classification"]
+  },
+  {
+    "id": "doj-compliance-programs",
+    "year": 2024,
+    "type": "prosecutorial guidance",
+    "organization": "U.S. Department of Justice",
+    "title": {
+      "zh": "美国司法部公司合规项目评估",
+      "en": "Evaluation of Corporate Compliance Programs"
+    },
+    "summary": {
+      "zh": "美国执法机关判断企业合规项目是否有效的核心文件，重点关注风险导向、资源配置、数据使用、第三方管理、并购整合和持续改进。",
+      "en": "A central document for how U.S. prosecutors assess corporate compliance programs, focusing on risk orientation, resources, data use, third-party management, M&A integration, and continuous improvement."
+    },
+    "url": "https://www.justice.gov/criminal/criminal-fraud/page/file/937501/download",
+    "riskTypes": ["anti-corruption", "third-party", "crisis-response"],
+    "useCase": {
+      "zh": "搭建集团合规体系、调查整改、并购后整合和自愿披露评估。",
+      "en": "Group compliance design, investigation remediation, post-acquisition integration, and voluntary disclosure assessment."
+    },
+    "tags": ["anti-corruption", "third party", "investigation"]
+  },
+  {
+    "id": "cbp-uflpa-importer-guidance",
+    "year": 2024,
+    "type": "regulator guidance",
+    "organization": "U.S. Customs and Border Protection",
+    "title": {
+      "zh": "UFLPA进口商操作指南",
+      "en": "UFLPA Operational Guidance for Importers"
+    },
+    "summary": {
+      "zh": "供应链强迫劳动执法中的证据包参考，列明进口商需要准备的交易、生产、运输、供应商和劳工材料。",
+      "en": "A reference for evidence packages in forced-labour enforcement, identifying transaction, production, shipping, supplier, and labour documentation expected from importers."
+    },
+    "url": "https://www.cbp.gov/document/guidance/uflpa-operational-guidance-importers",
+    "riskTypes": ["supply-chain-labour", "trade-remedies"],
+    "useCase": {
+      "zh": "供应链地图、原产地证明、采购合同、物料清单、运输链和供应商审计。",
+      "en": "Supply-chain mapping, origin proof, purchase contracts, bills of materials, shipping chain, and supplier audits."
+    },
+    "tags": ["forced labour", "evidence package", "customs"]
+  },
+  {
+    "id": "oecd-due-diligence-guidance",
+    "year": 2018,
+    "type": "international guidance",
+    "organization": "OECD",
+    "title": {
+      "zh": "负责任商业行为尽职调查指南",
+      "en": "Due Diligence Guidance for Responsible Business Conduct"
+    },
+    "summary": {
+      "zh": "适用于跨国供应链ESG、人权、劳工、环境和申诉机制的通用尽调框架，可与欧盟CSDDD、强迫劳动和可持续报告要求衔接。",
+      "en": "A general due-diligence framework for ESG, human rights, labour, environment, and grievance mechanisms across multinational supply chains, useful alongside CSDDD, forced-labour, and sustainability-reporting obligations."
+    },
+    "url": "https://mneguidelines.oecd.org/OECD-Due-Diligence-Guidance-for-Responsible-Business-Conduct.pdf",
+    "riskTypes": ["esg-cbam", "supply-chain-labour"],
+    "useCase": {
+      "zh": "供应商行为准则、申诉机制、风险分级、整改计划和利益相关方沟通。",
+      "en": "Supplier codes, grievance mechanisms, risk tiering, remediation plans, and stakeholder engagement."
+    },
+    "tags": ["RBC", "ESG", "supply chain"]
+  },
+  {
+    "id": "eu-csddd-practice",
+    "year": 2024,
+    "type": "regulatory explainer",
+    "organization": "European Commission",
+    "title": {
+      "zh": "欧盟企业可持续尽职调查指令实务入口",
+      "en": "EU Corporate Sustainability Due Diligence Directive practice portal"
+    },
+    "summary": {
+      "zh": "欧盟CSDDD要求大型企业在自身运营、子公司和活动链中识别、预防、减轻和终止人权及环境不利影响，中企作为供应商或欧盟市场经营者都可能受到间接或直接影响。",
+      "en": "The CSDDD requires large companies to identify, prevent, mitigate, and end adverse human-rights and environmental impacts in operations, subsidiaries, and chains of activities; Chinese firms may be affected as suppliers or EU market operators."
+    },
+    "url": "https://commission.europa.eu/business-economy-euro/doing-business-eu/corporate-sustainability-due-diligence_en",
+    "riskTypes": ["esg-cbam", "supply-chain-labour"],
+    "useCase": {
+      "zh": "欧盟客户问卷、合同保证、供应链分级、环境和人权整改路线图。",
+      "en": "EU customer questionnaires, contractual assurances, supplier tiering, and environmental and human-rights remediation roadmaps."
+    },
+    "tags": ["CSDDD", "human rights", "environment"]
+  },
+  {
+    "id": "world-bank-sanctions-system",
+    "year": 2025,
+    "type": "multilateral practice",
+    "organization": "World Bank",
+    "title": {
+      "zh": "世界银行制裁体系与采购合规",
+      "en": "World Bank sanctions system and procurement compliance"
+    },
+    "summary": {
+      "zh": "对参与多边开发银行项目的承包商尤其重要，涉及欺诈、腐败、串通、胁迫和妨碍调查等禁止行为以及交叉制裁风险。",
+      "en": "Especially important for contractors in multilateral development bank projects, covering fraud, corruption, collusion, coercion, obstruction, and cross-debarment risk."
+    },
+    "url": "https://www.worldbank.org/en/about/unit/sanctions-system",
+    "riskTypes": ["anti-corruption", "third-party", "dispute-crisis"],
+    "useCase": {
+      "zh": "工程承包、代理商管理、投标文件真实性、调查配合和和解整改。",
+      "en": "Construction contracting, agent management, tender integrity, investigation cooperation, and settlement remediation."
+    },
+    "tags": ["MDB", "procurement", "debarment"]
+  },
+  {
+    "id": "kwm-going-global-insights",
+    "year": 2026,
+    "type": "law firm insights",
+    "organization": "King & Wood Mallesons",
+    "title": {
+      "zh": "金杜：企业出海与全球合规实务文章",
+      "en": "KWM: going-global and global compliance insights"
+    },
+    "summary": {
+      "zh": "金杜持续发布关于对外投资、供应链、关税、税务、数据、出口管制和跨境交易的实务文章，适合作为中国企业法务和外部律师的中文实务阅读入口。",
+      "en": "KWM regularly publishes Chinese-language practice pieces on outbound investment, supply chains, tariffs, tax, data, export controls, and cross-border transactions."
+    },
+    "url": "https://www.kwm.com/cn/zh/insights/latest-thinking.html",
+    "riskTypes": ["trade-remedies", "data-cybersecurity", "sanctions-export-controls"],
+    "useCase": {
+      "zh": "跟踪中国律师对最新对外投资规则、关税和供应链合规的实务解读。",
+      "en": "Track Chinese counsel analysis of outbound investment rules, tariffs, and supply-chain compliance."
+    },
+    "tags": ["law firm", "China counsel", "updates"]
+  },
+  {
+    "id": "junhe-legal-updates",
+    "year": 2026,
+    "type": "law firm insights",
+    "organization": "JunHe",
+    "title": {
+      "zh": "君合：出海、出口管制、数据与跨境交易法律动态",
+      "en": "JunHe: overseas expansion, export controls, data, and cross-border transaction updates"
+    },
+    "summary": {
+      "zh": "君合法律动态中包含技术出海、跨境数据、制裁出口管制、并购和争议解决等文章，适合关注规则变化后的交易文件和内部控制调整。",
+      "en": "JunHe legal updates cover technology going global, cross-border data, sanctions and export controls, M&A, and dispute resolution, useful for transaction documents and internal-control adjustments."
+    },
+    "url": "https://www.junhe.com/legal-updates",
+    "riskTypes": ["sanctions-export-controls", "data-cybersecurity", "dispute-crisis"],
+    "useCase": {
+      "zh": "技术企业出海、跨境数据方案、并购审批和争议应对。",
+      "en": "Technology expansion, cross-border data plans, M&A approvals, and dispute response."
+    },
+    "tags": ["law firm", "technology", "transactions"]
+  },
+  {
+    "id": "zhonglun-research",
+    "year": 2026,
+    "type": "law firm insights",
+    "organization": "Zhong Lun",
+    "title": {
+      "zh": "中伦：企业出海、数据合规和国际贸易救济研究",
+      "en": "Zhong Lun: overseas expansion, data compliance, and international trade remedies research"
+    },
+    "summary": {
+      "zh": "中伦研究栏目长期覆盖企业出海、数据跨境、反垄断、国际贸易救济、工程承包和争端解决，适合做专题实务检索。",
+      "en": "Zhong Lun's research library covers going global, data transfers, antitrust, trade remedies, construction projects, and dispute resolution."
+    },
+    "url": "https://www.zhonglun.com/research/",
+    "riskTypes": ["trade-remedies", "data-cybersecurity", "dispute-crisis"],
+    "useCase": {
+      "zh": "从交易、监管和争议角度搭建出海项目法律备忘录。",
+      "en": "Build legal memoranda for overseas projects from transaction, regulatory, and dispute angles."
+    },
+    "tags": ["law firm", "trade remedies", "data"]
+  },
+  {
+    "id": "hankun-insights",
+    "year": 2026,
+    "type": "law firm insights",
+    "organization": "Han Kun Law Offices",
+    "title": {
+      "zh": "汉坤：科技企业出海、数据和资本市场实务",
+      "en": "Han Kun: technology expansion, data, and capital markets practice"
+    },
+    "summary": {
+      "zh": "汉坤文章适合关注平台、AI、生命科学、跨境数据、境外上市和投融资的企业，用于连接产品合规、融资披露和海外运营。",
+      "en": "Han Kun materials are useful for platform, AI, life-sciences, cross-border data, overseas listing, and financing issues, linking product compliance, disclosure, and operations."
+    },
+    "url": "https://www.hankunlaw.com/portal/list/index/id/7.html",
+    "riskTypes": ["data-cybersecurity", "platform-product-safety", "investment-screening"],
+    "useCase": {
+      "zh": "AI/平台产品出海、境外上市问询、数据跨境和投资审查准备。",
+      "en": "AI and platform product launch, overseas listing queries, data transfers, and investment-screening preparation."
+    },
+    "tags": ["law firm", "technology", "capital markets"]
+  },
+  {
+    "id": "fangda-insights",
+    "year": 2026,
+    "type": "law firm insights",
+    "organization": "Fangda Partners",
+    "title": {
+      "zh": "方达：跨境交易、反垄断和监管调查实务",
+      "en": "Fangda: cross-border transactions, antitrust, and regulatory investigation practice"
+    },
+    "summary": {
+      "zh": "方达观点和文章可用于跟踪跨境并购、反垄断、争议解决、资本市场和监管调查实务。",
+      "en": "Fangda insights support research on cross-border M&A, antitrust, dispute resolution, capital markets, and regulatory investigations."
+    },
+    "url": "https://www.fangdalaw.com/en/Insight/",
+    "riskTypes": ["investment-screening", "trade-remedies", "dispute-crisis"],
+    "useCase": {
+      "zh": "交易结构设计、反垄断申报、争议策略和监管问询回应。",
+      "en": "Transaction structuring, antitrust filings, dispute strategy, and regulator query responses."
+    },
+    "tags": ["law firm", "M&A", "investigations"]
+  },
+  {
+    "id": "dacheng-insights",
+    "year": 2026,
+    "type": "law firm insights",
+    "organization": "Dentons Dacheng",
+    "title": {
+      "zh": "大成：一带一路、工程承包与跨境合规文章",
+      "en": "Dentons Dacheng: BRI, construction, and cross-border compliance insights"
+    },
+    "summary": {
+      "zh": "大成的全球网络和中文实务文章适合工程承包、境外投资、争议解决、制裁出口管制和地区合规检索。",
+      "en": "Dentons Dacheng's global network and Chinese practice materials are useful for construction, overseas investment, dispute resolution, sanctions, export controls, and local compliance."
+    },
+    "url": "https://www.dacheng.com/cn/insights",
+    "riskTypes": ["dispute-crisis", "sanctions-export-controls", "anti-corruption"],
+    "useCase": {
+      "zh": "工程项目合规、东道国法律检索、争议预案和多法域律师协同。",
+      "en": "Project compliance, host-state law research, dispute planning, and multi-jurisdiction counsel coordination."
+    },
+    "tags": ["law firm", "BRI", "construction"]
+  },
+  {
+    "id": "bakermckenzie-insightplus",
+    "year": 2026,
+    "type": "law firm insights",
+    "organization": "Baker McKenzie",
+    "title": {
+      "zh": "Baker McKenzie：全球制裁、贸易、税务和数据合规实务",
+      "en": "Baker McKenzie: global sanctions, trade, tax, and data compliance insights"
+    },
+    "summary": {
+      "zh": "跨国律所视角适合中企对照欧盟、美国、英国和亚太规则，尤其适用于制裁、海关、税务、数据和全球雇佣问题。",
+      "en": "A multinational-law-firm perspective for comparing EU, U.S., UK, and Asia-Pacific rules, especially sanctions, customs, tax, data, and global employment issues."
+    },
+    "url": "https://insightplus.bakermckenzie.com/",
+    "riskTypes": ["sanctions-export-controls", "tax", "data-cybersecurity"],
+    "useCase": {
+      "zh": "多法域规则对照、集团政策本地化和跨国调查协作。",
+      "en": "Multi-jurisdiction comparison, localization of group policies, and cross-border investigation coordination."
+    },
+    "tags": ["law firm", "global", "comparative"]
+  },
+  {
+    "id": "cliffordchance-insights",
+    "year": 2026,
+    "type": "law firm insights",
+    "organization": "Clifford Chance",
+    "title": {
+      "zh": "Clifford Chance：外资审查、金融监管和争端实务",
+      "en": "Clifford Chance: foreign investment screening, financial regulation, and disputes insights"
+    },
+    "summary": {
+      "zh": "适合关注欧盟、英国和美国国家安全审查、金融监管、制裁、争端和能源转型投资的企业法务团队。",
+      "en": "Useful for legal teams tracking EU, UK, and U.S. national-security screening, financial regulation, sanctions, disputes, and energy-transition investment."
+    },
+    "url": "https://www.cliffordchance.com/insights.html",
+    "riskTypes": ["investment-screening", "sanctions-export-controls", "dispute-crisis"],
+    "useCase": {
+      "zh": "并购可行性评估、交易文件条件设置、监管沟通和争端升级。",
+      "en": "M&A feasibility, transaction conditions, regulator engagement, and dispute escalation."
+    },
+    "tags": ["law firm", "screening", "finance"]
+  },
+  {
+    "id": "freshfields-briefings",
+    "year": 2026,
+    "type": "law firm insights",
+    "organization": "Freshfields",
+    "title": {
+      "zh": "Freshfields：全球监管、反垄断与争议简报",
+      "en": "Freshfields: global regulatory, antitrust, and disputes briefings"
+    },
+    "summary": {
+      "zh": "适合跟踪欧盟外资审查、反垄断、供应链、人权尽调、金融制裁和大型跨境争议。",
+      "en": "Useful for tracking EU FDI screening, antitrust, supply chains, human-rights due diligence, financial sanctions, and major cross-border disputes."
+    },
+    "url": "https://www.freshfields.com/en-gb/our-thinking/knowledge/briefing/",
+    "riskTypes": ["investment-screening", "esg-cbam", "dispute-crisis"],
+    "useCase": {
+      "zh": "欧盟市场准入、监管调查、供应链尽调和跨境诉讼仲裁。",
+      "en": "EU market access, regulatory investigations, supply-chain diligence, and cross-border litigation or arbitration."
+    },
+    "tags": ["law firm", "EU", "disputes"]
+  }
+]

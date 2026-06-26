@@ -227,7 +227,9 @@ main {
 .grid-3,
 .risk-grid,
 .playbook-grid,
-.case-grid {
+.case-grid,
+.resource-grid,
+.two-column {
   display: grid;
   gap: 1rem;
 }
@@ -248,10 +250,19 @@ main {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
+.resource-grid {
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+}
+
+.two-column {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .panel,
 .risk-card,
 .playbook-card,
 .case-card,
+.resource-card,
 .timeline-item,
 .detail-grid section {
   border: 1px solid var(--line);
@@ -263,6 +274,7 @@ main {
 .risk-card,
 .playbook-card,
 .case-card,
+.resource-card,
 .timeline-item,
 .detail-grid section {
   padding: 1rem;
@@ -272,6 +284,7 @@ main {
 .risk-card h2,
 .playbook-card h2,
 .case-card h2,
+.resource-card h2,
 .timeline-item h2 {
   margin: 0 0 0.45rem;
   font-size: 1.08rem;
@@ -282,9 +295,60 @@ main {
 .risk-card p,
 .playbook-card p,
 .case-card p,
+.resource-card p,
 .timeline-item p {
   margin: 0;
   color: var(--muted);
+}
+
+.rich-panel {
+  display: grid;
+  gap: 0.75rem;
+  align-content: start;
+}
+
+.rich-panel .clean-list {
+  margin-top: 0;
+}
+
+.resource-card {
+  display: grid;
+  align-content: start;
+  gap: 0.75rem;
+}
+
+.resource-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  color: var(--rust);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.resource-details {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0;
+}
+
+.resource-details div {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.resource-details dt {
+  color: var(--muted);
+  font-size: 0.74rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.resource-details dd {
+  margin: 0;
+  color: #2b3545;
+  font-size: 0.94rem;
 }
 
 .text-link {
@@ -368,6 +432,12 @@ main {
   gap: 0.9rem;
 }
 
+.policy-timeline {
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
 .detail-page {
   padding: 2rem 0 3rem;
 }
@@ -410,6 +480,10 @@ main {
   overflow: hidden;
 }
 
+.concept-table {
+  display: table;
+}
+
 .source-table th,
 .source-table td {
   padding: 0.75rem;
@@ -442,7 +516,8 @@ main {
   }
 
   .hero,
-  .detail-grid {
+  .detail-grid,
+  .two-column {
     grid-template-columns: 1fr;
   }
 
@@ -464,5 +539,11 @@ main {
 
   .brand {
     font-size: 0.95rem;
+  }
+
+  .source-table {
+    display: block;
+    overflow-x: auto;
+    white-space: normal;
   }
 }

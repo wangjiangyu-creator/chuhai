@@ -1,0 +1,223 @@
+[
+  {
+    "id": "buckley-2007-determinants",
+    "year": 2007,
+    "type": "article",
+    "authors": "Peter J. Buckley, L. Jeremy Clegg, Adam R. Cross, Xin Liu, Hinrich Voss, Ping Zheng",
+    "venue": "Journal of International Business Studies",
+    "title": {
+      "zh": "中国对外直接投资的决定因素",
+      "en": "The determinants of Chinese outward foreign direct investment"
+    },
+    "summary": {
+      "zh": "研究用国际商务理论解释中国对外直接投资，尤其关注市场、资源、战略资产、制度环境和政策因素，是理解中国企业早期出海动因的经典文献。",
+      "en": "A foundational empirical study applying international business theory to Chinese outward FDI, with attention to markets, resources, strategic assets, institutions, and policy conditions."
+    },
+    "url": "https://doi.org/10.1057/palgrave.jibs.8400277",
+    "tags": ["OFDI", "motives", "institutions"]
+  },
+  {
+    "id": "morck-2008-perspectives",
+    "year": 2008,
+    "type": "article",
+    "authors": "Randall Morck, Bernard Yeung, Minyuan Zhao",
+    "venue": "Journal of International Business Studies",
+    "title": {
+      "zh": "中国对外直接投资的若干视角",
+      "en": "Perspectives on China's outward foreign direct investment"
+    },
+    "summary": {
+      "zh": "文章从公司治理、资本配置、政府作用和制度背景讨论中国企业对外投资，对理解国有企业和国家资本主义语境下的出海问题很有价值。",
+      "en": "The article links outward investment to corporate governance, capital allocation, government involvement, and institutional background, useful for understanding state capitalism and SOE-related concerns."
+    },
+    "url": "https://doi.org/10.1057/palgrave.jibs.8400366",
+    "tags": ["state capitalism", "corporate governance", "OFDI"]
+  },
+  {
+    "id": "rui-yip-2008-acquisitions",
+    "year": 2008,
+    "type": "article",
+    "authors": "Huaichuan Rui, George S. Yip",
+    "venue": "Journal of World Business",
+    "title": {
+      "zh": "中国企业海外并购的战略意图",
+      "en": "Foreign acquisitions by Chinese firms: A strategic intent perspective"
+    },
+    "summary": {
+      "zh": "以战略意图解释中国企业通过海外并购获取技术、品牌和全球渠道的路径，有助于分析并购后整合、反垄断和国家安全审查风险。",
+      "en": "Explains how Chinese firms use foreign acquisitions to obtain technology, brands, and global channels, linking strategy to merger integration, antitrust, and national-security review risks."
+    },
+    "url": "https://doi.org/10.1016/j.jwb.2007.11.006",
+    "tags": ["M&A", "strategic assets", "integration"]
+  },
+  {
+    "id": "luo-2010-government-promotion",
+    "year": 2010,
+    "type": "article",
+    "authors": "Yadong Luo, Qiuzhi Xue, Binjie Han",
+    "venue": "Journal of World Business",
+    "title": {
+      "zh": "新兴市场政府如何促进对外直接投资：中国经验",
+      "en": "How emerging market governments promote outward FDI: Experience from China"
+    },
+    "summary": {
+      "zh": "文章讨论政府政策、融资、信息和制度支持如何推动企业出海，也提示东道国为何会把企业行为与母国政策联系起来。",
+      "en": "The article studies how policy, finance, information, and institutional support promote outward FDI, while also showing why host states may link firm conduct to home-state policy."
+    },
+    "url": "https://doi.org/10.1016/j.jwb.2009.04.005",
+    "tags": ["policy support", "home state", "emerging markets"]
+  },
+  {
+    "id": "alon-2011-globalization",
+    "year": 2011,
+    "type": "article",
+    "authors": "Ilan Alon, John Child, Shaomin Li, John R. McIntyre",
+    "venue": "Management and Organization Review",
+    "title": {
+      "zh": "中国企业全球化：理论普遍性还是中国特殊性",
+      "en": "Globalization of Chinese firms: Theoretical universalism or particularism"
+    },
+    "summary": {
+      "zh": "文章讨论中国企业国际化是否可用一般跨国企业理论解释，还是需要强调中国制度、企业所有制和发展阶段的特殊性。",
+      "en": "Examines whether Chinese firm internationalization follows general multinational theory or requires particular attention to Chinese institutions, ownership, and development stage."
+    },
+    "url": "https://doi.org/10.1111/j.1740-8784.2011.00234.x",
+    "tags": ["theory", "internationalization", "institutions"]
+  },
+  {
+    "id": "kolstad-wiig-2012-location",
+    "year": 2012,
+    "type": "article",
+    "authors": "Ivar Kolstad, Arne Wiig",
+    "venue": "Journal of World Business",
+    "title": {
+      "zh": "什么决定中国对外直接投资",
+      "en": "What determines Chinese outward FDI?"
+    },
+    "summary": {
+      "zh": "文章关注资源、制度质量和投资目的地选择，适合作为讨论自然资源项目、政治风险和腐败风险的理论入口。",
+      "en": "Focuses on resources, institutional quality, and location choice, making it useful for natural-resource projects, political risk, and corruption-risk analysis."
+    },
+    "url": "https://doi.org/10.1016/j.jwb.2010.10.017",
+    "tags": ["location choice", "resources", "political risk"]
+  },
+  {
+    "id": "cui-jiang-2012-state-ownership",
+    "year": 2012,
+    "type": "article",
+    "authors": "Lin Cui, Fuming Jiang",
+    "venue": "Journal of International Business Studies",
+    "title": {
+      "zh": "国有所有权如何影响中国企业对外投资的所有权选择",
+      "en": "State ownership effect on firms' FDI ownership decisions under institutional pressure"
+    },
+    "summary": {
+      "zh": "研究国有背景和制度压力如何影响中国企业海外进入模式，对国资企业并购、合资和审查风险具有解释力。",
+      "en": "Studies how state ownership and institutional pressure affect Chinese firms' ownership choices abroad, relevant to SOE acquisitions, joint ventures, and screening risk."
+    },
+    "url": "https://doi.org/10.1057/jibs.2012.1",
+    "tags": ["SOE", "entry mode", "institutional pressure"]
+  },
+  {
+    "id": "sauvant-chen-2014-regulatory-framework",
+    "year": 2014,
+    "type": "article",
+    "authors": "Karl P. Sauvant, Victor Zitian Chen",
+    "venue": "China Economic Journal",
+    "title": {
+      "zh": "中国对外直接投资监管框架",
+      "en": "China's regulatory framework for outward foreign direct investment"
+    },
+    "summary": {
+      "zh": "文章系统梳理中国对外投资审批、备案、促进和监管框架，是理解母国监管与企业出海合规关系的重要文献。",
+      "en": "A systematic account of approval, filing, promotion, and supervision in China's outward investment regime, useful for connecting home-state regulation and firm compliance."
+    },
+    "url": "https://doi.org/10.1080/17538963.2013.874072",
+    "tags": ["home-state regulation", "ODI policy", "filing"]
+  },
+  {
+    "id": "buckley-2018-retrospective",
+    "year": 2018,
+    "type": "article",
+    "authors": "Peter J. Buckley, Hinrich Voss, Adam R. Cross, Xin Liu, Ping Zheng",
+    "venue": "Journal of International Business Studies",
+    "title": {
+      "zh": "中国对外直接投资研究回顾与未来议程",
+      "en": "A retrospective and agenda for future research on Chinese outward foreign direct investment"
+    },
+    "summary": {
+      "zh": "文章回顾中国OFDI研究的主要问题，并提出未来研究议程，可用来组织出海研究的理论、数据和政策问题。",
+      "en": "Reviews the Chinese OFDI literature and proposes future research questions, useful for organizing theory, data, and policy issues in outbound investment research."
+    },
+    "url": "https://doi.org/10.1057/s41267-017-0129-1",
+    "tags": ["literature review", "research agenda", "OFDI"]
+  },
+  {
+    "id": "chaisse-2019-investment-strategy",
+    "year": 2019,
+    "type": "book",
+    "authors": "Julien Chaisse",
+    "venue": "Oxford University Press",
+    "title": {
+      "zh": "中国的国际投资战略：双边、区域与全球法律政策",
+      "en": "China's International Investment Strategy: Bilateral, Regional, and Global Law and Policy"
+    },
+    "summary": {
+      "zh": "著作从国际投资法和政策角度讨论中国投资战略、投资协定、争端解决和制度影响，适合连接企业出海与国际经济法。",
+      "en": "A book-length treatment of China's investment strategy, treaties, dispute settlement, and institutional impact, linking corporate outbound activity to international economic law."
+    },
+    "url": "https://global.oup.com/academic/product/chinas-international-investment-strategy-9780198827450",
+    "tags": ["investment law", "treaties", "dispute settlement"]
+  },
+  {
+    "id": "pearson-rithmire-tsai-2022-party-state",
+    "year": 2022,
+    "type": "article",
+    "authors": "Margaret M. Pearson, Meg Rithmire, Kellee S. Tsai",
+    "venue": "International Security",
+    "title": {
+      "zh": "中国的党国资本主义与国际反弹",
+      "en": "Party-State Capitalism in China"
+    },
+    "summary": {
+      "zh": "文章解释党国资本主义如何塑造外部国家对中国企业的安全担忧，是理解投资审查、供应链排除和平台审查政治背景的重要材料。",
+      "en": "Explains how party-state capitalism shapes foreign security concerns about Chinese firms, useful for investment screening, supply-chain exclusion, and platform scrutiny."
+    },
+    "url": "https://doi.org/10.1162/isec_a_00447",
+    "tags": ["state capitalism", "national security", "political economy"]
+  },
+  {
+    "id": "wang-2024-state-capitalism",
+    "year": 2024,
+    "type": "book",
+    "authors": "Jiangyu Wang",
+    "venue": "Bloomsbury / Hart Publishing",
+    "title": {
+      "zh": "国家资本主义与国际投资法",
+      "en": "State Capitalism and International Investment Law"
+    },
+    "summary": {
+      "zh": "著作讨论国家资本主义企业和主权投资在国际投资法中的地位、义务和争端问题，对解释中企海外投资的制度性争议尤其相关。",
+      "en": "Analyzes state-capitalist enterprises and sovereign investment under international investment law, directly relevant to institutional controversies around Chinese overseas investment."
+    },
+    "url": "https://www.bloomsbury.com/uk/state-capitalism-and-international-investment-law-9781509962969/",
+    "tags": ["state capitalism", "investment law", "SOE"]
+  },
+  {
+    "id": "unctad-2025-world-investment-report",
+    "year": 2025,
+    "type": "report",
+    "authors": "UNCTAD",
+    "venue": "United Nations Conference on Trade and Development",
+    "title": {
+      "zh": "2025年世界投资报告",
+      "en": "World Investment Report 2025"
+    },
+    "summary": {
+      "zh": "报告提供全球FDI趋势、产业政策、投资便利化和可持续发展投资数据，可作为评估中国企业出海大环境的宏观背景材料。",
+      "en": "Provides global FDI trends, industrial-policy context, investment facilitation, and sustainable-development investment data for macro-level analysis of outbound activity."
+    },
+    "url": "https://unctad.org/publication/world-investment-report-2025",
+    "tags": ["FDI trends", "global data", "investment policy"]
+  }
+]

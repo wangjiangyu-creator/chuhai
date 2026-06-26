@@ -1,0 +1,312 @@
+{
+  "updated": "2026-06-26",
+  "sections": [
+    {
+      "id": "outbound-situation",
+      "title": {
+        "zh": "中国企业出海的新阶段",
+        "en": "A new phase of Chinese companies going global"
+      },
+      "summary": {
+        "zh": "中国企业出海已经从单纯的贸易、工程承包和资源获取，扩展到新能源、平台经济、人工智能、跨境电商、消费品牌和全球供应链重组。企业面对的不只是商业竞争，还包括国家安全审查、产业政策对抗、数据跨境、劳工与供应链溯源、碳规则、制裁和舆论危机。",
+        "en": "Chinese outbound activity has moved beyond trade, contracting, and resource acquisition into new energy, platforms, AI, cross-border e-commerce, consumer brands, and supply-chain reconfiguration. Firms now face not only commercial competition, but also national security review, industrial-policy conflict, data transfer controls, labour and traceability duties, carbon rules, sanctions, and reputational crises."
+      },
+      "points": {
+        "zh": [
+          "经营形态更复杂：制造业投资、平台运营、海外仓、云服务、研发中心、品牌并购和本地化用工同时出现。",
+          "风险来源更政治化：东道国把贸易、数据、技术、补贴、劳工、气候和国家安全问题纳入同一监管框架。",
+          "证据要求更高：企业需要能够证明产品来源、数据处理、第三方付款、供应商劳工状况、碳排放和董事会决策过程。",
+          "合规从成本中心变成市场准入条件：没有合规体系，订单、融资、政府采购、上市、平台运营和并购审批都会受阻。"
+        ],
+        "en": [
+          "Operating models are more complex: manufacturing investment, platforms, overseas warehouses, cloud services, R&D centres, brand acquisitions, and localized employment coexist.",
+          "Risk sources are more political: host states combine trade, data, technology, subsidy, labour, climate, and national-security concerns in the same regulatory architecture.",
+          "Evidence expectations are higher: companies must document origin, data processing, third-party payments, supplier labour conditions, carbon emissions, and board-level decision records.",
+          "Compliance has become a market-access condition: weak controls can block orders, financing, public procurement, listings, platform operation, and merger approvals."
+        ]
+      }
+    },
+    {
+      "id": "legal-compliance-risk",
+      "title": {
+        "zh": "法律、合规与风险的概念区分",
+        "en": "Distinguishing law, compliance, and risk"
+      },
+      "summary": {
+        "zh": "法律问题关注外部强制性规则、权利义务和责任后果；合规问题关注企业内部如何把这些规则转化为组织流程、证据体系和问责机制；风险则关注事件发生的可能性、影响和处置能力。出海管理的核心不是把三者混同，而是建立从规则识别到商业决策的闭环。",
+        "en": "Legal issues concern external binding rules, rights, obligations, and liabilities. Compliance concerns how the firm converts those rules into internal processes, evidence systems, and accountability. Risk concerns likelihood, impact, and response capacity. Overseas governance requires a loop from rule identification to business decisions."
+      },
+      "points": {
+        "zh": [
+          "法律问题：是否违反制裁、出口管制、数据法、劳动法、竞争法、反腐败法、税法、产品安全法或投资审查规则。",
+          "合规问题：是否有风险评估、供应商尽调、合同条款、审批权限、培训记录、审计抽查、举报渠道和危机升级机制。",
+          "政治风险：监管规则可能被地缘政治、产业竞争、选举政治、媒体舆论和国家安全叙事放大。",
+          "管理重点：把法律红线、合规流程和风险偏好写入进入前审查、交易文件、供应链管理和董事会报告。"
+        ],
+        "en": [
+          "Legal issues: whether conduct breaches sanctions, export controls, data law, labour law, competition law, anti-corruption law, tax rules, product safety rules, or investment screening.",
+          "Compliance issues: whether risk assessments, supplier diligence, contract clauses, approval authority, training records, audits, reporting channels, and crisis escalation exist.",
+          "Political risk: regulation may be amplified by geopolitics, industrial competition, electoral politics, media narratives, and national-security framing.",
+          "Management focus: embed legal red lines, compliance processes, and risk appetite into pre-entry review, transaction documents, supply-chain management, and board reporting."
+        ]
+      }
+    },
+    {
+      "id": "core-risk-clusters",
+      "title": {
+        "zh": "主要法律与合规问题",
+        "en": "Core legal and compliance problem clusters"
+      },
+      "summary": {
+        "zh": "出海企业的风险不是孤立发生的。一个跨境电商平台可能同时触发数据、消费者保护、产品安全、海关、税务和劳工溯源问题；一个新能源工厂项目可能同时触发补贴反调查、环保许可、用工合规、土地审批和政治舆论风险。",
+        "en": "Overseas risks rarely arise in isolation. A cross-border e-commerce platform may trigger data, consumer protection, product safety, customs, tax, and labour-traceability issues at once; a new-energy factory may trigger subsidy investigations, environmental permits, labour compliance, land approvals, and political controversy together."
+      },
+      "points": {
+        "zh": [
+          "国家安全与投资审查：CFIUS、欧盟外资审查协调、英国 NSI、印度审批以及关键基础设施限制。",
+          "贸易救济与产业政策：反倾销、反补贴、保障措施、301/232/201 类措施、政府补贴和本地含量要求。",
+          "制裁与出口管制：实体清单、军事最终用户、先进计算和半导体规则、再出口管制、金融制裁和次级制裁风险。",
+          "数据、网络与平台治理：数据出境、算法透明、儿童隐私、平台责任、内容审核、网络安全和AI治理。",
+          "供应链、劳工与ESG：强迫劳动、供应链尽调、碳边境调节、森林砍伐规则、可持续报告和人权申诉机制。",
+          "争端与危机响应：监管调查、媒体危机、集体诉讼、仲裁、行政复议、董事责任和证据保全。"
+        ],
+        "en": [
+          "National security and investment screening: CFIUS, EU FDI screening coordination, UK NSI, India approvals, and critical-infrastructure limits.",
+          "Trade remedies and industrial policy: anti-dumping, countervailing duties, safeguards, Section 301/232/201-style measures, subsidies, and local-content requirements.",
+          "Sanctions and export controls: entity listings, military end users, advanced-computing and semiconductor rules, re-export controls, financial sanctions, and secondary-sanctions risk.",
+          "Data, cyber, and platform governance: data transfers, algorithmic transparency, children privacy, platform responsibility, content moderation, cybersecurity, and AI governance.",
+          "Supply chain, labour, and ESG: forced labour, supply-chain due diligence, carbon border adjustment, deforestation rules, sustainability reporting, and human-rights grievance mechanisms.",
+          "Disputes and crisis response: regulatory investigations, media crises, class actions, arbitration, administrative review, director liability, and evidence preservation."
+        ]
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "concept": {
+        "zh": "法律",
+        "en": "Law"
+      },
+      "question": {
+        "zh": "外部规则要求什么，违反后承担什么责任？",
+        "en": "What do external rules require, and what liability follows breach?"
+      },
+      "evidence": {
+        "zh": "法律文本、监管指南、许可证、合同、法院判决、行政决定、法律意见。",
+        "en": "Statutes, guidance, licences, contracts, court judgments, administrative decisions, legal opinions."
+      },
+      "owner": {
+        "zh": "法务、外部律师、董事会、业务负责人。",
+        "en": "Legal team, outside counsel, board, business owners."
+      }
+    },
+    {
+      "concept": {
+        "zh": "合规",
+        "en": "Compliance"
+      },
+      "question": {
+        "zh": "企业如何把规则落实为流程、控制、证据和问责？",
+        "en": "How does the firm convert rules into process, controls, evidence, and accountability?"
+      },
+      "evidence": {
+        "zh": "风险评估、政策制度、培训记录、审批台账、供应商尽调、审计报告、整改记录。",
+        "en": "Risk assessments, policies, training records, approval logs, supplier diligence, audit reports, remediation records."
+      },
+      "owner": {
+        "zh": "合规、内控、采购、财务、HR、信息安全、供应链和业务部门。",
+        "en": "Compliance, internal controls, procurement, finance, HR, information security, supply chain, and business teams."
+      }
+    },
+    {
+      "concept": {
+        "zh": "风险",
+        "en": "Risk"
+      },
+      "question": {
+        "zh": "事件发生概率、影响程度、触发信号和应对能力如何？",
+        "en": "What are the likelihood, impact, triggers, and response capacity?"
+      },
+      "evidence": {
+        "zh": "风险矩阵、预警指标、情景推演、危机预案、保险安排、董事会报告和复盘记录。",
+        "en": "Risk matrices, warning indicators, scenario exercises, crisis plans, insurance arrangements, board reports, post-mortems."
+      },
+      "owner": {
+        "zh": "董事会、管理层、风控、政府事务、公共关系和业务负责人。",
+        "en": "Board, management, risk function, government affairs, public relations, and business owners."
+      }
+    }
+  ],
+  "timeline": [
+    {
+      "year": "2000",
+      "title": {
+        "zh": "“走出去”战略成为国家政策话语",
+        "en": "The going-global strategy enters national policy vocabulary"
+      },
+      "summary": {
+        "zh": "中国企业对外投资开始从个别项目扩展为国家层面的发展战略，能源、工程承包和贸易网络是早期重点。",
+        "en": "Outbound investment moved from isolated projects toward a national development strategy, initially focused on energy, contracting, and trade networks."
+      }
+    },
+    {
+      "year": "2013",
+      "title": {
+        "zh": "共建“一带一路”扩展基础设施和产能合作框架",
+        "en": "The Belt and Road Initiative broadens infrastructure and industrial cooperation"
+      },
+      "summary": {
+        "zh": "企业出海与基础设施融资、工程建设、港口、能源、电信和产业园区结合更紧密，同时也带来债务、环境、劳工和东道国政治风险。",
+        "en": "Outbound business became more closely tied to infrastructure finance, construction, ports, energy, telecoms, and industrial parks, while raising debt, environmental, labour, and host-state political risks."
+      }
+    },
+    {
+      "year": "2014",
+      "title": {
+        "zh": "商务部境外投资管理办法强调备案与核准管理",
+        "en": "MOFCOM overseas investment measures emphasize filing and approval"
+      },
+      "summary": {
+        "zh": "管理模式从全面审批向备案为主、敏感国家和行业核准并行转型，企业需把境内备案与境外交易节奏衔接起来。",
+        "en": "The regime shifted toward filing as the default while retaining approval for sensitive countries and industries, requiring alignment between domestic filings and overseas deal timing."
+      }
+    },
+    {
+      "year": "2017",
+      "title": {
+        "zh": "国家发改委企业境外投资管理办法重塑项目端管理",
+        "en": "NDRC enterprise overseas investment measures reshape project-side governance"
+      },
+      "summary": {
+        "zh": "规则突出项目真实性、敏感类项目、投资主体信用、事中事后监管和全流程报告义务。",
+        "en": "The rules stress project authenticity, sensitive projects, investor credit, ongoing supervision, and lifecycle reporting obligations."
+      }
+    },
+    {
+      "year": "2021",
+      "title": {
+        "zh": "数据、出口管制和反外国制裁进入出海合规底层结构",
+        "en": "Data, export control, and anti-foreign-sanctions rules become baseline outbound controls"
+      },
+      "summary": {
+        "zh": "个人信息保护、数据安全、出口管制、反外国制裁和反垄断执法共同改变了跨境交易、技术转让和全球平台运营。",
+        "en": "Personal information protection, data security, export controls, anti-foreign-sanctions rules, and antitrust enforcement jointly changed cross-border transactions, technology transfer, and platform operations."
+      }
+    },
+    {
+      "year": "2024",
+      "title": {
+        "zh": "数据跨境规则出现便利化与分类管理",
+        "en": "Cross-border data rules move toward facilitation and classification"
+      },
+      "summary": {
+        "zh": "中国数据出境制度在安全评估、标准合同、认证和自由贸易试验区负面清单方面继续细化，企业需把境内数据合规与海外数据法一起设计。",
+        "en": "China refined data export security assessment, standard contracts, certification, and free-trade-zone negative-list mechanisms, requiring firms to design Chinese and foreign data compliance together."
+      }
+    },
+    {
+      "year": "2026",
+      "title": {
+        "zh": "《国务院关于对外投资的规定》即将建立更统一的制度框架",
+        "en": "The State Council outbound investment regulation is set to create a more unified framework"
+      },
+      "summary": {
+        "zh": "截至2026年6月26日，该规定已公布并预计于2026年7月1日施行，强调促进、服务、管理和保障对外投资的制度化安排。",
+        "en": "As of 26 June 2026, the regulation has been published and is expected to take effect on 1 July 2026, emphasizing institutionalized promotion, services, administration, and protection for outbound investment."
+      }
+    }
+  ],
+  "theoryFrames": [
+    {
+      "id": "oli",
+      "title": {
+        "zh": "所有权、区位和内部化优势",
+        "en": "Ownership, location, and internalization"
+      },
+      "summary": {
+        "zh": "传统国际商务理论解释企业为何带着技术、品牌、组织能力或供应链优势进入海外市场，但中企出海还需要把制度与政治变量纳入区位选择。",
+        "en": "Classic international business theory explains why firms carry technology, brand, organizational, or supply-chain advantages abroad, but Chinese outbound activity also requires institutional and political variables in location choice."
+      }
+    },
+    {
+      "id": "home-institutions",
+      "title": {
+        "zh": "母国制度与国家资本主义",
+        "en": "Home-country institutions and state capitalism"
+      },
+      "summary": {
+        "zh": "企业的融资来源、国资背景、产业政策关联和政府关系可能降低出海成本，也可能在东道国触发国家安全、补贴和政治影响担忧。",
+        "en": "Financing sources, state ownership, industrial-policy links, and government relations may reduce outbound costs while triggering host-state concerns about national security, subsidies, and political influence."
+      }
+    },
+    {
+      "id": "host-regulatory-politics",
+      "title": {
+        "zh": "东道国监管政治",
+        "en": "Host-state regulatory politics"
+      },
+      "summary": {
+        "zh": "东道国监管并不只是法律适用，也嵌入产业竞争、选民压力、媒体叙事、盟友协调和安全机构判断。",
+        "en": "Host-state regulation is not merely legal application; it is embedded in industrial competition, voter pressure, media narratives, ally coordination, and security-agency judgment."
+      }
+    },
+    {
+      "id": "evidence-compliance",
+      "title": {
+        "zh": "证据型合规能力",
+        "en": "Evidence-based compliance capability"
+      },
+      "summary": {
+        "zh": "现代出海合规的竞争力在于持续生产可信证据：供应链来源、数据流、员工管理、第三方付款、碳足迹和董事会监督都要可审计。",
+        "en": "Modern overseas compliance depends on continuously producing credible evidence: supply-chain origin, data flows, workforce management, third-party payments, carbon footprints, and board oversight must be auditable."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "label": "MOFCOM: Measures for the Administration of Overseas Investment",
+      "url": "https://tfs.mofcom.gov.cn/swfg/gjjjhz/art/2016/art_38c7eb781b25413f8aad43e55c0640ed.html",
+      "type": "official"
+    },
+    {
+      "label": "NDRC: Measures for the Administration of Overseas Investment by Enterprises",
+      "url": "https://www.ndrc.gov.cn/xxgk/zcfb/fzggwl/201712/t20171226_960849.html",
+      "type": "official"
+    },
+    {
+      "label": "People's Daily: State Council Regulation on Outbound Investment",
+      "url": "https://paper.people.com.cn/rmrb/pc/content/202606/02/content_30160411.html",
+      "type": "official media"
+    },
+    {
+      "label": "CAC: Provisions on Facilitating and Regulating Cross-Border Data Flow",
+      "url": "https://www.cac.gov.cn/2024-03/22/c_1712776611775634.htm",
+      "type": "regulator"
+    },
+    {
+      "label": "MOFCOM: 2024 Statistical Bulletin of China's Outward FDI",
+      "url": "https://hzs.mofcom.gov.cn/gzdt/art/2025/art_0f984930450e48bfa4b598b3c231df6e.html",
+      "type": "official statistics"
+    },
+    {
+      "label": "National Bureau of Statistics: 2025 Statistical Communique",
+      "url": "https://www.stats.gov.cn/sj/zxfbhjd/202602/t20260228_1962662.html",
+      "type": "official statistics"
+    },
+    {
+      "label": "UNCTAD: World Investment Report 2025",
+      "url": "https://unctad.org/publication/world-investment-report-2025",
+      "type": "international organization"
+    },
+    {
+      "label": "OECD: FDI Regulatory Restrictiveness Index",
+      "url": "https://www.oecd.org/en/topics/sub-issues/fdi-restrictiveness.html",
+      "type": "international organization"
+    },
+    {
+      "label": "OECD: Guidelines for Multinational Enterprises on Responsible Business Conduct",
+      "url": "https://mneguidelines.oecd.org/mneguidelines/",
+      "type": "international organization"
+    }
+  ]
+}

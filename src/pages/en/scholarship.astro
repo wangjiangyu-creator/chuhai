@@ -1,0 +1,16 @@
+---
+import Layout from '../../components/Layout.astro';
+import ResourceList from '../../components/ResourceList.astro';
+import scholarship from '../../data/scholarship.json';
+
+const lang = 'en';
+---
+
+<Layout
+  title="Scholarship | Chuhai Risk"
+  description="Academic articles, books, and research reports on Chinese companies going global, outward FDI, state capitalism, and international investment law."
+  lang={lang}
+  route="scholarship"
+>
+  <ResourceList lang={lang} mode="scholarship" entries={scholarship} />
+</Layout>

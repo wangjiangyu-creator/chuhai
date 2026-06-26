@@ -13,6 +13,9 @@ const { title, description, lang = 'zh', route = '' } = Astro.props;
 const t = labels[lang];
 const alternateLang = lang === 'zh' ? 'en' : 'zh';
 const nav = [
+  ['background', t.nav.background],
+  ['scholarship', t.nav.scholarship],
+  ['practice', t.nav.practice],
   ['risks', t.nav.risks],
   ['cases', t.nav.cases],
   ['updates', t.nav.updates],
