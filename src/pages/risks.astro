@@ -1,0 +1,29 @@
+---
+import Layout from '../components/Layout.astro';
+import SourceBadge from '../components/SourceBadge.astro';
+import risks from '../data/risks.json';
+import { text } from '../lib/i18n';
+
+const lang = 'zh';
+---
+
+<Layout title="风险地图 | 中国企业出海" description="中国企业出海政治、法律和合规风险地图。" lang={lang} route="risks">
+  <section class="page-head">
+    <SourceBadge lang={lang} />
+    <h1>风险地图</h1>
+    <p>不同产业的风险排序不同，但底层治理逻辑共通：识别规则、建立证据、前移闸门、准备危机响应。</p>
+  </section>
+  <section class="section">
+    <div class="risk-grid">
+      {risks.map((risk) => (
+        <article class="risk-card">
+          <h2>{text(risk.title, lang)}</h2>
+          <p>{text(risk.summary, lang)}</p>
+          <div class="tag-list">
+            {risk.controls.slice(0, 4).map((control) => <span>{control}</span>)}
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,52 @@
+---
+import { labels, pathFor, type Lang } from '../lib/i18n';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description: string;
+  lang?: Lang;
+  route?: string;
+}
+
+const { title, description, lang = 'zh', route = '' } = Astro.props;
+const t = labels[lang];
+const alternateLang = lang === 'zh' ? 'en' : 'zh';
+const nav = [
+  ['risks', t.nav.risks],
+  ['cases', t.nav.cases],
+  ['updates', t.nav.updates],
+  ['playbooks', t.nav.playbooks],
+  ['sources', t.nav.sources]
+];
+---
+
+<!doctype html>
+<html lang={lang === 'zh' ? 'zh-CN' : 'en'}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">{lang === 'zh' ? '跳到正文' : 'Skip to content'}</a>
+    <header class="site-header">
+      <a class="brand" href={pathFor(lang)} aria-label={t.brand}>
+        <span class="brand-mark">出</span>
+        <span>{t.shortBrand}</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        {nav.map(([key, label]) => <a href={pathFor(lang, key)}>{label}</a>)}
+      </nav>
+      <a class="language-link" href={pathFor(alternateLang, route)}>{t.language}</a>
+    </header>
+    <main id="content">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p>{t.brand}</p>
+      <p>{lang === 'zh' ? '资料用于研究和培训，不构成法律意见。' : 'For research and training; not legal advice.'}</p>
+    </footer>
+  </body>
+</html>

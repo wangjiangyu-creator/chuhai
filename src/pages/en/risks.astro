@@ -1,0 +1,29 @@
+---
+import Layout from '../../components/Layout.astro';
+import SourceBadge from '../../components/SourceBadge.astro';
+import risks from '../../data/risks.json';
+import { text } from '../../lib/i18n';
+
+const lang = 'en';
+---
+
+<Layout title="Risk Map | Chuhai Risk" description="Political, legal, and compliance risk map for Chinese companies going global." lang={lang} route="risks">
+  <section class="page-head">
+    <SourceBadge lang={lang} />
+    <h1>Risk Map</h1>
+    <p>Industry priorities differ, but the governance logic is shared: identify rules, build evidence, move gates forward, and prepare crisis response.</p>
+  </section>
+  <section class="section">
+    <div class="risk-grid">
+      {risks.map((risk) => (
+        <article class="risk-card">
+          <h2>{text(risk.title, lang)}</h2>
+          <p>{text(risk.summary, lang)}</p>
+          <div class="tag-list">
+            {risk.controls.slice(0, 4).map((control) => <span>{control}</span>)}
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,29 @@
+---
+import Layout from '../../components/Layout.astro';
+import SourceBadge from '../../components/SourceBadge.astro';
+import playbooks from '../../data/playbooks.json';
+import { text } from '../../lib/i18n';
+
+const lang = 'en';
+---
+
+<Layout title="Playbooks | Chuhai Risk" description="Compliance gates, supply-chain evidence, third-party controls, and crisis response tools for Chinese companies overseas." lang={lang} route="playbooks">
+  <section class="page-head">
+    <SourceBadge lang={lang} />
+    <h1>Compliance Playbooks</h1>
+    <p>These are not contract templates; they are operating frameworks that turn risk into organizational action.</p>
+  </section>
+  <section class="section">
+    <div class="playbook-grid">
+      {playbooks.map((playbook) => (
+        <article class="playbook-card">
+          <h2>{text(playbook.title, lang)}</h2>
+          <p>{text(playbook.summary, lang)}</p>
+          <ul class="clean-list">
+            {playbook.steps.map((step) => <li>{text(step, lang)}</li>)}
+          </ul>
+        </article>
+      ))}
+    </div>
+  </section>
+</Layout>

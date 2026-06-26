@@ -1,0 +1,145 @@
+[
+  {
+    "id": "sanctions-export-controls",
+    "title": {
+      "zh": "制裁与出口管制",
+      "en": "Sanctions and export controls"
+    },
+    "summary": {
+      "zh": "长臂管辖、实体清单、最终用途限制、对外投资规则和再出口规则会把看似普通的交易纳入高风险审查。",
+      "en": "Long-arm jurisdiction, entity lists, end-use controls, outbound investment rules, and re-export rules can pull ordinary transactions into high-risk review."
+    },
+    "signals": ["实体清单变动", "美国成分或技术参与", "军民两用场景", "转运地异常", "客户拒绝披露最终用途"],
+    "controls": ["物项分类", "客户和受益所有人筛查", "最终用途承诺", "再出口限制条款", "许可证判断留痕"]
+  },
+  {
+    "id": "data-cybersecurity",
+    "title": {
+      "zh": "数据、网络安全与AI治理",
+      "en": "Data, cybersecurity, and AI governance"
+    },
+    "summary": {
+      "zh": "跨境数据流动、远程访问、AI训练数据、用户告知和本地化要求正在同时影响平台、智能硬件和SaaS业务。",
+      "en": "Cross-border data flows, remote access, AI training data, user notices, and localization rules now affect platforms, connected devices, and SaaS businesses at once."
+    },
+    "signals": ["境外远程访问", "敏感个人信息", "重要数据判断", "AI模型训练", "监管询问数据位置"],
+    "controls": ["数据地图", "传输机制评估", "访问日志", "本地化架构", "泄露通报预案"]
+  },
+  {
+    "id": "supply-chain-labour",
+    "title": {
+      "zh": "供应链、劳工与人权",
+      "en": "Supply chain, labour, and human rights"
+    },
+    "summary": {
+      "zh": "强迫劳动、原产地、承包商用工、宿舍条件和上游材料证明正在从ESG叙事变成清关、采购和平台准入条件。",
+      "en": "Forced labour, origin, contractor labour, dormitory conditions, and upstream material proof are becoming customs, procurement, and platform-access conditions."
+    },
+    "signals": ["供应商无法追溯", "护照或工资异常", "承包商层级过多", "敏感原材料", "买方要求证据包"],
+    "controls": ["T0-T3追溯", "劳工现场审计", "工资工时记录", "承包商准入", "投诉与补救机制"]
+  },
+  {
+    "id": "trade-remedies-subsidies",
+    "title": {
+      "zh": "贸易救济、补贴与产业政策",
+      "en": "Trade remedies, subsidies, and industrial policy"
+    },
+    "summary": {
+      "zh": "反补贴、反倾销、外国补贴审查和本地产业保护会把企业的成本优势、政府支持和市场行为放在同一张证据表里审查。",
+      "en": "Countervailing duties, anti-dumping, foreign subsidy review, and industrial-policy protection assess cost advantages, state support, and market conduct together."
+    },
+    "signals": ["低价快速扩张", "政府补贴或优惠", "重大公共采购", "竞争者投诉", "本地产业政治压力"],
+    "controls": ["补贴台账", "成本模型", "交易理由记录", "调查问卷准备", "公共叙事管理"]
+  },
+  {
+    "id": "investment-screening",
+    "title": {
+      "zh": "投资审查与国家安全",
+      "en": "Investment screening and national security"
+    },
+    "summary": {
+      "zh": "关键技术、基础设施、数据资产和关联中国控制关系会触发外资审查、政府采购排除或证券市场限制。",
+      "en": "Critical technology, infrastructure, data assets, and China-control links can trigger foreign investment review, procurement exclusions, or capital-market restrictions."
+    },
+    "signals": ["收购关键基础设施", "控制敏感数据", "政府客户", "军民两用技术", "被列入安全名单"],
+    "controls": ["交易前国家安全评估", "控制权结构说明", "缓解措施", "政府沟通策略", "退出条款"]
+  },
+  {
+    "id": "platform-product-safety",
+    "title": {
+      "zh": "平台、产品安全与消费者保护",
+      "en": "Platform, product safety, and consumer protection"
+    },
+    "summary": {
+      "zh": "跨境电商和平台企业同时面对商品安全、商家可追溯、暗黑模式、广告透明、低值包裹税关和召回义务。",
+      "en": "E-commerce and platform businesses face product safety, trader traceability, dark-pattern, ad transparency, low-value shipment, tax/customs, and recall duties."
+    },
+    "signals": ["大规模低价SKU", "第三方商家", "儿童或电池产品", "投诉量上升", "平台被认定超大平台"],
+    "controls": ["上架前测试", "商家身份核验", "召回流程", "广告库与算法记录", "税关申报校验"]
+  },
+  {
+    "id": "ip-technology",
+    "title": {
+      "zh": "知识产权与技术许可",
+      "en": "Intellectual property and technology licensing"
+    },
+    "summary": {
+      "zh": "SEP/FRAND、禁令、ITC、商标抢注、开源代码和商业秘密争议会直接影响硬件、通信和平台生态出海。",
+      "en": "SEP/FRAND, injunctions, ITC actions, trademark squatting, open-source code, and trade secrets can directly affect hardware, telecoms, and platform ecosystems."
+    },
+    "signals": ["标准必要专利", "竞品密集专利区", "开源组件", "前员工争议", "多法域禁令威胁"],
+    "controls": ["FTO检索", "许可谈判记录", "开源审计", "专利组合布局", "禁令应对预案"]
+  },
+  {
+    "id": "tax-structure",
+    "title": {
+      "zh": "税务架构与常设机构",
+      "en": "Tax structure and permanent establishment"
+    },
+    "summary": {
+      "zh": "海外仓、售后、代理、平台销售、转让定价和全球最低税正在压缩空壳控股与利润转移空间。",
+      "en": "Overseas warehouses, after-sales, agents, platform sales, transfer pricing, and global minimum tax are narrowing the room for shell holding and profit shifting."
+    },
+    "signals": ["当地员工或仓库", "代理签约权", "IP许可费", "跨境服务费", "VAT/GST重复或漏缴"],
+    "controls": ["业务事实台账", "TP文档", "PE判断", "发票与资金流匹配", "Pillar Two评估"]
+  },
+  {
+    "id": "anti-corruption-procurement",
+    "title": {
+      "zh": "反腐败与政府采购",
+      "en": "Anti-corruption and public procurement"
+    },
+    "summary": {
+      "zh": "政府项目、国企客户、代理、顾问、通关和本地合作方会把企业放入多法域反腐、制裁和采购禁入风险中。",
+      "en": "Government projects, SOE customers, agents, advisers, customs brokers, and local partners can expose firms to multi-jurisdiction anti-bribery, sanctions, and debarment risk."
+    },
+    "signals": ["高额成功费", "离岸付款", "拒绝披露受益人", "声称可搞定政府", "无实质服务成果"],
+    "controls": ["第三方尽调", "反腐条款", "费用审批", "举报渠道", "解约和证据保存"]
+  },
+  {
+    "id": "esg-climate",
+    "title": {
+      "zh": "气候、ESG与可持续供应链",
+      "en": "Climate, ESG, and sustainable supply chains"
+    },
+    "summary": {
+      "zh": "CBAM、强迫劳动产品禁令、CSDDD和客户尽调要求会把碳数据、人权尽调和供应商管理转化为商业准入门槛。",
+      "en": "CBAM, forced-labour product bans, CSDDD, and customer due diligence turn carbon data, human-rights diligence, and supplier management into market-access gates."
+    },
+    "signals": ["欧盟进口", "钢铁铝水泥等CBAM产品", "人权高风险地区", "买方尽调问卷", "绿色声明缺证据"],
+    "controls": ["碳数据采集", "供应商尽调", "合同传导条款", "第三方验证", "绿色声明审查"]
+  },
+  {
+    "id": "disputes-crisis",
+    "title": {
+      "zh": "争议解决与危机响应",
+      "en": "Dispute resolution and crisis response"
+    },
+    "summary": {
+      "zh": "扣货、突检、员工事故、媒体曝光、禁令和政府调查要求企业在第一小时、二十四小时和第一周有清晰剧本。",
+      "en": "Detentions, dawn raids, labour incidents, media exposure, injunctions, and investigations require clear first-hour, 24-hour, and first-week response scripts."
+    },
+    "signals": ["监管突检", "货物被扣", "当地媒体询问", "员工集体投诉", "法院禁令申请"],
+    "controls": ["证据冻结", "外部律师名单", "单一发言口径", "利益相关方沟通", "复盘和整改"]
+  }
+]

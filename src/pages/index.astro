@@ -1,0 +1,89 @@
+---
+import Layout from '../components/Layout.astro';
+import SourceBadge from '../components/SourceBadge.astro';
+import CaseExplorer from '../components/CaseExplorer.astro';
+import cases from '../data/cases.json';
+import updates from '../data/updates.json';
+import risks from '../data/risks.json';
+import playbooks from '../data/playbooks.json';
+import { formatDate, labels, pathFor, text } from '../lib/i18n';
+
+const lang = 'zh';
+const t = labels[lang];
+const latestUpdates = updates.slice(0, 4);
+---
+
+<Layout
+  title="中国企业出海风险与合规研究门户"
+  description="中英双语研究门户，追踪中国企业出海中的政治风险、法律风险、合规问题、最新案例和应对方案。"
+  lang={lang}
+>
+  <section class="hero">
+    <div class="hero-copy">
+      <SourceBadge lang={lang} />
+      <h1>中国企业出海的政治、法律风险与合规问题</h1>
+      <p class="lede">一个面向研究、培训和决策支持的双语门户：把规则变化、真实案例和可执行合规工具放在同一张图上。</p>
+      <div class="quick-stats" aria-label="站点统计">
+        <div class="stat"><strong>{cases.length}</strong><span>案例 briefs</span></div>
+        <div class="stat"><strong>{risks.length}</strong><span>风险领域</span></div>
+        <div class="stat"><strong>{playbooks.length}</strong><span>合规工具</span></div>
+      </div>
+    </div>
+    <figure class="hero-media">
+      <img src="https://images.unsplash.com/photo-1494412651409-8963ce7935a7?auto=format&fit=crop&w=1600&q=80" alt="集装箱港口和全球贸易航线" />
+      <figcaption>Global trade routes are now legal, political, data, labour, carbon, and security routes.</figcaption>
+    </figure>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <h2>研究入口</h2>
+      <p>本门户不把合规看成后台事务，而把它作为出海战略、市场准入和危机响应的前置条件。</p>
+    </div>
+    <div class="grid-3">
+      <article class="panel">
+        <h3>风险地图</h3>
+        <p>按制裁、数据、劳工、补贴、投资审查、平台、IP、税务、反腐和ESG组织。</p>
+        <a class="text-link" href={pathFor(lang, 'risks')}>进入风险地图</a>
+      </article>
+      <article class="panel">
+        <h3>案例库</h3>
+        <p>按企业、法域、行业、风险类型和状态筛选，适合培训和研究引用。</p>
+        <a class="text-link" href={pathFor(lang, 'cases')}>浏览案例库</a>
+      </article>
+      <article class="panel">
+        <h3>合规工具</h3>
+        <p>提供进入前闸门、落地后节奏、第三方管理、供应链证据包和危机剧本。</p>
+        <a class="text-link" href={pathFor(lang, 'playbooks')}>查看工具</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <h2>最新发展</h2>
+      <p>用时间线追踪近期规则和执法变化，重点保留可改变企业准备窗口的事项。</p>
+    </div>
+    <div class="timeline">
+      {latestUpdates.map((item) => (
+        <article class="timeline-item">
+          <div class="timeline-meta">
+            <span>{formatDate(item.date, lang)}</span>
+            <span>{item.jurisdiction}</span>
+          </div>
+          <h2>{text(item.title, lang)}</h2>
+          <p>{text(item.summary, lang)}</p>
+        </article>
+      ))}
+    </div>
+    <a class="text-link" href={pathFor(lang, 'updates')}>查看全部动态</a>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <h2>{t.caseLibrary}</h2>
+      <p>首版案例库覆盖美国、欧盟、英国、巴西、印度、中国及全球多边机制；后续可直接增补数据文件。</p>
+    </div>
+    <CaseExplorer lang={lang} />
+  </section>
+</Layout>

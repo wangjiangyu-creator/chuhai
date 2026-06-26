@@ -1,0 +1,29 @@
+---
+import Layout from '../components/Layout.astro';
+import SourceBadge from '../components/SourceBadge.astro';
+import playbooks from '../data/playbooks.json';
+import { text } from '../lib/i18n';
+
+const lang = 'zh';
+---
+
+<Layout title="合规工具 | 中国企业出海" description="中国企业出海合规闸门、供应链证据包、第三方管理和危机响应工具。" lang={lang} route="playbooks">
+  <section class="page-head">
+    <SourceBadge lang={lang} />
+    <h1>合规工具</h1>
+    <p>这些工具不是模板合同，而是把风险转化为组织动作的操作框架。</p>
+  </section>
+  <section class="section">
+    <div class="playbook-grid">
+      {playbooks.map((playbook) => (
+        <article class="playbook-card">
+          <h2>{text(playbook.title, lang)}</h2>
+          <p>{text(playbook.summary, lang)}</p>
+          <ul class="clean-list">
+            {playbook.steps.map((step) => <li>{text(step, lang)}</li>)}
+          </ul>
+        </article>
+      ))}
+    </div>
+  </section>
+</Layout>

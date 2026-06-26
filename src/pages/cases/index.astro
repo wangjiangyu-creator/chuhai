@@ -1,0 +1,18 @@
+---
+import Layout from '../../components/Layout.astro';
+import SourceBadge from '../../components/SourceBadge.astro';
+import CaseExplorer from '../../components/CaseExplorer.astro';
+
+const lang = 'zh';
+---
+
+<Layout title="案例库 | 中国企业出海" description="可搜索、可筛选的中国企业出海法律与合规案例库。" lang={lang} route="cases">
+  <section class="page-head">
+    <SourceBadge lang={lang} />
+    <h1>案例库</h1>
+    <p>案例不是新闻摘录，而是风险识别训练材料：每条都对应主要法律问题、事实脉络、合规启示和来源。</p>
+  </section>
+  <section class="section">
+    <CaseExplorer lang={lang} />
+  </section>
+</Layout>

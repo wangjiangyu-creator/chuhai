@@ -1,0 +1,46 @@
+---
+import Layout from '../../components/Layout.astro';
+import SourceBadge from '../../components/SourceBadge.astro';
+import cases from '../../data/cases.json';
+import updates from '../../data/updates.json';
+
+const lang = 'en';
+const sources = new Map();
+for (const item of cases) {
+  for (const source of item.sources) {
+    sources.set(source.url, { ...source, usedIn: item.title.en });
+  }
+}
+for (const item of updates) {
+  sources.set(item.source.url, { ...item.source, usedIn: item.title.en });
+}
+const sourceList = [...sources.values()].sort((a, b) => a.label.localeCompare(b.label));
+---
+
+<Layout title="Sources | Chuhai Risk" description="Source list for the Chinese Companies Overseas Risk and Compliance Portal." lang={lang} route="sources">
+  <section class="page-head">
+    <SourceBadge lang={lang} />
+    <h1>Sources</h1>
+    <p>The first version prioritizes official, regulator, court, and international organization sources. Media sources are used only where official pages do not fully cover labour, litigation, or business developments.</p>
+  </section>
+  <section class="section">
+    <table class="source-table">
+      <thead>
+        <tr>
+          <th>Source</th>
+          <th>Type</th>
+          <th>Used in</th>
+        </tr>
+      </thead>
+      <tbody>
+        {sourceList.map((source) => (
+          <tr>
+            <td><a href={source.url} rel="noreferrer" target="_blank">{source.label}</a></td>
+            <td>{source.type}</td>
+            <td>{source.usedIn}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+</Layout>

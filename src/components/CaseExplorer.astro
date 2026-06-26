@@ -1,0 +1,125 @@
+---
+import cases from '../data/cases.json';
+import risks from '../data/risks.json';
+import { labels, pathFor, riskLabel, text, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = labels[lang];
+const regions = [...new Set(cases.map((item) => item.region))].sort();
+const jurisdictions = [...new Set(cases.map((item) => item.jurisdiction))].sort();
+const industries = [...new Set(cases.map((item) => item.industry))].sort();
+const statuses = [...new Set(cases.map((item) => item.status))].sort();
+---
+
+<section class="case-explorer" data-case-explorer>
+  <div class="toolbar" aria-label={t.filters}>
+    <label>
+      <span>{t.search}</span>
+      <input type="search" data-search placeholder={t.search} />
+    </label>
+    <label>
+      <span>{lang === 'zh' ? '风险' : 'Risk'}</span>
+      <select data-filter="risk">
+        <option value="">{t.all}</option>
+        {risks.map((risk) => <option value={risk.id}>{text(risk.title, lang)}</option>)}
+      </select>
+    </label>
+    <label>
+      <span>{lang === 'zh' ? '区域' : 'Region'}</span>
+      <select data-filter="region">
+        <option value="">{t.all}</option>
+        {regions.map((region) => <option value={region}>{region}</option>)}
+      </select>
+    </label>
+    <label>
+      <span>{t.jurisdiction}</span>
+      <select data-filter="jurisdiction">
+        <option value="">{t.all}</option>
+        {jurisdictions.map((jurisdiction) => <option value={jurisdiction}>{jurisdiction}</option>)}
+      </select>
+    </label>
+    <label>
+      <span>{t.industry}</span>
+      <select data-filter="industry">
+        <option value="">{t.all}</option>
+        {industries.map((industry) => <option value={industry}>{industry}</option>)}
+      </select>
+    </label>
+    <label>
+      <span>{t.status}</span>
+      <select data-filter="status">
+        <option value="">{t.all}</option>
+        {statuses.map((status) => <option value={status}>{status}</option>)}
+      </select>
+    </label>
+  </div>
+  <p class="result-count"><span data-count>{cases.length}</span> / {cases.length}</p>
+  <div class="case-grid">
+    {cases.map((item) => (
+      <article
+        class="case-card"
+        data-card
+        data-risk={item.riskTypes.join(' ')}
+        data-region={item.region}
+        data-jurisdiction={item.jurisdiction}
+        data-industry={item.industry}
+        data-status={item.status}
+        data-text={`${item.company} ${item.jurisdiction} ${item.industry} ${item.status} ${item.title.zh} ${item.title.en} ${item.summary.zh} ${item.summary.en} ${item.riskTypes.join(' ')}`.toLowerCase()}
+      >
+        <div class="case-card__meta">
+          <span>{item.region}</span>
+          <span>{item.date}</span>
+        </div>
+        <h2>{text(item.title, lang)}</h2>
+        <p>{text(item.summary, lang)}</p>
+        <div class="tag-list">
+          {item.riskTypes.slice(0, 3).map((risk) => <span>{riskLabel(risk, lang, risks)}</span>)}
+        </div>
+        <a class="text-link" href={pathFor(lang, `cases/${item.id}`)}>{t.readMore}</a>
+      </article>
+    ))}
+  </div>
+  <p class="empty-state" data-empty hidden>{t.noResults}</p>
+</section>
+
+<script>
+  const explorer = document.querySelector('[data-case-explorer]');
+  if (explorer) {
+    const search = explorer.querySelector('[data-search]') as HTMLInputElement | null;
+    const filters = [...explorer.querySelectorAll('[data-filter]')] as HTMLSelectElement[];
+    const cards = [...explorer.querySelectorAll('[data-card]')] as HTMLElement[];
+    const count = explorer.querySelector('[data-count]') as HTMLElement | null;
+    const empty = explorer.querySelector('[data-empty]') as HTMLElement | null;
+
+    const applyFilters = () => {
+      if (!search || !count || !empty) return;
+      const query = search.value.trim().toLowerCase();
+      const selected = Object.fromEntries(filters.map((filter) => [filter.dataset.filter ?? '', filter.value]));
+      let visible = 0;
+
+      for (const card of cards) {
+        const text = card.dataset.text ?? '';
+        const risk = card.dataset.risk ?? '';
+        const matchesQuery = !query || text.includes(query);
+        const matchesRisk = !selected.risk || risk.split(' ').includes(selected.risk);
+        const matchesRegion = !selected.region || card.dataset.region === selected.region;
+        const matchesJurisdiction = !selected.jurisdiction || card.dataset.jurisdiction === selected.jurisdiction;
+        const matchesIndustry = !selected.industry || card.dataset.industry === selected.industry;
+        const matchesStatus = !selected.status || card.dataset.status === selected.status;
+        const show = matchesQuery && matchesRisk && matchesRegion && matchesJurisdiction && matchesIndustry && matchesStatus;
+        card.hidden = !show;
+        if (show) visible += 1;
+      }
+
+      count.textContent = String(visible);
+      empty.hidden = visible !== 0;
+    };
+
+    search?.addEventListener('input', applyFilters);
+    for (const filter of filters) filter.addEventListener('change', applyFilters);
+  }
+</script>

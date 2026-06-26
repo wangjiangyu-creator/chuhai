@@ -1,0 +1,89 @@
+---
+import Layout from '../../components/Layout.astro';
+import SourceBadge from '../../components/SourceBadge.astro';
+import CaseExplorer from '../../components/CaseExplorer.astro';
+import cases from '../../data/cases.json';
+import updates from '../../data/updates.json';
+import risks from '../../data/risks.json';
+import playbooks from '../../data/playbooks.json';
+import { formatDate, labels, pathFor, text } from '../../lib/i18n';
+
+const lang = 'en';
+const t = labels[lang];
+const latestUpdates = updates.slice(0, 4);
+---
+
+<Layout
+  title="Chinese Companies Overseas Risk and Compliance Portal"
+  description="A bilingual research portal on political risk, legal risk, compliance, recent cases, and response frameworks for Chinese companies going global."
+  lang={lang}
+>
+  <section class="hero">
+    <div class="hero-copy">
+      <SourceBadge lang={lang} />
+      <h1>Political, legal, and compliance risks for Chinese companies going global</h1>
+      <p class="lede">A bilingual portal for research, teaching, and decision support: rules, cases, and practical compliance tools in one place.</p>
+      <div class="quick-stats" aria-label="Site statistics">
+        <div class="stat"><strong>{cases.length}</strong><span>case briefs</span></div>
+        <div class="stat"><strong>{risks.length}</strong><span>risk areas</span></div>
+        <div class="stat"><strong>{playbooks.length}</strong><span>playbooks</span></div>
+      </div>
+    </div>
+    <figure class="hero-media">
+      <img src="https://images.unsplash.com/photo-1494412651409-8963ce7935a7?auto=format&fit=crop&w=1600&q=80" alt="Container port and global trade routes" />
+      <figcaption>Global trade routes are now legal, political, data, labour, carbon, and security routes.</figcaption>
+    </figure>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <h2>Research Entry Points</h2>
+      <p>The portal treats compliance not as a back-office function, but as a condition for strategy, market access, and crisis response.</p>
+    </div>
+    <div class="grid-3">
+      <article class="panel">
+        <h3>Risk Map</h3>
+        <p>Sanctions, data, labour, subsidies, investment screening, platforms, IP, tax, anti-corruption, and ESG.</p>
+        <a class="text-link" href={pathFor(lang, 'risks')}>Open risk map</a>
+      </article>
+      <article class="panel">
+        <h3>Case Library</h3>
+        <p>Filter by company, jurisdiction, industry, risk type, and status for teaching and research use.</p>
+        <a class="text-link" href={pathFor(lang, 'cases')}>Browse cases</a>
+      </article>
+      <article class="panel">
+        <h3>Playbooks</h3>
+        <p>Pre-entry gates, post-entry rhythm, third-party controls, supply-chain evidence, and crisis scripts.</p>
+        <a class="text-link" href={pathFor(lang, 'playbooks')}>View playbooks</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <h2>Recent Developments</h2>
+      <p>The timeline tracks rule and enforcement changes that alter corporate preparation windows.</p>
+    </div>
+    <div class="timeline">
+      {latestUpdates.map((item) => (
+        <article class="timeline-item">
+          <div class="timeline-meta">
+            <span>{formatDate(item.date, lang)}</span>
+            <span>{item.jurisdiction}</span>
+          </div>
+          <h2>{text(item.title, lang)}</h2>
+          <p>{text(item.summary, lang)}</p>
+        </article>
+      ))}
+    </div>
+    <a class="text-link" href={pathFor(lang, 'updates')}>View all developments</a>
+  </section>
+
+  <section class="section">
+    <div class="section-header">
+      <h2>{t.caseLibrary}</h2>
+      <p>The first version covers the United States, EU, UK, Brazil, India, China, and global multilateral mechanisms; later updates can be added directly to the data files.</p>
+    </div>
+    <CaseExplorer lang={lang} />
+  </section>
+</Layout>

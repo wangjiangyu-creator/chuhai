@@ -1,0 +1,59 @@
+---
+import risks from '../data/risks.json';
+import { formatDate, labels, pathFor, riskLabel, text, type Lang } from '../lib/i18n';
+
+interface Props {
+  item: any;
+  lang: Lang;
+}
+
+const { item, lang } = Astro.props;
+const t = labels[lang];
+const riskTypes = item.riskTypes as string[];
+const legalIssues = item.legalIssues as string[];
+const sources = item.sources as Array<{ label: string; url: string; type: string }>;
+---
+
+<article class="detail-page">
+  <a class="text-link" href={pathFor(lang, 'cases')}>{t.backToCases}</a>
+  <header class="detail-hero">
+    <p class="eyebrow">{item.company} · {item.jurisdiction}</p>
+    <h1>{text(item.title, lang)}</h1>
+    <p class="lede">{text(item.summary, lang)}</p>
+    <div class="detail-meta">
+      <span>{t.industry}: {item.industry}</span>
+      <span>{t.status}: {item.status}</span>
+      <span>{t.updated}: {formatDate(item.updated, lang)}</span>
+    </div>
+    <div class="tag-list">
+      {riskTypes.map((risk) => <span>{riskLabel(risk, lang, risks)}</span>)}
+    </div>
+  </header>
+  <div class="detail-grid">
+    <section>
+      <h2>{t.facts}</h2>
+      <p>{text(item.facts, lang)}</p>
+    </section>
+    <section>
+      <h2>{t.complianceLessons}</h2>
+      <p>{text(item.complianceLessons, lang)}</p>
+    </section>
+    <section>
+      <h2>{t.legalIssues}</h2>
+      <ul class="clean-list">
+        {legalIssues.map((issue) => <li>{issue}</li>)}
+      </ul>
+    </section>
+    <section>
+      <h2>{t.source}</h2>
+      <ul class="clean-list source-list">
+        {sources.map((source) => (
+          <li>
+            <a href={source.url} rel="noreferrer" target="_blank">{source.label}</a>
+            <span>{source.type}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </div>
+</article>

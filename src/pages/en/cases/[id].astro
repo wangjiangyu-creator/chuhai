@@ -1,0 +1,17 @@
+---
+import Layout from '../../../components/Layout.astro';
+import CaseDetail from '../../../components/CaseDetail.astro';
+import cases from '../../../data/cases.json';
+import { text } from '../../../lib/i18n';
+
+export function getStaticPaths() {
+  return cases.map((item) => ({ params: { id: item.id }, props: { item } }));
+}
+
+const { item } = Astro.props;
+const lang = 'en';
+---
+
+<Layout title={`${text(item.title, lang)} | Chuhai Risk`} description={text(item.summary, lang)} lang={lang} route={`cases/${item.id}`}>
+  <CaseDetail item={item} lang={lang} />
+</Layout>

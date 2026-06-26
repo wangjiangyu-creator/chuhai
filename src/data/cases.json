@@ -1,0 +1,1166 @@
+[
+  {
+    "id": "tiktok-us-divestiture-law",
+    "date": "2025-01-17",
+    "updated": "2026-06-26",
+    "company": "TikTok / ByteDance",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Digital platform",
+    "riskTypes": ["investment-screening", "data-cybersecurity", "platform-product-safety"],
+    "status": "ongoing",
+    "title": {
+      "zh": "TikTok美国剥离法案：平台、数据与国家安全的合流",
+      "en": "TikTok U.S. divestiture law: platform, data, and national security converge"
+    },
+    "summary": {
+      "zh": "美国以国家安全为核心叙事要求剥离或停止运营，显示大型平台的算法、数据与控制权结构会同时触发政治和法律风险。",
+      "en": "The United States framed divestiture or shutdown around national security, showing how algorithmic control, data, and ownership structures can trigger political and legal risk together."
+    },
+    "facts": {
+      "zh": "美国最高法院于2025年1月维持《保护美国人免受外国对手控制应用程序法》适用于TikTok的合宪性，后续执行期限和交易谈判仍具有政治不确定性。",
+      "en": "In January 2025 the U.S. Supreme Court upheld application of the Protecting Americans from Foreign Adversary Controlled Applications Act to TikTok, while later deadlines and deal negotiations remained politically uncertain."
+    },
+    "legalIssues": ["国家安全审查 / national security review", "平台控制权 / platform control", "言论与数据治理 / speech and data governance"],
+    "complianceLessons": {
+      "zh": "面向海外市场的平台架构应提前准备控制权、数据隔离、算法治理、透明度和政府沟通方案，不能把国家安全风险当成普通合规问题处理。",
+      "en": "Platforms entering foreign markets should prepare ownership, data-separation, algorithm governance, transparency, and government-engagement plans before national security risk becomes a crisis."
+    },
+    "sources": [
+      {"label": "U.S. Supreme Court opinion, TikTok Inc. v. Garland", "url": "https://www.supremecourt.gov/opinions/24pdf/24-656_ca7d.pdf", "type": "court"},
+      {"label": "U.S. Congress, PAFACA text", "url": "https://www.congress.gov/bill/118th-congress/house-bill/815", "type": "legislation"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "tiktok-irish-dpc-data-transfers",
+    "date": "2025-05-02",
+    "updated": "2026-06-26",
+    "company": "TikTok Technology Limited",
+    "jurisdiction": "European Union / Ireland",
+    "region": "Europe",
+    "industry": "Digital platform",
+    "riskTypes": ["data-cybersecurity"],
+    "status": "enforced",
+    "title": {
+      "zh": "TikTok爱尔兰DPC罚款：中欧数据访问与透明度风险",
+      "en": "TikTok Irish DPC fine: China access and transfer transparency risk"
+    },
+    "summary": {
+      "zh": "爱尔兰数据保护委员会对TikTok作出5.3亿欧元罚款决定，核心在于EEA用户数据向中国访问/转移的保障措施和透明度。",
+      "en": "Ireland's Data Protection Commission imposed a EUR 530 million fine focused on safeguards and transparency for EEA user data accessed from or transferred to China."
+    },
+    "facts": {
+      "zh": "监管机关认为TikTok未能证明其向中国转移EEA用户个人数据时提供了等同欧盟法要求的保护，并要求整改。",
+      "en": "The regulator found TikTok had not shown that EEA user personal data transferred to China received protection essentially equivalent to EU law and ordered remediation."
+    },
+    "legalIssues": ["GDPR跨境传输 / GDPR transfers", "透明度 / transparency", "远程访问 / remote access"],
+    "complianceLessons": {
+      "zh": "跨境数据项目需要能向监管者解释数据位置、访问主体、传输机制、补充措施和实际日志，而不仅是一份隐私政策。",
+      "en": "Cross-border data projects need regulator-ready proof of data location, access actors, transfer mechanisms, supplementary safeguards, and access logs, not only a privacy policy."
+    },
+    "sources": [
+      {"label": "Irish Data Protection Commission press releases", "url": "https://www.dataprotection.ie/en/news-media/press-releases", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "tiktok-eu-dsa-transparency",
+    "date": "2025-05-15",
+    "updated": "2026-06-26",
+    "company": "TikTok",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "industry": "Digital platform",
+    "riskTypes": ["platform-product-safety", "data-cybersecurity"],
+    "status": "investigation",
+    "title": {
+      "zh": "TikTok欧盟DSA调查：广告库、系统性风险与平台透明度",
+      "en": "TikTok EU DSA investigation: ad repositories, systemic risk, and platform transparency"
+    },
+    "summary": {
+      "zh": "欧盟DSA对超大型在线平台提出广告透明、风险评估和研究者访问要求，TikTok等平台被持续纳入高强度监管。",
+      "en": "The EU DSA imposes ad transparency, risk assessment, and researcher-access duties on very large online platforms, keeping TikTok under intensive regulatory scrutiny."
+    },
+    "facts": {
+      "zh": "欧盟委员会围绕TikTok的广告库和平台透明度开展执法，显示平台合规已经从内容治理扩展到证据可访问性。",
+      "en": "European Commission enforcement around TikTok's ad repository and transparency shows that platform compliance now extends from content governance to auditable evidence access."
+    },
+    "legalIssues": ["DSA超大平台义务 / DSA VLOP duties", "广告透明 / ad transparency", "系统性风险 / systemic risk"],
+    "complianceLessons": {
+      "zh": "平台必须把广告库、商家治理、算法说明、投诉处理和风险评估做成持续可审计的系统。",
+      "en": "Platforms must make ad repositories, trader governance, algorithm explanations, complaint handling, and risk assessments continuously auditable."
+    },
+    "sources": [
+      {"label": "European Commission Digital Services Act enforcement", "url": "https://digital-strategy.ec.europa.eu/en/policies/list-designated-vlops-and-vloses", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "temu-eu-dsa-illegal-products",
+    "date": "2025-07-28",
+    "updated": "2026-06-26",
+    "company": "Temu",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "industry": "Cross-border e-commerce",
+    "riskTypes": ["platform-product-safety", "trade-remedies-subsidies"],
+    "status": "investigation",
+    "title": {
+      "zh": "Temu欧盟DSA初步认定：非法产品和平台风险治理",
+      "en": "Temu EU DSA preliminary findings: illegal products and platform-risk governance"
+    },
+    "summary": {
+      "zh": "欧盟委员会围绕Temu平台非法产品风险作出初步认定，显示低价SKU和第三方商家模式必须配套强治理能力。",
+      "en": "The Commission's preliminary findings on illegal product risk at Temu show that low-price SKU scale and third-party trader models require strong governance systems."
+    },
+    "facts": {
+      "zh": "监管关注商家可追溯、商品安全、重复上架、风险评估和消费者保护；DSA重大违规可触发最高全球年营业额6%的罚款。",
+      "en": "The regulatory focus includes trader traceability, product safety, repeat listings, risk assessment, and consumer protection; serious DSA breaches can trigger fines up to 6% of global annual turnover."
+    },
+    "legalIssues": ["非法产品 / illegal products", "商家追溯 / trader traceability", "DSA罚款 / DSA fines"],
+    "complianceLessons": {
+      "zh": "跨境电商平台要把选品测试、上架审核、商家身份、召回和投诉处理作为核心基础设施，而非后台客服流程。",
+      "en": "E-commerce platforms should treat product testing, listing review, trader identity, recalls, and complaint handling as core infrastructure, not back-office support."
+    },
+    "sources": [
+      {"label": "European Commission, Temu DSA preliminary findings", "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-temu-breach-digital-services-act-relation-illegal-products-its", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "temu-us-de-minimis",
+    "date": "2025-05-02",
+    "updated": "2026-06-26",
+    "company": "Temu / low-value e-commerce shippers",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Cross-border e-commerce",
+    "riskTypes": ["platform-product-safety", "tax-structure", "trade-remedies-subsidies"],
+    "status": "effective",
+    "title": {
+      "zh": "美国终止中国/香港小额包裹de minimis待遇",
+      "en": "U.S. ending of China/Hong Kong de minimis treatment"
+    },
+    "summary": {
+      "zh": "美国终止中国及香港低值包裹de minimis待遇，削弱依赖小包直邮和低值申报的跨境电商模式。",
+      "en": "The United States ended de minimis treatment for low-value shipments from China and Hong Kong, weakening e-commerce models built on low-value direct mail."
+    },
+    "facts": {
+      "zh": "规则变化把税费、申报准确性、原产地和产品合规推到商业模式中心，Temu、Shein及第三方卖家均受影响。",
+      "en": "The change brings duties, declaration accuracy, origin, and product compliance to the center of the business model, affecting Temu, Shein, and third-party sellers."
+    },
+    "legalIssues": ["低值包裹 / low-value shipments", "海关申报 / customs declaration", "税费结构 / duty structure"],
+    "complianceLessons": {
+      "zh": "平台和卖家需要重新测算含税价格、分类编码、原产地文件、退货和召回成本，避免把税关问题留给物流商。",
+      "en": "Platforms and sellers need to recalculate landed prices, classifications, origin records, return and recall costs, instead of leaving customs risk to logistics providers."
+    },
+    "sources": [
+      {"label": "U.S. CBP de minimis guidance hub", "url": "https://www.cbp.gov/trade/basic-import-export/e-commerce/de-minimis", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "shein-eu-consumer-dsa",
+    "date": "2026-02-05",
+    "updated": "2026-06-26",
+    "company": "Shein",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "industry": "Fashion e-commerce",
+    "riskTypes": ["platform-product-safety", "supply-chain-labour"],
+    "status": "investigation",
+    "title": {
+      "zh": "Shein欧盟平台监管：超大型平台义务与消费品安全",
+      "en": "Shein EU platform regulation: VLOP duties and consumer-product safety"
+    },
+    "summary": {
+      "zh": "Shein作为超大型在线平台面临DSA下的系统性风险、商品安全、商家可追溯和消费者保护要求。",
+      "en": "As a very large online platform, Shein faces DSA duties on systemic risk, product safety, trader traceability, and consumer protection."
+    },
+    "facts": {
+      "zh": "欧盟对平台、消费者保护和商品安全的多工具监管使快时尚跨境电商必须同时证明商品、商家和供应链可控。",
+      "en": "EU multi-tool regulation of platforms, consumer protection, and product safety means fast-fashion e-commerce must prove control over products, traders, and supply chains."
+    },
+    "legalIssues": ["DSA义务 / DSA duties", "产品安全 / product safety", "消费者保护 / consumer protection"],
+    "complianceLessons": {
+      "zh": "平台合规应覆盖供应商准入、化学品/纺织品标准、广告声明、退货投诉和召回机制。",
+      "en": "Platform compliance should cover supplier onboarding, chemicals/textile standards, advertising claims, returns and complaints, and recall mechanisms."
+    },
+    "sources": [
+      {"label": "European Commission designated VLOPs and VLOSEs", "url": "https://digital-strategy.ec.europa.eu/en/policies/list-designated-vlops-and-vloses", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "aliexpress-eu-dsa",
+    "date": "2024-03-14",
+    "updated": "2026-06-26",
+    "company": "AliExpress",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "industry": "Cross-border e-commerce",
+    "riskTypes": ["platform-product-safety"],
+    "status": "investigation",
+    "title": {
+      "zh": "AliExpress欧盟DSA程序：平台市场的高风险商品治理",
+      "en": "AliExpress EU DSA proceedings: high-risk product governance in platform marketplaces"
+    },
+    "summary": {
+      "zh": "欧盟对AliExpress启动DSA程序，关注非法商品、内容审核、投诉机制、广告透明和研究者访问等义务。",
+      "en": "The EU opened DSA proceedings into AliExpress, focusing on illegal goods, content moderation, complaint mechanisms, ad transparency, and researcher access."
+    },
+    "facts": {
+      "zh": "该案说明跨境平台不能只强调连接商家和消费者，而要对商品、广告、推荐和风险评估承担主动治理义务。",
+      "en": "The case shows that cross-border marketplaces cannot merely connect traders and consumers; they must actively govern products, ads, recommendations, and risk assessment."
+    },
+    "legalIssues": ["非法商品 / illegal goods", "广告透明 / ad transparency", "投诉机制 / complaint mechanisms"],
+    "complianceLessons": {
+      "zh": "平台应建立跨品类商品风险分级、重复违规商家处置、监管数据接口和合规审计痕迹。",
+      "en": "Platforms should build category-level product-risk grading, repeat-offender handling, regulator-ready data interfaces, and compliance audit trails."
+    },
+    "sources": [
+      {"label": "European Commission, AliExpress DSA proceedings", "url": "https://digital-strategy.ec.europa.eu/en/news/commission-opens-formal-proceedings-against-aliexpress-under-digital-services-act", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "deepseek-italy-data",
+    "date": "2025-01-30",
+    "updated": "2026-06-26",
+    "company": "DeepSeek",
+    "jurisdiction": "Italy / European Union",
+    "region": "Europe",
+    "industry": "Artificial intelligence",
+    "riskTypes": ["data-cybersecurity"],
+    "status": "investigation",
+    "title": {
+      "zh": "DeepSeek意大利数据案：AI服务的数据告知和境外存储",
+      "en": "DeepSeek Italy data case: notices and overseas storage for AI services"
+    },
+    "summary": {
+      "zh": "意大利数据保护机构对DeepSeek采取行动，焦点包括用户数据收集、告知、存储地点和向中国传输。",
+      "en": "Italy's data protection authority acted against DeepSeek, focusing on data collection, notices, storage location, and transfers to China."
+    },
+    "facts": {
+      "zh": "该案把生成式AI的隐私政策、训练/推理数据、服务提供主体和境外访问放入监管审查。",
+      "en": "The case places generative AI privacy notices, training/inference data, service-entity structure, and overseas access under regulatory scrutiny."
+    },
+    "legalIssues": ["AI数据处理 / AI data processing", "透明度 / transparency", "跨境传输 / cross-border transfers"],
+    "complianceLessons": {
+      "zh": "AI出海要准备模型数据说明、用户权利响应、数据保留期限、处理者/控制者角色和本地监管问答材料。",
+      "en": "AI expansion should prepare model-data explanations, user-rights workflows, retention periods, controller/processor roles, and local regulator Q&A files."
+    },
+    "sources": [
+      {"label": "Garante Privacy, DeepSeek notices", "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10085432", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-china-ev-countervailing-duties",
+    "date": "2024-10-29",
+    "updated": "2026-06-26",
+    "company": "BYD, SAIC, Geely and other Chinese BEV exporters",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "industry": "Electric vehicles",
+    "riskTypes": ["trade-remedies-subsidies", "esg-climate"],
+    "status": "effective",
+    "title": {
+      "zh": "欧盟中国电动汽车反补贴税：产业政策成为市场准入门槛",
+      "en": "EU Chinese EV countervailing duties: industrial policy as a market-access gate"
+    },
+    "summary": {
+      "zh": "欧盟对中国纯电动汽车征收五年期反补贴税，企业的成本、补贴、价格和供应链安排均被纳入调查。",
+      "en": "The EU imposed five-year countervailing duties on Chinese battery electric vehicles, scrutinizing costs, subsidies, prices, and supply-chain arrangements."
+    },
+    "facts": {
+      "zh": "该案成为中国产业政策、绿色转型和贸易救济工具冲突的标志性案例。",
+      "en": "The case became a landmark clash between Chinese industrial policy, green transition, and trade-remedy tools."
+    },
+    "legalIssues": ["反补贴 / countervailing duties", "产业政策 / industrial policy", "市场损害 / injury"],
+    "complianceLessons": {
+      "zh": "新能源企业出海要维护补贴台账、成本模型、关联交易、产地和公共叙事，避免立案后才补证据。",
+      "en": "New-energy exporters should maintain subsidy registers, cost models, related-party transaction files, origin records, and public narratives before investigations begin."
+    },
+    "sources": [
+      {"label": "European Commission press release IP/24/5581", "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_24_5581", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "nuctech-eu-foreign-subsidies",
+    "date": "2024-04-23",
+    "updated": "2026-06-26",
+    "company": "Nuctech",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "industry": "Security screening equipment",
+    "riskTypes": ["trade-remedies-subsidies", "investment-screening", "disputes-crisis"],
+    "status": "litigation",
+    "title": {
+      "zh": "Nuctech欧盟外国补贴条例案：突检与补贴审查",
+      "en": "Nuctech EU Foreign Subsidies Regulation case: inspections and subsidy review"
+    },
+    "summary": {
+      "zh": "欧盟在外国补贴条例下对Nuctech开展检查，显示补贴审查已进入企业办公室、电子资料和公共采购场景。",
+      "en": "EU inspections of Nuctech under the Foreign Subsidies Regulation show subsidy review moving into company premises, electronic records, and public procurement contexts."
+    },
+    "facts": {
+      "zh": "该案提示中企在欧公共采购和安全设备领域要准备突检、数据保全、法律特权和补贴资料说明。",
+      "en": "The case warns Chinese firms in EU public procurement and security equipment sectors to prepare for dawn raids, document preservation, privilege, and subsidy explanations."
+    },
+    "legalIssues": ["外国补贴 / foreign subsidies", "突检 / dawn raids", "公共采购 / public procurement"],
+    "complianceLessons": {
+      "zh": "大型投标和并购应提前建立政府资金、贷款、税惠、土地和能源安排的披露口径。",
+      "en": "Large bids and acquisitions should prepare disclosure positions for state funding, loans, tax benefits, land, and energy arrangements."
+    },
+    "sources": [
+      {"label": "European Commission, Foreign Subsidies Regulation", "url": "https://competition-policy.ec.europa.eu/foreign-subsidies-regulation_en", "type": "regulator"},
+      {"label": "Court of Justice of the EU case-law search", "url": "https://curia.europa.eu/juris/recherche.jsf?language=en", "type": "court"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "uflpa-solar-polysilicon",
+    "date": "2022-06-21",
+    "updated": "2026-06-26",
+    "company": "Solar and polysilicon supply chains",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Solar energy",
+    "riskTypes": ["supply-chain-labour", "esg-climate"],
+    "status": "active-enforcement",
+    "title": {
+      "zh": "UFLPA光伏供应链执法：可追溯性成为清关条件",
+      "en": "UFLPA solar supply-chain enforcement: traceability as a customs condition"
+    },
+    "summary": {
+      "zh": "美国UFLPA以可反驳推定方式限制与新疆相关商品进口，光伏、多晶硅和电子供应链长期处于高风险区。",
+      "en": "The U.S. UFLPA restricts Xinjiang-linked imports through a rebuttable presumption, keeping solar, polysilicon, and electronics supply chains in high-risk territory."
+    },
+    "facts": {
+      "zh": "CBP统计看板持续披露扣留、放行和拒绝数据，企业需按批次提交供应链证据。",
+      "en": "CBP's statistics dashboard reports detentions, releases, and denials, requiring firms to produce batch-level supply-chain evidence."
+    },
+    "legalIssues": ["强迫劳动推定 / forced-labour presumption", "清关扣留 / customs detention", "上游追溯 / upstream traceability"],
+    "complianceLessons": {
+      "zh": "企业不能只审一级供应商，应追溯至关键原料和矿产来源，形成可随订单调用的证据包。",
+      "en": "Companies cannot stop at tier-one suppliers; they should trace critical materials and minerals and maintain order-level evidence packs."
+    },
+    "sources": [
+      {"label": "CBP UFLPA statistics dashboard", "url": "https://www.cbp.gov/newsroom/stats/trade/uyghur-forced-labor-prevention-act-statistics", "type": "regulator"},
+      {"label": "DHS UFLPA Entity List", "url": "https://www.dhs.gov/uflpa-entity-list", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "uflpa-apparel-ecommerce",
+    "date": "2024-01-01",
+    "updated": "2026-06-26",
+    "company": "Apparel and e-commerce sellers",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Apparel and e-commerce",
+    "riskTypes": ["supply-chain-labour", "platform-product-safety"],
+    "status": "active-enforcement",
+    "title": {
+      "zh": "UFLPA服装与电商风险：小包模式也需要供应链证据",
+      "en": "UFLPA apparel and e-commerce risk: small parcels still need supply-chain proof"
+    },
+    "summary": {
+      "zh": "服装、棉花、纺织品和电商小包并不会因订单小而免于强迫劳动和原产地证明压力。",
+      "en": "Apparel, cotton, textiles, and e-commerce parcels are not exempt from forced-labour and origin proof merely because orders are small."
+    },
+    "facts": {
+      "zh": "随着de minimis变化和UFLPA执法数字化，平台商家需要同时准备税关和人权证据。",
+      "en": "As de minimis rules change and UFLPA enforcement digitizes, platform sellers need customs and human-rights evidence together."
+    },
+    "legalIssues": ["棉花原产地 / cotton origin", "小包申报 / small-parcel declaration", "平台商家责任 / marketplace trader responsibility"],
+    "complianceLessons": {
+      "zh": "跨境卖家需要在选品前确认材料来源、供应商用工和平台上架资料，而不是在扣货后补文件。",
+      "en": "Cross-border sellers need to confirm material origin, supplier labour practices, and listing evidence before product selection, not after detention."
+    },
+    "sources": [
+      {"label": "CBP UFLPA operational guidance", "url": "https://www.cbp.gov/trade/forced-labor/UFLPA", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "byd-brazil-labour",
+    "date": "2025-05-28",
+    "updated": "2026-06-26",
+    "company": "BYD and contractors",
+    "jurisdiction": "Brazil",
+    "region": "Latin America",
+    "industry": "Electric vehicles",
+    "riskTypes": ["supply-chain-labour", "disputes-crisis", "esg-climate"],
+    "status": "litigation",
+    "title": {
+      "zh": "BYD巴西劳工案：承包商用工变成集团声誉与刑事风险",
+      "en": "BYD Brazil labour case: contractor labour becomes group reputation and criminal risk"
+    },
+    "summary": {
+      "zh": "巴西检方围绕工厂建设工人的“类奴役条件”和人口贩运指控采取行动，凸显承包商现场管理的出海风险。",
+      "en": "Brazilian prosecutors acted over allegations of slavery-like conditions and human trafficking involving construction workers, highlighting contractor-site risk abroad."
+    },
+    "facts": {
+      "zh": "案件涉及中国工人、宿舍、护照、工资和分包管理，说明海外建设项目不能把劳工合规外包给承包商。",
+      "en": "The case involved Chinese workers, dormitories, passports, wages, and subcontractor management, showing that overseas projects cannot outsource labour compliance to contractors."
+    },
+    "legalIssues": ["当地劳动法 / local labour law", "人口贩运 / human trafficking", "承包商责任 / contractor responsibility"],
+    "complianceLessons": {
+      "zh": "海外开工前应完成劳动合同、宿舍、安全、护照保管、工时工资和申诉渠道审计，并保留整改证据。",
+      "en": "Before site launch, companies should audit employment contracts, dormitories, safety, passport custody, working time, wages, and grievance channels, preserving remediation proof."
+    },
+    "sources": [
+      {"label": "Brazil Public Labour Prosecutor's Office", "url": "https://www.mpt.mp.br/", "type": "regulator"},
+      {"label": "Reuters coverage of BYD Brazil labour allegations", "url": "https://www.reuters.com/world/americas/", "type": "media"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-forced-labour-regulation",
+    "date": "2024-12-12",
+    "updated": "2026-06-26",
+    "company": "All exporters to the EU",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "industry": "Multi-sector",
+    "riskTypes": ["supply-chain-labour", "esg-climate"],
+    "status": "future-effective",
+    "title": {
+      "zh": "欧盟强迫劳动产品禁令：从ESG承诺到市场禁入",
+      "en": "EU Forced Labour Regulation: from ESG pledge to market ban"
+    },
+    "summary": {
+      "zh": "欧盟强迫劳动产品条例生效后，将从2027年起允许禁止相关产品在欧盟市场销售和出口。",
+      "en": "The EU Forced Labour Regulation will allow authorities, from 2027, to ban products made with forced labour from being sold in or exported from the EU."
+    },
+    "facts": {
+      "zh": "义务主体虽然可能是进口商或平台，但证明压力会沿合同传导给中国供应商。",
+      "en": "Even when obligations formally sit with importers or platforms, proof pressure will travel contractually back to Chinese suppliers."
+    },
+    "legalIssues": ["产品禁令 / product ban", "供应链尽调 / supply-chain diligence", "合同传导 / contractual pass-through"],
+    "complianceLessons": {
+      "zh": "供应商要提前准备劳工尽调、招聘中介管理、投诉渠道和补救记录，不能等买方问卷到来才整理。",
+      "en": "Suppliers should prepare labour diligence, recruiter controls, grievance channels, and remediation records before buyer questionnaires arrive."
+    },
+    "sources": [
+      {"label": "European Commission, Forced Labour Regulation", "url": "https://single-market-economy.ec.europa.eu/single-market/goods/free-movement-sectors/forced-labour-products-ban_en", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-cbam-definitive-period",
+    "date": "2026-01-01",
+    "updated": "2026-06-26",
+    "company": "CBAM-covered exporters",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "industry": "Steel, aluminium, cement, fertilisers, hydrogen, electricity",
+    "riskTypes": ["esg-climate", "tax-structure", "supply-chain-labour"],
+    "status": "effective",
+    "title": {
+      "zh": "欧盟CBAM正式期：碳数据进入清关与合同",
+      "en": "EU CBAM definitive period: carbon data enters customs and contracts"
+    },
+    "summary": {
+      "zh": "CBAM正式期使钢铁、铝、水泥等产品的碳数据成为进口和价格谈判的重要变量。",
+      "en": "CBAM's definitive period makes carbon data for steel, aluminium, cement, and other products a customs and pricing variable."
+    },
+    "facts": {
+      "zh": "中国出口商即使不是法定义务主体，也需要向欧盟进口商提供可验证的嵌入排放数据。",
+      "en": "Chinese exporters may not be the formal obligors, but they must provide verifiable embedded-emissions data to EU importers."
+    },
+    "legalIssues": ["碳关税 / carbon border adjustment", "嵌入排放 / embedded emissions", "进口商授权 / importer authorization"],
+    "complianceLessons": {
+      "zh": "企业应建立产品级碳数据、第三方核证、能源结构和合同调价机制。",
+      "en": "Companies should build product-level carbon data, third-party verification, energy-mix records, and contract price-adjustment clauses."
+    },
+    "sources": [
+      {"label": "European Commission, CBAM", "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-csddd-pass-through",
+    "date": "2024-07-25",
+    "updated": "2026-06-26",
+    "company": "EU buyers and non-EU suppliers",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "industry": "Multi-sector",
+    "riskTypes": ["supply-chain-labour", "esg-climate"],
+    "status": "phased-implementation",
+    "title": {
+      "zh": "CSDDD传导效应：欧盟客户把尽调义务写进供应合同",
+      "en": "CSDDD pass-through: EU customers write diligence duties into supply contracts"
+    },
+    "summary": {
+      "zh": "欧盟企业可持续尽调指令要求大企业识别并处理人权和环境影响，压力会通过合同、问卷和审计传导给中企供应商。",
+      "en": "The CSDDD requires large companies to address human-rights and environmental impacts, with pressure passing to Chinese suppliers through contracts, questionnaires, and audits."
+    },
+    "facts": {
+      "zh": "即使中国供应商不直接落入指令范围，也可能因客户义务被要求披露、整改和接受审计。",
+      "en": "Even Chinese suppliers outside direct scope may face disclosure, remediation, and audit demands because of customer obligations."
+    },
+    "legalIssues": ["人权尽调 / human-rights due diligence", "环境尽调 / environmental diligence", "合同传导 / contractual pass-through"],
+    "complianceLessons": {
+      "zh": "供应商应把客户尽调问卷变成内部制度：供应商准入、劳工、环境、投诉、整改和董事会监督。",
+      "en": "Suppliers should convert customer diligence questionnaires into internal systems: onboarding, labour, environment, grievance, remediation, and board oversight."
+    },
+    "sources": [
+      {"label": "European Commission, Corporate sustainability due diligence", "url": "https://commission.europa.eu/business-economy-euro/doing-business-eu/sustainability-due-diligence-responsible-business/corporate-sustainability-due-diligence_en", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "us-outbound-investment-security",
+    "date": "2025-01-02",
+    "updated": "2026-06-26",
+    "company": "U.S. investors and China-linked technology targets",
+    "jurisdiction": "United States / China",
+    "region": "North America",
+    "industry": "Semiconductors, quantum, AI",
+    "riskTypes": ["investment-screening", "sanctions-export-controls"],
+    "status": "effective",
+    "title": {
+      "zh": "美国对外投资安全规则：资本流向也被纳入技术管制",
+      "en": "U.S. outbound investment security: capital flows enter technology controls"
+    },
+    "summary": {
+      "zh": "美国对涉及中国半导体、量子和AI领域的特定投资设置禁止或申报机制，扩大技术遏制工具箱。",
+      "en": "The United States created prohibition and notification rules for certain China-related investments in semiconductors, quantum, and AI, expanding the technology-control toolkit."
+    },
+    "facts": {
+      "zh": "中国技术企业融资、合资、基金和技术合作需要考虑美国投资人、美国人参与和受管活动边界。",
+      "en": "Chinese technology companies' financing, joint ventures, funds, and technology cooperation must consider U.S. investor, U.S. person, and covered-activity boundaries."
+    },
+    "legalIssues": ["对外投资审查 / outbound investment review", "受管技术 / covered technology", "美国人参与 / U.S. person involvement"],
+    "complianceLessons": {
+      "zh": "融资和合作协议应加入投资人身份、技术用途、通知义务、终止权和合规协助条款。",
+      "en": "Financing and cooperation agreements should include investor-identity, technology-use, notification, termination, and compliance-assistance clauses."
+    },
+    "sources": [
+      {"label": "U.S. Treasury, Outbound Investment Security Program", "url": "https://home.treasury.gov/policy-issues/international/outbound-investment-security-program", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "bis-semiconductor-controls-2024",
+    "date": "2024-12-02",
+    "updated": "2026-06-26",
+    "company": "Chinese semiconductor ecosystem",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Semiconductors",
+    "riskTypes": ["sanctions-export-controls", "investment-screening"],
+    "status": "effective",
+    "title": {
+      "zh": "BIS半导体出口管制更新：设备、软件和实体清单共同收紧",
+      "en": "BIS semiconductor controls: equipment, software, and Entity List tightening"
+    },
+    "summary": {
+      "zh": "美国商务部持续收紧先进半导体制造设备、软件工具和实体清单，强化对中国先进芯片能力的限制。",
+      "en": "The U.S. Commerce Department tightened controls on advanced semiconductor manufacturing equipment, software tools, and Entity List designations to restrict China's advanced chip capacity."
+    },
+    "facts": {
+      "zh": "高科技企业的销售、维修、云端访问和技术支持都可能因美国成分、软件或人员参与而触发许可要求。",
+      "en": "Sales, maintenance, cloud access, and technical support may trigger licensing requirements because of U.S. content, software, or personnel involvement."
+    },
+    "legalIssues": ["EAR", "FDPR", "实体清单 / Entity List", "许可要求 / licensing"],
+    "complianceLessons": {
+      "zh": "报价前必须完成物项分类、美国成分判断、客户筛查、最终用途审查和再出口限制。",
+      "en": "Before quotation, companies must complete item classification, U.S.-content analysis, party screening, end-use review, and re-export restrictions."
+    },
+    "sources": [
+      {"label": "U.S. BIS rules and regulations", "url": "https://www.bis.gov/regulations", "type": "regulator"},
+      {"label": "Federal Register, BIS export administration regulations", "url": "https://www.federalregister.gov/agencies/industry-and-security-bureau", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "ai-chip-license-h20-mi308",
+    "date": "2025-04-15",
+    "updated": "2026-06-26",
+    "company": "NVIDIA / AMD China-compliance AI chips",
+    "jurisdiction": "United States / China",
+    "region": "North America",
+    "industry": "AI chips",
+    "riskTypes": ["sanctions-export-controls"],
+    "status": "licensing-required",
+    "title": {
+      "zh": "H20/MI308许可风险：合规版芯片也会再次受限",
+      "en": "H20/MI308 licensing risk: compliant chips can be restricted again"
+    },
+    "summary": {
+      "zh": "美国对面向中国市场设计的AI芯片继续调整许可要求，说明“合规版产品”并非稳定安全港。",
+      "en": "U.S. licensing changes for AI chips designed for the China market show that a 'compliant product' is not a stable safe harbour."
+    },
+    "facts": {
+      "zh": "企业若依赖某一代合规参数设计产品，应预设规则再次变化、库存受限和客户交付中断情形。",
+      "en": "Firms relying on a generation of compliant parameters should plan for further rule changes, inventory restrictions, and customer-delivery disruption."
+    },
+    "legalIssues": ["许可变更 / licensing changes", "产品重设计 / product redesign", "客户交付 / customer delivery"],
+    "complianceLessons": {
+      "zh": "合同要包含出口许可协助、规则变化解除权、替代产品和不可抗力/制裁条款。",
+      "en": "Contracts should include export-licence cooperation, rule-change termination rights, substitute products, and sanctions/force majeure clauses."
+    },
+    "sources": [
+      {"label": "U.S. BIS export controls", "url": "https://www.bis.gov/export-control-policy", "type": "regulator"},
+      {"label": "NVIDIA SEC filings", "url": "https://investor.nvidia.com/financial-info/sec-filings/default.aspx", "type": "company"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "dji-1260h-litigation",
+    "date": "2024-10-18",
+    "updated": "2026-06-26",
+    "company": "DJI",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Drones",
+    "riskTypes": ["investment-screening", "sanctions-export-controls", "disputes-crisis"],
+    "status": "litigation",
+    "title": {
+      "zh": "DJI 1260H名单诉讼：安全标签的商业后果",
+      "en": "DJI 1260H litigation: commercial consequences of security labels"
+    },
+    "summary": {
+      "zh": "DJI挑战被美国国防部列入“中国军工企业”名单，名单虽不等同制裁，但会影响采购、融资、保险、客户信心和声誉。",
+      "en": "DJI challenged its inclusion on the U.S. Defense Department's Chinese military companies list; even when not a sanctions list, it affects procurement, finance, insurance, customer confidence, and reputation."
+    },
+    "facts": {
+      "zh": "安全标签化风险说明企业需要准备控制权、军民用途、客户结构、研发合作和政府沟通证据。",
+      "en": "Security-label risk requires evidence on control, civil/military use, customer profile, R&D cooperation, and government engagement."
+    },
+    "legalIssues": ["1260H名单 / 1260H list", "政府采购 / public procurement", "声誉风险 / reputation risk"],
+    "complianceLessons": {
+      "zh": "被列名企业要快速建立诉讼、公共沟通、客户安抚和替代市场方案，不宜只依赖法律抗辩。",
+      "en": "Listed firms need litigation, public communications, customer assurance, and alternative-market plans; legal argument alone is insufficient."
+    },
+    "sources": [
+      {"label": "U.S. Department of Defense, 1260H list", "url": "https://www.defense.gov/News/Releases/", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "hesai-1260h-relisting",
+    "date": "2025-01-06",
+    "updated": "2026-06-26",
+    "company": "Hesai Group",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "LiDAR / automotive technology",
+    "riskTypes": ["investment-screening", "sanctions-export-controls"],
+    "status": "disputed",
+    "title": {
+      "zh": "禾赛科技1260H名单争议：智能汽车供应链的安全化",
+      "en": "Hesai 1260H dispute: securitization of smart-vehicle supply chains"
+    },
+    "summary": {
+      "zh": "激光雷达和智能汽车零部件企业被纳入安全名单争议，显示汽车供应链正在被数据、军民两用和基础设施叙事重新定义。",
+      "en": "LiDAR and smart-vehicle component firms facing security-list disputes show automotive supply chains being redefined by data, dual-use, and infrastructure narratives."
+    },
+    "facts": {
+      "zh": "即便产品主要面向民用汽车，也可能因传感器、地图、数据和投资背景受到国家安全审查。",
+      "en": "Even products for civilian vehicles may face national-security scrutiny because of sensors, maps, data, and investment background."
+    },
+    "legalIssues": ["安全名单 / security listings", "智能汽车数据 / vehicle data", "供应链准入 / supply-chain access"],
+    "complianceLessons": {
+      "zh": "智能硬件企业应提前准备民用用途、数据边界、客户分布、治理结构和第三方审计材料。",
+      "en": "Smart-hardware firms should prepare civil-use, data-boundary, customer-distribution, governance, and third-party audit evidence early."
+    },
+    "sources": [
+      {"label": "U.S. Department of Defense, Chinese Military Companies", "url": "https://www.defense.gov/News/Releases/", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "fcc-covered-list",
+    "date": "2022-11-25",
+    "updated": "2026-06-26",
+    "company": "Huawei, ZTE, Hikvision, Dahua and others",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Telecommunications and surveillance equipment",
+    "riskTypes": ["investment-screening", "sanctions-export-controls", "platform-product-safety"],
+    "status": "active",
+    "title": {
+      "zh": "FCC Covered List：通信和安防设备的准入封锁",
+      "en": "FCC Covered List: market-access blockage for telecoms and surveillance equipment"
+    },
+    "summary": {
+      "zh": "美国FCC将若干中国通信和安防企业列入国家安全相关Covered List，并限制相关设备授权。",
+      "en": "The U.S. FCC placed several Chinese telecoms and surveillance companies on its national-security Covered List and restricted equipment authorizations."
+    },
+    "facts": {
+      "zh": "名单化会影响认证、政府采购、客户合同、保险和售后服务，并可能被其他国家监管者引用。",
+      "en": "Listing affects certification, government procurement, customer contracts, insurance, and after-sales service, and may be cited by regulators elsewhere."
+    },
+    "legalIssues": ["设备授权 / equipment authorization", "国家安全 / national security", "政府采购 / procurement"],
+    "complianceLessons": {
+      "zh": "硬件企业出海应建立产品认证、网络安全说明、供应链安全、客户分层和替代市场策略。",
+      "en": "Hardware exporters should build product-certification, cybersecurity, supply-chain security, customer-tiering, and alternative-market strategies."
+    },
+    "sources": [
+      {"label": "FCC Covered List", "url": "https://www.fcc.gov/supplychain/coveredlist", "type": "regulator"},
+      {"label": "FCC equipment authorization order", "url": "https://www.fcc.gov/document/fcc-bans-authorizations-devices-pose-national-security-threat", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "lenovo-interdigital-frand",
+    "date": "2023-03-16",
+    "updated": "2026-06-26",
+    "company": "Lenovo / InterDigital",
+    "jurisdiction": "United Kingdom",
+    "region": "Europe",
+    "industry": "Consumer electronics and telecoms",
+    "riskTypes": ["ip-technology", "disputes-crisis"],
+    "status": "judgment",
+    "title": {
+      "zh": "Lenovo/InterDigital FRAND争议：全球费率与禁令风险",
+      "en": "Lenovo/InterDigital FRAND dispute: global rates and injunction risk"
+    },
+    "summary": {
+      "zh": "英国FRAND争议显示，标准必要专利许可费率、谈判记录和全球组合许可会成为出海硬件企业的核心风险。",
+      "en": "The UK FRAND dispute shows that SEP royalty rates, negotiation records, and global portfolio licensing are core risks for hardware exporters."
+    },
+    "facts": {
+      "zh": "法院可审查全球许可费率和双方谈判行为，禁令威胁会影响产品上市与和解策略。",
+      "en": "Courts may examine global licence rates and party conduct in negotiations, while injunction threats affect launch and settlement strategy."
+    },
+    "legalIssues": ["SEP", "FRAND", "全球许可 / global licence", "禁令 / injunction"],
+    "complianceLessons": {
+      "zh": "企业应保存许可谈判记录、可比协议分析、标准参与证明和产品路线图，避免被动应诉。",
+      "en": "Companies should preserve licence negotiation records, comparable-agreement analyses, standards participation proof, and product roadmaps before litigation."
+    },
+    "sources": [
+      {"label": "UK High Court, InterDigital v Lenovo FRAND judgment", "url": "https://www.judiciary.uk/wp-content/uploads/2023/04/IDG-v-Lenovo-judgment-270423.pdf", "type": "court"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "xiaomi-india-fema",
+    "date": "2022-04-30",
+    "updated": "2026-06-26",
+    "company": "Xiaomi India",
+    "jurisdiction": "India",
+    "region": "South Asia",
+    "industry": "Consumer electronics",
+    "riskTypes": ["tax-structure", "disputes-crisis", "investment-screening"],
+    "status": "disputed",
+    "title": {
+      "zh": "小米印度FEMA案：特许权使用费、资金流与本地执法",
+      "en": "Xiaomi India FEMA case: royalties, fund flows, and local enforcement"
+    },
+    "summary": {
+      "zh": "印度执法机构围绕小米印度向境外支付特许权使用费等问题采取资产冻结措施，显示资金流和税务架构的本地执法风险。",
+      "en": "Indian enforcement action around Xiaomi India's overseas royalty payments and asset freezing shows local enforcement risk in fund flows and tax structures."
+    },
+    "facts": {
+      "zh": "该案提示电子消费品企业在印度等市场要同步管理转让定价、特许权使用费、外汇、税务和公共沟通。",
+      "en": "The case warns consumer-electronics firms in markets such as India to manage transfer pricing, royalties, foreign exchange, tax, and public communications together."
+    },
+    "legalIssues": ["外汇监管 / foreign-exchange regulation", "特许权使用费 / royalties", "资产冻结 / asset freezing"],
+    "complianceLessons": {
+      "zh": "跨境服务费和IP许可费应有真实服务、独立交易定价、董事会文件和税务申报一致性。",
+      "en": "Cross-border service and IP licence fees need real services, arm's-length pricing, board documents, and tax-return consistency."
+    },
+    "sources": [
+      {"label": "India Enforcement Directorate press releases", "url": "https://enforcementdirectorate.gov.in/press-release", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "vivo-india-enforcement",
+    "date": "2023-10-10",
+    "updated": "2026-06-26",
+    "company": "Vivo India",
+    "jurisdiction": "India",
+    "region": "South Asia",
+    "industry": "Consumer electronics",
+    "riskTypes": ["tax-structure", "anti-corruption-procurement", "disputes-crisis"],
+    "status": "investigation",
+    "title": {
+      "zh": "vivo印度执法案：分销结构、资金流与刑事调查",
+      "en": "Vivo India enforcement case: distribution structure, fund flows, and criminal investigation"
+    },
+    "summary": {
+      "zh": "印度对vivo相关主体的执法行动显示，销售网络、分销商、资金流和合规文件可被放入刑事调查框架。",
+      "en": "Indian enforcement actions involving Vivo-related entities show how sales networks, distributors, fund flows, and compliance records can enter a criminal-investigation frame."
+    },
+    "facts": {
+      "zh": "快速扩张市场中的复杂分销结构需要穿透受益所有人、发票、银行流水和关联交易。",
+      "en": "Complex distribution structures in fast-growth markets require beneficial-owner, invoice, bank-flow, and related-party transaction transparency."
+    },
+    "legalIssues": ["反洗钱 / anti-money laundering", "分销商管理 / distributor controls", "资金流 / fund flows"],
+    "complianceLessons": {
+      "zh": "分销商准入和持续监测应覆盖受益所有人、税务登记、真实交易、异常返利和付款路径。",
+      "en": "Distributor onboarding and monitoring should cover beneficial ownership, tax registration, real transactions, unusual rebates, and payment routes."
+    },
+    "sources": [
+      {"label": "India Enforcement Directorate press releases", "url": "https://enforcementdirectorate.gov.in/press-release", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "fcpa-2025-guidelines",
+    "date": "2025-06-09",
+    "updated": "2026-06-26",
+    "company": "Chinese companies in government-facing projects",
+    "jurisdiction": "United States / global",
+    "region": "Global",
+    "industry": "Infrastructure, energy, technology, procurement",
+    "riskTypes": ["anti-corruption-procurement"],
+    "status": "guidance",
+    "title": {
+      "zh": "FCPA 2025执法调整：风向会变，第三方红线不会消失",
+      "en": "FCPA 2025 enforcement adjustment: priorities may shift, third-party red lines remain"
+    },
+    "summary": {
+      "zh": "美国FCPA执法政策在2025年出现调整，但海外反腐风险仍来自美国、英国、法国、世界银行和东道国多法域叠加。",
+      "en": "U.S. FCPA enforcement policy shifted in 2025, but overseas anti-corruption risk remains multi-jurisdictional across the U.S., UK, France, World Bank, and host states."
+    },
+    "facts": {
+      "zh": "政府项目、国企客户、通关代理、顾问和经销商仍是中企出海反腐高风险接触点。",
+      "en": "Government projects, SOE customers, customs brokers, consultants, and distributors remain high-risk touchpoints for Chinese companies abroad."
+    },
+    "legalIssues": ["FCPA", "第三方 / third parties", "政府采购 / public procurement"],
+    "complianceLessons": {
+      "zh": "不要把某一国家阶段性执法调整理解为可以放松合规；第三方尽调、费用审批和审计权仍是基本盘。",
+      "en": "Do not read one country's enforcement reprioritization as permission to relax compliance; third-party due diligence, expense approval, and audit rights remain essential."
+    },
+    "sources": [
+      {"label": "U.S. DOJ FCPA resources", "url": "https://www.justice.gov/criminal/criminal-fraud/foreign-corrupt-practices-act", "type": "regulator"},
+      {"label": "White House presidential actions", "url": "https://www.whitehouse.gov/presidential-actions/", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "fepa-demand-side-bribery",
+    "date": "2024-01-01",
+    "updated": "2026-06-26",
+    "company": "Companies dealing with foreign officials",
+    "jurisdiction": "United States / global",
+    "region": "Global",
+    "industry": "Government-facing business",
+    "riskTypes": ["anti-corruption-procurement"],
+    "status": "effective",
+    "title": {
+      "zh": "FEPA需求侧贿赂：外国官员索贿也进入美国刑事工具箱",
+      "en": "FEPA demand-side bribery: foreign official solicitation enters the U.S. criminal toolkit"
+    },
+    "summary": {
+      "zh": "美国FEPA补上外国官员索贿、收贿一侧的刑事工具，可能加强跨境配合执法和证据交换。",
+      "en": "The U.S. FEPA adds criminal tools against foreign officials who solicit or receive bribes, potentially strengthening cross-border cooperation and evidence sharing."
+    },
+    "facts": {
+      "zh": "企业面对索贿时既要避免付款，也要有升级、记录、拒绝和替代业务路径。",
+      "en": "When facing solicitation, companies need escalation, recordkeeping, refusal protocols, and alternative business paths, not only a no-payment rule."
+    },
+    "legalIssues": ["索贿 / solicitation", "跨境协作 / cross-border cooperation", "证据保存 / evidence preservation"],
+    "complianceLessons": {
+      "zh": "第三方和政府接触记录应包含会议纪要、礼品招待、折扣理由、费用审批和异常拒绝记录。",
+      "en": "Third-party and government-contact files should contain meeting notes, gifts and hospitality, discount rationales, expense approvals, and records of suspicious refusals."
+    },
+    "sources": [
+      {"label": "U.S. DOJ FCPA resources", "url": "https://www.justice.gov/criminal/criminal-fraud/foreign-corrupt-practices-act", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "china-cross-border-data-2024",
+    "date": "2024-03-22",
+    "updated": "2026-06-26",
+    "company": "Chinese outbound digital businesses",
+    "jurisdiction": "China",
+    "region": "China",
+    "industry": "Digital services and connected devices",
+    "riskTypes": ["data-cybersecurity"],
+    "status": "effective",
+    "title": {
+      "zh": "中国数据出境新规：低风险场景放宽但台账责任更重要",
+      "en": "China cross-border data rules: low-risk relief but stronger register discipline"
+    },
+    "summary": {
+      "zh": "中国2024年数据出境规则放宽部分低风险场景，但企业仍需识别个人信息、重要数据、传输机制和豁免条件。",
+      "en": "China's 2024 cross-border data rules eased some low-risk scenarios, but firms still need to classify personal information, important data, transfer mechanisms, and exemptions."
+    },
+    "facts": {
+      "zh": "出海企业通常同时面对中国数据出境、欧盟GDPR和东道国本地化要求。",
+      "en": "Outbound companies often face Chinese data-export rules, EU GDPR, and host-state localization requirements at the same time."
+    },
+    "legalIssues": ["数据出境 / data export", "个人信息 / personal information", "重要数据 / important data"],
+    "complianceLessons": {
+      "zh": "产品出海前应建立数据地图，逐项判断安全评估、标准合同、认证、豁免或本地化。",
+      "en": "Before overseas launch, build a data map and assess security review, standard contracts, certification, exemption, or localization for each flow."
+    },
+    "sources": [
+      {"label": "Cyberspace Administration of China", "url": "https://www.cac.gov.cn/", "type": "regulator"},
+      {"label": "China State Council policy database", "url": "https://www.gov.cn/zhengce/", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "china-network-data-security-regulation",
+    "date": "2025-01-01",
+    "updated": "2026-06-26",
+    "company": "Network data processors",
+    "jurisdiction": "China",
+    "region": "China",
+    "industry": "Digital economy",
+    "riskTypes": ["data-cybersecurity"],
+    "status": "effective",
+    "title": {
+      "zh": "《网络数据安全管理条例》生效：数据合规进入运营治理",
+      "en": "Network Data Security Management Regulation: data compliance enters operating governance"
+    },
+    "summary": {
+      "zh": "条例生效后，网络数据处理者的数据分类、重要数据、个人信息和安全管理义务更具体。",
+      "en": "After the regulation took effect, network data processors face more concrete duties on classification, important data, personal information, and security management."
+    },
+    "facts": {
+      "zh": "中企出海不能只看目的地法，还要把中国法下的数据出境和安全义务作为产品架构前置条件。",
+      "en": "Chinese companies going global cannot look only at destination law; Chinese data-export and security duties must be front-loaded into product architecture."
+    },
+    "legalIssues": ["网络数据 / network data", "安全管理 / security management", "出境合规 / export compliance"],
+    "complianceLessons": {
+      "zh": "把数据分类、权限、日志、供应商访问和事件响应写入研发与运营流程。",
+      "en": "Embed data classification, permissions, logs, vendor access, and incident response into development and operations workflows."
+    },
+    "sources": [
+      {"label": "China State Council policy database", "url": "https://www.gov.cn/zhengce/", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "battery-supply-chain-cbam-ev",
+    "date": "2026-01-01",
+    "updated": "2026-06-26",
+    "company": "Battery and EV supply chains",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "industry": "Batteries and EVs",
+    "riskTypes": ["esg-climate", "supply-chain-labour", "trade-remedies-subsidies"],
+    "status": "active",
+    "title": {
+      "zh": "电池供应链的复合风险：碳、矿产、人权与补贴",
+      "en": "Battery supply-chain compound risk: carbon, minerals, human rights, and subsidies"
+    },
+    "summary": {
+      "zh": "新能源车和电池出海同时触发反补贴、碳数据、关键矿产、人权尽调和产品安全要求。",
+      "en": "EV and battery expansion triggers counter-subsidy, carbon-data, critical-mineral, human-rights diligence, and product-safety requirements together."
+    },
+    "facts": {
+      "zh": "单一法律问题往往只是表层；真实风险来自贸易救济、ESG、供应链和政治叙事叠加。",
+      "en": "A single legal issue is often only the surface; the real risk lies in trade remedies, ESG, supply chains, and political narratives compounding."
+    },
+    "legalIssues": ["反补贴 / counter-subsidy", "关键矿产 / critical minerals", "碳数据 / carbon data"],
+    "complianceLessons": {
+      "zh": "电池企业应建立材料来源、碳足迹、客户问卷、政府补贴和供应商劳工文件的一体化数据包。",
+      "en": "Battery firms should build integrated files covering material origin, carbon footprint, customer questionnaires, subsidies, and supplier labour records."
+    },
+    "sources": [
+      {"label": "European Commission, CBAM", "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en", "type": "regulator"},
+      {"label": "European Commission, Chinese BEV countervailing duties", "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_24_5581", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "catl-dod-list-procurement-risk",
+    "date": "2026-01-07",
+    "updated": "2026-06-26",
+    "company": "CATL and other battery companies",
+    "jurisdiction": "United States",
+    "region": "North America",
+    "industry": "Batteries",
+    "riskTypes": ["investment-screening", "supply-chain-labour", "trade-remedies-subsidies"],
+    "status": "listed-risk",
+    "title": {
+      "zh": "电池企业被安全名单化：客户采购和资本市场风险",
+      "en": "Battery firms and security listings: customer procurement and capital-market risk"
+    },
+    "summary": {
+      "zh": "中国电池企业面临美国安全名单、供应链审查和采购限制叠加，可能影响客户合同和融资。",
+      "en": "Chinese battery firms face overlapping U.S. security listings, supply-chain scrutiny, and procurement restrictions, affecting customer contracts and financing."
+    },
+    "facts": {
+      "zh": "即使名单本身不直接禁止交易，客户和金融机构也可能基于风险政策提前退出。",
+      "en": "Even when a list does not directly prohibit transactions, customers and financial institutions may exit early under risk policies."
+    },
+    "legalIssues": ["安全名单 / security lists", "客户采购 / customer procurement", "融资风险 / financing risk"],
+    "complianceLessons": {
+      "zh": "企业需要准备非军用业务说明、治理结构、供应链安全、客户问答和危机沟通材料。",
+      "en": "Companies need civil-use explanations, governance records, supply-chain security evidence, customer Q&A, and crisis communications."
+    },
+    "sources": [
+      {"label": "U.S. Department of Defense releases", "url": "https://www.defense.gov/News/Releases/", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "mexico-nearshoring-origin-risk",
+    "date": "2025-01-01",
+    "updated": "2026-06-26",
+    "company": "Chinese manufacturers using Mexico nearshoring",
+    "jurisdiction": "Mexico / United States",
+    "region": "North America",
+    "industry": "Manufacturing and auto parts",
+    "riskTypes": ["trade-remedies-subsidies", "tax-structure", "supply-chain-labour"],
+    "status": "watch",
+    "title": {
+      "zh": "墨西哥近岸制造：原产地、转运和USMCA合规",
+      "en": "Mexico nearshoring: origin, transshipment, and USMCA compliance"
+    },
+    "summary": {
+      "zh": "中企利用墨西哥进入北美市场，需要证明实质性加工、原产地规则和非规避贸易救济。",
+      "en": "Chinese companies using Mexico for North American access must prove substantial transformation, origin-rule compliance, and non-circumvention of trade remedies."
+    },
+    "facts": {
+      "zh": "近岸化不是简单换标签；税关、劳动价值含量、供应链和政治压力都会进入审查。",
+      "en": "Nearshoring is not relabeling; customs, labour-value content, supply chains, and political pressure enter review."
+    },
+    "legalIssues": ["原产地 / origin", "转运规避 / circumvention", "USMCA"],
+    "complianceLessons": {
+      "zh": "企业应保留BOM、工序、工时、采购、物流和成本资料，证明当地实质性生产。",
+      "en": "Companies should retain BOM, process, labour-hour, procurement, logistics, and cost records to prove substantial local production."
+    },
+    "sources": [
+      {"label": "U.S. Customs and Border Protection, USMCA", "url": "https://www.cbp.gov/trade/priority-issues/trade-agreements/free-trade-agreements/USMCA", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "eu-ai-act-chinese-ai-products",
+    "date": "2024-08-01",
+    "updated": "2026-06-26",
+    "company": "Chinese AI and SaaS providers",
+    "jurisdiction": "European Union",
+    "region": "Europe",
+    "industry": "Artificial intelligence",
+    "riskTypes": ["data-cybersecurity", "platform-product-safety"],
+    "status": "phased-implementation",
+    "title": {
+      "zh": "欧盟AI法案：AI产品出海的风险分级与文档义务",
+      "en": "EU AI Act: risk classification and documentation duties for AI products abroad"
+    },
+    "summary": {
+      "zh": "欧盟AI法案以风险分级方式规制AI系统，影响中国AI、SaaS、智能硬件和平台服务进入欧洲。",
+      "en": "The EU AI Act regulates AI systems by risk category, affecting Chinese AI, SaaS, connected devices, and platform services entering Europe."
+    },
+    "facts": {
+      "zh": "高风险系统、通用AI模型、透明度和数据治理义务会要求企业准备技术文档、风险管理和合规声明。",
+      "en": "High-risk systems, general-purpose AI models, transparency, and data-governance duties require technical documentation, risk management, and conformity statements."
+    },
+    "legalIssues": ["AI风险分级 / AI risk classification", "技术文档 / technical documentation", "透明度 / transparency"],
+    "complianceLessons": {
+      "zh": "AI服务出海要把模型用途、训练数据、评估、日志、人工监督和用户说明做成产品文档。",
+      "en": "AI services going abroad should document model use, training data, evaluations, logs, human oversight, and user instructions as product files."
+    },
+    "sources": [
+      {"label": "European Commission, AI Act", "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "world-bank-debarment-chinese-contractors",
+    "date": "2024-01-01",
+    "updated": "2026-06-26",
+    "company": "Infrastructure contractors",
+    "jurisdiction": "Multilateral development banks",
+    "region": "Global",
+    "industry": "Infrastructure and construction",
+    "riskTypes": ["anti-corruption-procurement", "disputes-crisis"],
+    "status": "active",
+    "title": {
+      "zh": "多边开发银行制裁：一次腐败或欺诈可影响全球投标资格",
+      "en": "MDB sanctions: one corruption or fraud case can affect global bidding eligibility"
+    },
+    "summary": {
+      "zh": "世界银行等多边开发银行的制裁和交叉禁入机制会把单个项目违规放大全球采购风险。",
+      "en": "World Bank and other MDB sanctions and cross-debarment mechanisms can turn one project violation into global procurement risk."
+    },
+    "facts": {
+      "zh": "海外基础设施企业需要管理投标代理、当地顾问、分包商、发票和项目变更。",
+      "en": "Overseas infrastructure firms must control bid agents, local consultants, subcontractors, invoices, and variation orders."
+    },
+    "legalIssues": ["禁入 / debarment", "欺诈腐败 / fraud and corruption", "交叉制裁 / cross-debarment"],
+    "complianceLessons": {
+      "zh": "政府采购项目应使用独立投标审查、第三方尽调、付款审批和举报机制。",
+      "en": "Public procurement projects should use independent bid review, third-party due diligence, payment approvals, and whistleblowing mechanisms."
+    },
+    "sources": [
+      {"label": "World Bank sanctions system", "url": "https://www.worldbank.org/en/about/unit/sanctions-system", "type": "regulator"},
+      {"label": "World Bank debarred firms list", "url": "https://www.worldbank.org/en/projects-operations/procurement/debarred-firms", "type": "regulator"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "red-sea-logistics-contract-risk",
+    "date": "2024-01-15",
+    "updated": "2026-06-26",
+    "company": "Exporters using Red Sea routes",
+    "jurisdiction": "Global shipping routes",
+    "region": "Middle East / Global",
+    "industry": "Logistics and trade",
+    "riskTypes": ["disputes-crisis", "tax-structure"],
+    "status": "active-risk",
+    "title": {
+      "zh": "红海航运中断：政治安全事件如何进入合同履行",
+      "en": "Red Sea shipping disruption: how security events enter contract performance"
+    },
+    "summary": {
+      "zh": "红海安全事件导致绕航、保险、交期和成本变化，说明政治风险会通过物流合同、交付条款和不可抗力进入商业纠纷。",
+      "en": "Red Sea security events caused rerouting, insurance, timing, and cost changes, showing political risk entering disputes through logistics contracts, delivery terms, and force majeure."
+    },
+    "facts": {
+      "zh": "中企出口欧洲、非洲和中东时，需要把航线安全、保险、延误、制裁和买方索赔纳入合同管理。",
+      "en": "Chinese exporters to Europe, Africa, and the Middle East need to manage route security, insurance, delay, sanctions, and buyer claims contractually."
+    },
+    "legalIssues": ["不可抗力 / force majeure", "运输保险 / marine insurance", "交付风险 / delivery risk"],
+    "complianceLessons": {
+      "zh": "合同应明确Incoterms、绕航费用、延误通知、保险责任和替代履行方案。",
+      "en": "Contracts should specify Incoterms, rerouting costs, delay notices, insurance responsibilities, and alternative performance plans."
+    },
+    "sources": [
+      {"label": "International Maritime Organization security page", "url": "https://www.imo.org/en/OurWork/Security/Pages/Default.aspx", "type": "international-organization"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  },
+  {
+    "id": "brics-sanctions-payment-risk",
+    "date": "2024-12-01",
+    "updated": "2026-06-26",
+    "company": "Exporters using alternative payment channels",
+    "jurisdiction": "Global",
+    "region": "Global",
+    "industry": "Trade finance",
+    "riskTypes": ["sanctions-export-controls", "tax-structure", "anti-corruption-procurement"],
+    "status": "watch",
+    "title": {
+      "zh": "替代支付与制裁风险：去美元化不等于无合规风险",
+      "en": "Alternative payments and sanctions risk: de-dollarization does not eliminate compliance risk"
+    },
+    "summary": {
+      "zh": "企业使用替代币种、离岸账户或第三国支付通道时，仍需关注制裁、反洗钱、税务和受益所有人风险。",
+      "en": "When firms use alternative currencies, offshore accounts, or third-country payment channels, sanctions, AML, tax, and beneficial-owner risks remain."
+    },
+    "facts": {
+      "zh": "复杂付款路径常被监管者视为规避、腐败或洗钱红旗，尤其在高风险地区和政府项目中。",
+      "en": "Complex payment routes are often seen as evasion, corruption, or money-laundering red flags, especially in high-risk regions and government projects."
+    },
+    "legalIssues": ["制裁规避 / sanctions evasion", "反洗钱 / AML", "受益所有人 / beneficial ownership"],
+    "complianceLessons": {
+      "zh": "付款结构应与合同、发票、物流、受益人和服务成果一致，并接受制裁与AML筛查。",
+      "en": "Payment structures should match contracts, invoices, logistics, beneficiaries, and service outputs, and should pass sanctions and AML screening."
+    },
+    "sources": [
+      {"label": "OFAC sanctions programs", "url": "https://ofac.treasury.gov/sanctions-programs-and-country-information", "type": "regulator"},
+      {"label": "FATF guidance and publications", "url": "https://www.fatf-gafi.org/en/publications.html", "type": "international-organization"}
+    ],
+    "sourceLastChecked": "2026-06-26"
+  }
+]

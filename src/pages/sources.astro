@@ -1,0 +1,46 @@
+---
+import Layout from '../components/Layout.astro';
+import SourceBadge from '../components/SourceBadge.astro';
+import cases from '../data/cases.json';
+import updates from '../data/updates.json';
+
+const lang = 'zh';
+const sources = new Map();
+for (const item of cases) {
+  for (const source of item.sources) {
+    sources.set(source.url, { ...source, usedIn: item.title.zh });
+  }
+}
+for (const item of updates) {
+  sources.set(item.source.url, { ...item.source, usedIn: item.title.zh });
+}
+const sourceList = [...sources.values()].sort((a, b) => a.label.localeCompare(b.label));
+---
+
+<Layout title="资料来源 | 中国企业出海" description="中国企业出海风险与合规研究门户的资料来源列表。" lang={lang} route="sources">
+  <section class="page-head">
+    <SourceBadge lang={lang} />
+    <h1>资料来源</h1>
+    <p>首版尽量使用官方、监管、法院和国际组织来源；媒体来源只用于官方事实页不足以覆盖的劳工、诉讼或商业发展。</p>
+  </section>
+  <section class="section">
+    <table class="source-table">
+      <thead>
+        <tr>
+          <th>来源</th>
+          <th>类型</th>
+          <th>关联内容</th>
+        </tr>
+      </thead>
+      <tbody>
+        {sourceList.map((source) => (
+          <tr>
+            <td><a href={source.url} rel="noreferrer" target="_blank">{source.label}</a></td>
+            <td>{source.type}</td>
+            <td>{source.usedIn}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </section>
+</Layout>

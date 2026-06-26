@@ -1,0 +1,11 @@
+---
+import { labels, sourceCheckedDate, type Lang } from '../lib/i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+---
+
+<p class="source-badge">{labels[lang].sourceCheck} <time datetime={sourceCheckedDate}>{sourceCheckedDate}</time></p>

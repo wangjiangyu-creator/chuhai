@@ -1,0 +1,18 @@
+---
+import Layout from '../../../components/Layout.astro';
+import SourceBadge from '../../../components/SourceBadge.astro';
+import CaseExplorer from '../../../components/CaseExplorer.astro';
+
+const lang = 'en';
+---
+
+<Layout title="Case Library | Chuhai Risk" description="A searchable case library on legal and compliance risks for Chinese companies overseas." lang={lang} route="cases">
+  <section class="page-head">
+    <SourceBadge lang={lang} />
+    <h1>Case Library</h1>
+    <p>Cases are not merely news clips; they are risk-identification training materials with legal issues, facts, lessons, and sources.</p>
+  </section>
+  <section class="section">
+    <CaseExplorer lang={lang} />
+  </section>
+</Layout>

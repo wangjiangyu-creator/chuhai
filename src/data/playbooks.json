@@ -1,0 +1,89 @@
+[
+  {
+    "id": "pre-entry-gate",
+    "title": {
+      "zh": "进入前六道闸门",
+      "en": "Six pre-entry gates"
+    },
+    "summary": {
+      "zh": "把出海项目从增长冲动转化为可审议事项；清单不通过，项目不得进入投标、签约或付款阶段。",
+      "en": "Turn an overseas expansion project from a growth impulse into reviewable decisions; no gate clearance, no tender, signature, or payment."
+    },
+    "steps": [
+      {"zh": "市场准入：许可、认证、投资审查、行业限制。", "en": "Market access: licences, certification, investment screening, sector restrictions."},
+      {"zh": "制裁与清单：客户、供应商、银行、受益所有人与最终用途。", "en": "Sanctions and lists: customers, suppliers, banks, beneficial owners, and end use."},
+      {"zh": "数据与网络：数据流、远程访问、云服务、用户告知。", "en": "Data and cyber: data flows, remote access, cloud services, user notices."},
+      {"zh": "税务架构：PE、TP、VAT/GST、利润分配。", "en": "Tax structure: PE, transfer pricing, VAT/GST, profit allocation."},
+      {"zh": "供应链：原产地、人权、碳、关键材料。", "en": "Supply chain: origin, human rights, carbon, critical materials."},
+      {"zh": "争议预案：仲裁地、适用法、禁令、危机沟通。", "en": "Dispute planning: seat, governing law, injunctions, crisis communications."}
+    ]
+  },
+  {
+    "id": "post-entry-rhythm",
+    "title": {
+      "zh": "落地后运营节奏",
+      "en": "Post-entry operating rhythm"
+    },
+    "summary": {
+      "zh": "海外合规不是一次评估，而是随着开业、招聘、供应商变更和产品迭代不断刷新。",
+      "en": "Overseas compliance is not a one-off assessment; it refreshes with launch, hiring, supplier changes, and product iterations."
+    },
+    "steps": [
+      {"zh": "30天：建立当地合规台账，确认许可、税号、雇佣文件。", "en": "30 days: create the local compliance register and confirm licences, tax IDs, and employment documents."},
+      {"zh": "90天：复核供应商和经销商，培训关键岗位。", "en": "90 days: review suppliers and distributors, train key roles."},
+      {"zh": "180天：抽样审计数据、税务、劳动和交易记录。", "en": "180 days: sample audit data, tax, labour, and transaction records."},
+      {"zh": "年度：董事会复盘重大风险、监管变化和危机演练。", "en": "Annual: board review of major risks, regulatory changes, and crisis drills."}
+    ]
+  },
+  {
+    "id": "third-party-controls",
+    "title": {
+      "zh": "第三方全生命周期管理",
+      "en": "Third-party lifecycle controls"
+    },
+    "summary": {
+      "zh": "代理、经销商、承包商、顾问和合资伙伴是反腐、劳工、制裁和声誉风险的主战场。",
+      "en": "Agents, distributors, contractors, advisers, and joint-venture partners are the main front for anti-corruption, labour, sanctions, and reputation risks."
+    },
+    "steps": [
+      {"zh": "准入：背景调查、受益所有人、政府关系和制裁筛查。", "en": "Onboarding: background checks, beneficial ownership, government links, and sanctions screening."},
+      {"zh": "签约：反腐、人权、数据、审计权、解约触发和证据保存条款。", "en": "Contracting: anti-bribery, human rights, data, audit rights, termination triggers, and record-keeping clauses."},
+      {"zh": "执行：异常折扣、成功费、礼品招待、发票和现金支付监测。", "en": "Performance: monitor unusual discounts, success fees, gifts and hospitality, invoices, and cash payments."},
+      {"zh": "退出：整改期限、暂停合作、替代供应和争议处理。", "en": "Exit: remediation windows, suspension, alternative supply, and dispute handling."}
+    ]
+  },
+  {
+    "id": "supply-chain-evidence-pack",
+    "title": {
+      "zh": "供应链证据包",
+      "en": "Supply-chain evidence pack"
+    },
+    "summary": {
+      "zh": "可追溯性不是一次审计，而是一套能随订单调用、面向海关、平台、买方和媒体的一致证据。",
+      "en": "Traceability is not a single audit; it is evidence that can be called by order and used consistently with customs, platforms, buyers, and media."
+    },
+    "steps": [
+      {"zh": "T0-T3主体、批次、物流、原产地、工资和工时文件。", "en": "T0-T3 entities, batches, logistics, origin, wage, and working-hour records."},
+      {"zh": "关键原材料、敏感地区、承包商宿舍和招聘中介的专项证明。", "en": "Specific proof for critical materials, sensitive regions, contractor dormitories, and labour recruiters."},
+      {"zh": "客户问卷、海关质询和媒体问询使用同一事实底稿。", "en": "Use the same factual file for buyer questionnaires, customs inquiries, and media questions."},
+      {"zh": "整改、补救和供应商退出记录必须能证明管理闭环。", "en": "Remediation, remedy, and supplier-exit records must prove a closed management loop."}
+    ]
+  },
+  {
+    "id": "crisis-script",
+    "title": {
+      "zh": "危机响应剧本",
+      "en": "Crisis response script"
+    },
+    "summary": {
+      "zh": "扣货、突检、劳工事件和舆情爆发时，先止损、再查事实、再对外，不在证据未闭合前作绝对化承诺。",
+      "en": "When goods are detained, raids occur, labour incidents break, or media pressure spikes, contain first, verify facts, then speak; avoid absolute promises before evidence closes."
+    },
+    "steps": [
+      {"zh": "第1小时：冻结事实、保全资料、指定法务和外部律师。", "en": "First hour: freeze facts, preserve records, appoint legal and outside counsel."},
+      {"zh": "第24小时：建立事实表、利益相关方清单和单一发言口径。", "en": "First 24 hours: build a fact sheet, stakeholder map, and single external line."},
+      {"zh": "第7天：提交初步整改、证据包和监管沟通方案。", "en": "First week: produce initial remediation, evidence pack, and regulator-communication plan."},
+      {"zh": "事后：董事会复盘、问责、流程更新和培训。", "en": "Afterwards: board review, accountability, process updates, and training."}
+    ]
+  }
+]

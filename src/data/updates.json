@@ -1,0 +1,274 @@
+[
+  {
+    "id": "source-check-2026-06-26",
+    "date": "2026-06-26",
+    "effectiveDate": "2026-06-26",
+    "jurisdiction": "Global",
+    "riskTypes": ["disputes-crisis"],
+    "title": {
+      "zh": "首版资料校验日",
+      "en": "Initial source-check date"
+    },
+    "summary": {
+      "zh": "本网站首版内容以2026年6月26日为资料校验日，后续案例和法规动态将通过结构化数据持续更新。",
+      "en": "The initial version of this site uses 26 June 2026 as the source-check date; later cases and legal developments will be maintained through structured data."
+    },
+    "source": {"label": "Repository data", "url": "https://github.com/wangjiangyu-creator/chuhai", "type": "repository"}
+  },
+  {
+    "id": "eu-cbam-definitive-period",
+    "date": "2026-01-01",
+    "effectiveDate": "2026-01-01",
+    "jurisdiction": "European Union",
+    "riskTypes": ["esg-climate", "tax-structure"],
+    "title": {
+      "zh": "CBAM进入正式期",
+      "en": "CBAM enters definitive period"
+    },
+    "summary": {
+      "zh": "欧盟CBAM从过渡申报进入正式制度，出口商需要支持进口商完成授权、排放数据和证书成本安排。",
+      "en": "EU CBAM moves from transitional reporting into its definitive regime, requiring exporters to support importers on authorization, emissions data, and certificate-cost allocation."
+    },
+    "source": {"label": "European Commission CBAM", "url": "https://taxation-customs.ec.europa.eu/carbon-border-adjustment-mechanism_en", "type": "regulator"}
+  },
+  {
+    "id": "us-outbound-investment-effective",
+    "date": "2025-01-02",
+    "effectiveDate": "2025-01-02",
+    "jurisdiction": "United States / China",
+    "riskTypes": ["investment-screening", "sanctions-export-controls"],
+    "title": {
+      "zh": "美国对外投资安全规则生效",
+      "en": "U.S. outbound investment security rules take effect"
+    },
+    "summary": {
+      "zh": "美国对特定中国半导体、量子和AI投资设定禁止或申报规则，影响融资、基金和技术合作。",
+      "en": "The United States applies prohibition or notification rules to certain China-related semiconductor, quantum, and AI investments, affecting financing, funds, and technical cooperation."
+    },
+    "source": {"label": "U.S. Treasury Outbound Investment Security Program", "url": "https://home.treasury.gov/policy-issues/international/outbound-investment-security-program", "type": "regulator"}
+  },
+  {
+    "id": "eu-forced-labour-regulation-clock",
+    "date": "2024-12-12",
+    "effectiveDate": "2027-12-14",
+    "jurisdiction": "European Union",
+    "riskTypes": ["supply-chain-labour", "esg-climate"],
+    "title": {
+      "zh": "欧盟强迫劳动产品禁令开始倒计时",
+      "en": "EU forced-labour product ban countdown begins"
+    },
+    "summary": {
+      "zh": "条例已生效并将在2027年适用，企业应在适用前完成供应链追溯、劳工审计和证据包设计。",
+      "en": "The regulation has entered into force and will apply in 2027, giving companies a window to build traceability, labour audits, and evidence packs."
+    },
+    "source": {"label": "European Commission Forced Labour Regulation", "url": "https://single-market-economy.ec.europa.eu/single-market/goods/free-movement-sectors/forced-labour-products-ban_en", "type": "regulator"}
+  },
+  {
+    "id": "eu-csddd-entry-into-force",
+    "date": "2024-07-25",
+    "effectiveDate": "2027-07-26",
+    "jurisdiction": "European Union",
+    "riskTypes": ["supply-chain-labour", "esg-climate"],
+    "title": {
+      "zh": "CSDDD进入转化和分阶段适用窗口",
+      "en": "CSDDD moves into transposition and phased application"
+    },
+    "summary": {
+      "zh": "欧盟企业可持续尽调指令进入成员国转化和分阶段适用过程，供应商将感受到合同传导压力。",
+      "en": "The EU CSDDD enters transposition and phased application, with suppliers likely to experience contractual pass-through pressure."
+    },
+    "source": {"label": "European Commission sustainability due diligence", "url": "https://commission.europa.eu/business-economy-euro/doing-business-eu/sustainability-due-diligence-responsible-business/corporate-sustainability-due-diligence_en", "type": "regulator"}
+  },
+  {
+    "id": "eu-china-ev-duties",
+    "date": "2024-10-29",
+    "effectiveDate": "2024-10-30",
+    "jurisdiction": "European Union / China",
+    "riskTypes": ["trade-remedies-subsidies"],
+    "title": {
+      "zh": "欧盟对中国电动汽车征收反补贴税",
+      "en": "EU imposes countervailing duties on Chinese EVs"
+    },
+    "summary": {
+      "zh": "五年期反补贴税强化了新能源企业对补贴台账、成本模型和公共叙事的管理需求。",
+      "en": "Five-year countervailing duties increase the need for subsidy registers, cost models, and public narratives among new-energy firms."
+    },
+    "source": {"label": "European Commission IP/24/5581", "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_24_5581", "type": "regulator"}
+  },
+  {
+    "id": "temu-dsa-preliminary",
+    "date": "2025-07-28",
+    "effectiveDate": "2025-07-28",
+    "jurisdiction": "European Union",
+    "riskTypes": ["platform-product-safety"],
+    "title": {
+      "zh": "Temu收到DSA非法产品风险初步认定",
+      "en": "Temu receives DSA preliminary findings on illegal-product risk"
+    },
+    "summary": {
+      "zh": "平台商品治理、商家可追溯和风险评估成为跨境电商在欧合规核心。",
+      "en": "Product governance, trader traceability, and risk assessment become central EU compliance issues for cross-border e-commerce."
+    },
+    "source": {"label": "European Commission Temu DSA preliminary findings", "url": "https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-temu-breach-digital-services-act-relation-illegal-products-its", "type": "regulator"}
+  },
+  {
+    "id": "aliexpress-dsa-proceedings",
+    "date": "2024-03-14",
+    "effectiveDate": "2024-03-14",
+    "jurisdiction": "European Union",
+    "riskTypes": ["platform-product-safety"],
+    "title": {
+      "zh": "欧盟对AliExpress启动DSA程序",
+      "en": "EU opens DSA proceedings against AliExpress"
+    },
+    "summary": {
+      "zh": "非法商品、广告透明、投诉机制和研究者访问进入平台合规检查清单。",
+      "en": "Illegal goods, ad transparency, complaint mechanisms, and researcher access enter the platform-compliance checklist."
+    },
+    "source": {"label": "European Commission AliExpress DSA proceedings", "url": "https://digital-strategy.ec.europa.eu/en/news/commission-opens-formal-proceedings-against-aliexpress-under-digital-services-act", "type": "regulator"}
+  },
+  {
+    "id": "tiktok-dpc-fine",
+    "date": "2025-05-02",
+    "effectiveDate": "2025-05-02",
+    "jurisdiction": "European Union / Ireland",
+    "riskTypes": ["data-cybersecurity"],
+    "title": {
+      "zh": "TikTok因数据跨境问题被爱尔兰DPC罚款",
+      "en": "TikTok fined by Irish DPC over cross-border data transfers"
+    },
+    "summary": {
+      "zh": "EEA用户数据向中国访问或转移的保障措施和透明度成为监管焦点。",
+      "en": "Safeguards and transparency for EEA user data access or transfer to China become the regulatory focus."
+    },
+    "source": {"label": "Irish Data Protection Commission press releases", "url": "https://www.dataprotection.ie/en/news-media/press-releases", "type": "regulator"}
+  },
+  {
+    "id": "deepseek-italy-action",
+    "date": "2025-01-30",
+    "effectiveDate": "2025-01-30",
+    "jurisdiction": "Italy / European Union",
+    "riskTypes": ["data-cybersecurity"],
+    "title": {
+      "zh": "意大利监管机构对DeepSeek采取数据保护行动",
+      "en": "Italian regulator acts on DeepSeek data protection"
+    },
+    "summary": {
+      "zh": "生成式AI服务的数据收集、告知、存储地点和跨境访问成为进入欧洲前必须解释的问题。",
+      "en": "Data collection, notices, storage location, and cross-border access for generative AI services must be explained before entering Europe."
+    },
+    "source": {"label": "Garante Privacy", "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10085432", "type": "regulator"}
+  },
+  {
+    "id": "china-data-export-rules",
+    "date": "2024-03-22",
+    "effectiveDate": "2024-03-22",
+    "jurisdiction": "China",
+    "riskTypes": ["data-cybersecurity"],
+    "title": {
+      "zh": "中国促进和规范数据跨境流动规定落地",
+      "en": "China's cross-border data-flow facilitation rules take effect"
+    },
+    "summary": {
+      "zh": "低风险场景有所放宽，但企业仍需建立数据地图和传输机制判断。",
+      "en": "Some low-risk scenarios are eased, but companies still need data maps and transfer-mechanism assessments."
+    },
+    "source": {"label": "Cyberspace Administration of China", "url": "https://www.cac.gov.cn/", "type": "regulator"}
+  },
+  {
+    "id": "china-network-data-regulation",
+    "date": "2025-01-01",
+    "effectiveDate": "2025-01-01",
+    "jurisdiction": "China",
+    "riskTypes": ["data-cybersecurity"],
+    "title": {
+      "zh": "《网络数据安全管理条例》生效",
+      "en": "Network Data Security Management Regulation takes effect"
+    },
+    "summary": {
+      "zh": "网络数据处理者在分类分级、重要数据、个人信息和安全事件方面承担更具体义务。",
+      "en": "Network data processors face more concrete obligations on classification, important data, personal information, and security incidents."
+    },
+    "source": {"label": "State Council policy database", "url": "https://www.gov.cn/zhengce/", "type": "regulator"}
+  },
+  {
+    "id": "bis-semiconductor-controls",
+    "date": "2024-12-02",
+    "effectiveDate": "2024-12-02",
+    "jurisdiction": "United States / China",
+    "riskTypes": ["sanctions-export-controls"],
+    "title": {
+      "zh": "美国更新对华先进半导体出口管制",
+      "en": "U.S. updates advanced semiconductor export controls on China"
+    },
+    "summary": {
+      "zh": "设备、软件、实体清单和FDPR共同影响半导体供应链交易。",
+      "en": "Equipment, software, Entity List, and FDPR rules jointly affect semiconductor supply-chain transactions."
+    },
+    "source": {"label": "U.S. BIS regulations", "url": "https://www.bis.gov/regulations", "type": "regulator"}
+  },
+  {
+    "id": "us-de-minimis-change",
+    "date": "2025-05-02",
+    "effectiveDate": "2025-05-02",
+    "jurisdiction": "United States / China",
+    "riskTypes": ["platform-product-safety", "tax-structure"],
+    "title": {
+      "zh": "美国中国/香港低值包裹规则改变",
+      "en": "U.S. changes low-value shipment rules for China/Hong Kong"
+    },
+    "summary": {
+      "zh": "小包直邮模式面临税费、申报、原产地和产品合规重新测算。",
+      "en": "Direct-mail parcel models face recalculation of duties, declaration, origin, and product compliance."
+    },
+    "source": {"label": "CBP de minimis information", "url": "https://www.cbp.gov/trade/basic-import-export/e-commerce/de-minimis", "type": "regulator"}
+  },
+  {
+    "id": "fcpa-guidance-2025",
+    "date": "2025-06-09",
+    "effectiveDate": "2025-06-09",
+    "jurisdiction": "United States / global",
+    "riskTypes": ["anti-corruption-procurement"],
+    "title": {
+      "zh": "DOJ发布FCPA新执法指南",
+      "en": "DOJ issues new FCPA enforcement guidance"
+    },
+    "summary": {
+      "zh": "执法重点调整不等于反腐放松；第三方、政府采购和跨国犯罪关联仍是高风险触点。",
+      "en": "Enforcement reprioritization does not mean anti-corruption relaxation; third parties, public procurement, and transnational-crime links remain high-risk touchpoints."
+    },
+    "source": {"label": "U.S. DOJ FCPA resources", "url": "https://www.justice.gov/criminal/criminal-fraud/foreign-corrupt-practices-act", "type": "regulator"}
+  },
+  {
+    "id": "fcc-covered-list-continuing",
+    "date": "2026-01-01",
+    "effectiveDate": "2026-01-01",
+    "jurisdiction": "United States",
+    "riskTypes": ["investment-screening", "platform-product-safety"],
+    "title": {
+      "zh": "FCC Covered List继续影响通信和安防设备准入",
+      "en": "FCC Covered List continues to affect telecoms and surveillance equipment access"
+    },
+    "summary": {
+      "zh": "认证、政府采购、客户合约和售后服务均可能因国家安全名单而受影响。",
+      "en": "Certification, public procurement, customer contracts, and after-sales service may all be affected by national-security lists."
+    },
+    "source": {"label": "FCC Covered List", "url": "https://www.fcc.gov/supplychain/coveredlist", "type": "regulator"}
+  },
+  {
+    "id": "uflpa-dashboard-2026",
+    "date": "2026-01-01",
+    "effectiveDate": "2026-01-01",
+    "jurisdiction": "United States",
+    "riskTypes": ["supply-chain-labour"],
+    "title": {
+      "zh": "CBP UFLPA统计看板持续更新",
+      "en": "CBP UFLPA statistics dashboard continues updating"
+    },
+    "summary": {
+      "zh": "企业可按行业、原产地和状态追踪扣留、放行和拒绝情况，用作供应链风险预警。",
+      "en": "Companies can track detentions, releases, and denials by sector, origin, and status as a supply-chain risk warning tool."
+    },
+    "source": {"label": "CBP UFLPA statistics", "url": "https://www.cbp.gov/newsroom/stats/trade/uyghur-forced-labor-prevention-act-statistics", "type": "regulator"}
+  }
+]
