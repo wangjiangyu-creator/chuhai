@@ -147,6 +147,19 @@ main {
   font-size: clamp(1.05rem, 2vw, 1.28rem);
 }
 
+.site-statement {
+  margin: 0;
+  color: #3d4b5d;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.hero-statement {
+  max-width: 780px;
+  padding-left: 0.85rem;
+  border-left: 3px solid var(--teal);
+}
+
 .source-badge,
 .eyebrow {
   margin: 0;
@@ -507,6 +520,12 @@ main {
   border-top: 1px solid var(--line);
   color: var(--muted);
   text-align: center;
+}
+
+.footer-statement {
+  margin-bottom: 0.45rem;
+  color: #2d3848;
+  font-weight: 700;
 }
 
 @media (max-width: 960px) {

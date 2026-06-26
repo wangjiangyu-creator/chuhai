@@ -11,6 +11,7 @@ interface Props {
 
 const { title, description, lang = 'zh', route = '' } = Astro.props;
 const t = labels[lang];
+const siteStatement = '本网站由香港城市大学法律学院王江雨教授用Codex制作，仅供个人教学研究使用。';
 const alternateLang = lang === 'zh' ? 'en' : 'zh';
 const nav = [
   ['background', t.nav.background],
@@ -48,6 +49,7 @@ const nav = [
       <slot />
     </main>
     <footer class="site-footer">
+      <p class="site-statement footer-statement">{siteStatement}</p>
       <p>{t.brand}</p>
       <p>{lang === 'zh' ? '资料用于研究和培训，不构成法律意见。' : 'For research and training; not legal advice.'}</p>
     </footer>
